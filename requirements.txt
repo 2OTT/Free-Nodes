@@ -1,4 +1,3 @@
 google-api-python-client
-google-auth-oauthlib
+requests
 gdown
-python-dateutil
