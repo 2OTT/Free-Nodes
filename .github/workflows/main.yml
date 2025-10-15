@@ -2,32 +2,38 @@ name: 每日节点更新
 
 on:
   schedule:
-    # 每天在北京时间上午9点运行 (UTC时间凌晨1点)
+    # 每天北京时间上午9点运行 (UTC 时间是 1:00)
     - cron: '0 1 * * *'
-  workflow_dispatch: # 允许手动触发此工作流
+  workflow_dispatch: # 允许手动触发
 
 jobs:
   fetch-and-update:
     runs-on: ubuntu-latest
+    
+    # 【关键修复】: 授予 Action 对仓库内容的写入权限
+    permissions:
+      contents: write
+
     steps:
       - name: 检出仓库代码
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
 
       - name: 设置 Python 环境
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v4
         with:
           python-version: '3.10'
 
-      - name: 安装依赖库
+      - name: 安装依赖项
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
       - name: 运行主脚本
-        env:
-          # 从仓库的 Secrets 中获取 YouTube API 密钥
-          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
         run: python main.py
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          # 在 Action 环境中设置代理 (如果需要)
+          # HTTPS_PROXY: ${{ secrets.PROXY_URL }} 
 
       - name: 提交并推送文件变更
         run: |
@@ -46,3 +52,4 @@ jobs:
           else
             echo "未找到节点文件，无需提交。"
           fi
+
