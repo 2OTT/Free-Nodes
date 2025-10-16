@@ -8,9 +8,8 @@ from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
 
 # --- 可配置参数 ---
-# 【调试模式】: 在此处填入一个已知的视频ID来跳过搜索，直接测试下载和解压功能。
-# 测试完成后，请将其改回 None。
-DEBUG_VIDEO_ID = "UEBqEeUjOF0" # 例如："ABCDEFG1234"
+# 【调试模式】: 测试完成后，必须将此项改回 None，脚本才会每天自动搜索新视频。
+DEBUG_VIDEO_ID = None # 例如："UEBqEeUjOF0"
 
 # YouTube 频道 Handle
 CHANNEL_HANDLE = "@fxrj"
@@ -29,7 +28,6 @@ def get_channel_id(youtube, channel_handle):
     print(f"正在通过 handle '{channel_handle}' 搜索频道 ID...")
     try:
         # 第一次尝试：使用完整的 handle
-        print(f"DEBUG: 正在执行 API 搜索, 查询参数 q='{channel_handle}'")
         search_response = youtube.search().list(
             q=channel_handle,
             part="id,snippet",
@@ -41,7 +39,6 @@ def get_channel_id(youtube, channel_handle):
         if not search_response.get("items"):
             print(f"警告：使用 '{channel_handle}' 未找到频道，尝试不带 '@' 进行搜索...")
             handle_without_at = channel_handle.lstrip('@')
-            print(f"DEBUG: 正在执行备用 API 搜索, 查询参数 q='{handle_without_at}'")
             search_response = youtube.search().list(
                 q=handle_without_at,
                 part="id,snippet",
@@ -49,13 +46,7 @@ def get_channel_id(youtube, channel_handle):
                 maxResults=1
             ).execute()
 
-        # 打印从 YouTube API 返回的最终响应，这是最重要的调试信息
-        print("\n--- DEBUG: 从 YouTube API 返回的原始响应 ---")
-        print(json.dumps(search_response, indent=2, ensure_ascii=False))
-        print("--- END DEBUG ---\n")
-
         if "items" in search_response and search_response["items"]:
-            # 确认返回的是频道
             item = search_response["items"][0]
             if item["id"]["kind"] == "youtube#channel":
                 channel_id = item["id"]["channelId"]
@@ -63,17 +54,13 @@ def get_channel_id(youtube, channel_handle):
                 print(f"成功找到频道 '{found_title}'，ID为: {channel_id}")
                 return channel_id
         
-        print(f"错误：API 返回的结果中不包含预期的频道信息。请检查上面的原始响应并核对您的API密钥设置。")
+        print(f"错误：API 返回的结果中不包含预期的频道信息。")
         return None
 
     except HttpError as e:
         print(f"获取频道ID时发生 HTTP 错误: {e.reason}")
         if e.resp.status in [403, 400]:
-            error_details = json.loads(e.content.decode('utf-8'))
-            print("--- API 错误详情 ---")
-            print(json.dumps(error_details, indent=2, ensure_ascii=False))
-            print("--- END ERROR ---")
-            print("\n错误解读: 403/400 错误通常意味着 YouTube API 配额已用尽、API 密钥无效或受限。")
+            print("错误解读: 403/400 错误通常意味着 YouTube API 配额已用尽、API 密钥无效或受限。")
         return None
     except Exception as e:
         print(f"获取频道ID时发生意外错误: {e}")
@@ -139,28 +126,24 @@ def download_and_extract(url):
     temp_zip_path = "temp.zip"
     try:
         print(f"开始从 {url} 下载文件...")
-        
-        # 从 URL 中提取文件 ID
         file_id = url.split('/d/')[-1].split('/')[0]
         download_url = f'https://docs.google.com/uc?export=download&id={file_id}'
         
-        # 使用 session 来处理 cookies
         session = requests.Session()
-        response = session.get(download_url, stream=True)
+        response = session.get(download_url, stream=True, timeout=30)
+        response.raise_for_status() # 确保请求成功
         
-        # 检查是否需要确认下载（针对大文件）
         token = None
         for key, value in response.cookies.items():
             if key.startswith('download_warning'):
                 token = value
         
-        # 如果需要确认，带上 token 再次请求
         if token:
             print("需要确认下载，正在带 token 重新请求...")
             params = {'id': file_id, 'export': 'download', 'confirm': token}
-            response = session.get('https://docs.google.com/uc', params=params, stream=True)
+            response = session.get('https://docs.google.com/uc', params=params, stream=True, timeout=30)
+            response.raise_for_status()
 
-        # 将下载内容写入文件
         with open(temp_zip_path, "wb") as f:
             for chunk in response.iter_content(chunk_size=32768):
                 if chunk:
@@ -175,9 +158,11 @@ def download_and_extract(url):
         found_files = False
         with zipfile.ZipFile(temp_zip_path, 'r') as zip_ref:
             for file_info in zip_ref.infolist():
-                # 跳过 macOS 系统的元数据文件夹
                 if file_info.filename.startswith('__MACOSX/'):
                     continue
+                if file_info.is_dir():
+                    continue
+
                 if file_info.filename.endswith('.txt'):
                     zip_ref.extract(file_info, OUTPUT_DIR)
                     original_path = os.path.join(OUTPUT_DIR, file_info.filename)
@@ -196,10 +181,11 @@ def download_and_extract(url):
         if not found_files:
             print("警告：压缩包中未找到 .txt 或 .yaml 文件。")
 
-        return True # 只要下载成功就返回 True
+        return True
     except zipfile.BadZipFile:
         print(f"下载或解压文件时出错: 文件不是一个有效的zip压缩包。")
-        print(f"错误发生，已将下载的文件保留为 '{temp_zip_path}'，请手动检查。")
+        if os.path.exists(temp_zip_path):
+            print(f"错误发生，已将下载的文件保留为 '{temp_zip_path}'，请手动检查。")
         return False
     except Exception as e:
         print(f"下载或解压文件时出错: {e}")
@@ -207,7 +193,6 @@ def download_and_extract(url):
              print(f"错误发生，已将下载的文件保留为 '{temp_zip_path}'，请手动检查。")
         return False
     finally:
-        # 仅在一切成功且找到文件后才删除
         if 'found_files' in locals() and found_files and os.path.exists(temp_zip_path):
             os.remove(temp_zip_path)
 
@@ -224,7 +209,7 @@ def main():
         youtube = build("youtube", "v3", developerKey=api_key)
         
         video_id = None
-        if DEBUG_VIDEO_ID and DEBUG_VIDEO_ID not in ["请在这里填入一个用于测试的视频ID", ""]:
+        if DEBUG_VIDEO_ID:
             print(f"--- 调试模式已开启：正在使用指定的视频ID: {DEBUG_VIDEO_ID} ---")
             video_id = DEBUG_VIDEO_ID
         else:
