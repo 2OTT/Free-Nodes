@@ -1,6 +1,6 @@
 # 生成地址：v2rayse.com
 # 模版名称：defaultName
-# 生成时间：2025-10-18 07:13:09
+# 生成时间：2025-10-19 07:26:05
 # 不要随意改变关键字，否则会导致出错
 # acl4SSR规则
 # 去广告：支持
@@ -58,6 +58,20 @@ tun:
     - 1.1.1.1
     - 1.0.0.1
 proxies:
+  - name: 分享日记_中国_1
+    port: 18622
+    server: 210.6.207.42
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: gaosir.unfeeling.sbs
+    skip-cert-verify: true
+    ws-opts:
+      path: /X @节点狂魔 /?ed=2560
+      headers:
+        host: gaosir.unfeeling.sbs
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
   - name: 分享日记_美国_1
     port: 49153
     server: 47.79.90.37
@@ -72,104 +86,58 @@ proxies:
       headers:
         host: gaosir.unfeeling.sbs
     uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  - name: 分享日记_中国_2
+    port: 10004
+    server: 114.34.202.224
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: gaosir.unfeeling.sbs
+    skip-cert-verify: true
+    ws-opts:
+      path: X @节点狂魔 /?ed=2560
+      headers:
+        host: gaosir.unfeeling.sbs
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
   - name: 分享日记_日本_1
-    port: 443
-    server: 139.162.108.5
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: vless.pengjiajin.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: Telegram🇨🇳@WangCai2/?ed=2560
-      headers:
-        host: vless.pengjiajin.sbs
-    uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
-  - name: 分享日记_瑞典_1
-    port: 443
-    server: 141.147.185.63
+    port: 19999
+    server: 202.84.53.85
     type: vless
     network: ws
     tls: true
     udp: true
     servername: gaosir.unfeeling.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: /X @节点狂魔 /
-      headers:
-        host: gaosir.unfeeling.sbs
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_韩国_1
-    port: 443
-    server: 52.141.25.42
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: vless.pengjiajin.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: freecodes@节点狂魔/?ed=2560
-      headers:
-        host: vless.pengjiajin.sbs
-    uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
-  - name: 分享日记_日本_2
-    port: 443
-    server: 160.22.79.166
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: vless.pengjiajin.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: Telegram🇨🇳@WangCai2/?ed=2560
-      headers:
-        host: vless.pengjiajin.sbs
-    uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
-  - name: 分享日记_日本_3
-    port: 443
-    server: 139.162.106.22
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gaosir.unfeeling.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: /X@节点狂魔/
-      headers:
-        host: gaosir.unfeeling.sbs
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_美国_2
-    port: 443
-    server: 161.33.165.47
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: vless.pengjiajin.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: Telegram🇨🇳@WangCai2/?ed=2560
-      headers:
-        host: vless.pengjiajin.sbs
-    uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
-  - name: 分享日记_美国_3
-    port: 443
-    server: 158.178.229.178
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: vless.pengjiajin.sbs
     skip-cert-verify: true
     ws-opts:
       path: X@节点狂魔/?ed=2560
       headers:
-        host: vless.pengjiajin.sbs
-    uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
+        host: gaosir.unfeeling.sbs
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  - name: 分享日记_日本_2
+    port: 19842
+    server: 121.85.55.59
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: gaosir.unfeeling.sbs
+    skip-cert-verify: true
+    ws-opts:
+      path: X@节点狂魔/?ed=2560
+      headers:
+        host: gaosir.unfeeling.sbs
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  - name: 分享日记_美国_2
+    port: 20000
+    server: jp1.aeccghuyjftyg.shop
+    type: hysteria2
+    udp: true
+    sni: jp1.aeccghuyjftyg.shop
+    obfs: salamander
+    password: b8b00ee8-87e7-4ebb-a6c2-00073c6535c1
+    skip-cert-verify: true
+    obfs-password: fdrccJDGatdFDDRp
   - name: 分享日记_新加坡_1
     port: 443
     server: 172.104.188.124
@@ -198,21 +166,21 @@ proxies:
       headers:
         host: vless.pengjiajin.sbs
     uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
-  - name: 分享日记_日本_4
+  - name: 分享日记_日本_3
     port: 443
-    server: 153.121.45.101
+    server: 160.16.203.210
     type: vless
     network: ws
     tls: true
     udp: true
-    servername: vless.pengjiajin.sbs
+    servername: gaosir.unfeeling.sbs
     skip-cert-verify: true
     ws-opts:
-      path: /freecodes@节点狂魔/?ed=2560
+      path: /X@节点狂魔/
       headers:
-        host: vless.pengjiajin.sbs
-    uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
-  - name: 分享日记_美国_4
+        host: gaosir.unfeeling.sbs
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  - name: 分享日记_美国_3
     port: 443
     server: 47.79.91.168
     type: vless
@@ -226,203 +194,7 @@ proxies:
       headers:
         host: gaosir.unfeeling.sbs
     uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_新加坡_2
-    port: 443
-    server: 178.128.80.43
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: vless.pengjiajin.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: Telegram🇨🇳@WangCai2/?ed=2560
-      headers:
-        host: vless.pengjiajin.sbs
-    uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
-  - name: 分享日记_日本_5
-    port: 443
-    server: 160.22.79.179
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: vless.pengjiajin.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: Telegram🇨🇳@WangCai2/?ed=2560
-      headers:
-        host: vless.pengjiajin.sbs
-    uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
-  - name: 分享日记_日本_6
-    port: 443
-    server: 132.145.115.62
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gaosir.unfeeling.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: Telegram @freecodes /?ed=2560
-      headers:
-        host: gaosir.unfeeling.sbs
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_中国_1
-    port: 443
-    server: 202.85.53.74
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: vless.pengjiajin.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: /freecodes@节点狂魔/?ed=2560
-      headers:
-        host: vless.pengjiajin.sbs
-    uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
-  - name: 分享日记_日本_7
-    port: 443
-    server: 13.230.34.30
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gaosir.unfeeling.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: X@节点狂魔/?ed=2560
-      headers:
-        host: gaosir.unfeeling.sbs
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_美国_5
-    port: 443
-    server: 47.79.35.191
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gaosir.unfeeling.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: Telegram@freecodes/?ed=2560
-      headers:
-        host: gaosir.unfeeling.sbs
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_美国_6
-    port: 443
-    server: 192.46.231.158
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gaosir.unfeeling.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: /X @节点狂魔 /
-      headers:
-        host: gaosir.unfeeling.sbs
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_韩国_2
-    port: 443
-    server: 193.123.230.250
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: vless.pengjiajin.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: Telegram🇨🇳@WangCai2/?ed=2560
-      headers:
-        host: vless.pengjiajin.sbs
-    uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
-  - name: 分享日记_美国_7
-    port: 443
-    server: 131.186.38.123
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: vless.pengjiajin.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: Telegram🇨🇳@WangCai2/?ed=2560
-      headers:
-        host: vless.pengjiajin.sbs
-    uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
-  - name: 分享日记_瑞典_2
-    port: 443
-    server: 217.142.236.93
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: vless.pengjiajin.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: Telegram@freecodes/?ed=2560
-      headers:
-        host: vless.pengjiajin.sbs
-    uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
-  - name: 分享日记_瑞士_1
-    port: 443
-    server: 64.110.106.47
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: vless.pengjiajin.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: 节点狂魔 @节点狂魔 /?ed=2560
-      headers:
-        host: vless.pengjiajin.sbs
-    uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
-  - name: 分享日记_瑞典_3
-    port: 443
-    server: 141.147.147.180
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gaosir.unfeeling.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: Telegram @freecodes /?ed=2560
-      headers:
-        host: gaosir.unfeeling.sbs
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_澳大利亚_1
-    port: 443
-    server: 140.83.63.113
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: vless.pengjiajin.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: Telegram🇨🇳@WangCai2/?ed=2560
-      headers:
-        host: vless.pengjiajin.sbs
-    uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
-  - name: 分享日记_韩国_3
-    port: 22577
-    server: 49.174.170.115
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gaosir.unfeeling.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: /X @节点狂魔 /
-      headers:
-        host: gaosir.unfeeling.sbs
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_中国_2
+  - name: 分享日记_中国_3
     port: 81
     server: 210.61.97.241
     type: vless
@@ -436,9 +208,9 @@ proxies:
       headers:
         host: gaosir.unfeeling.sbs
     uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_韩国_4
-    port: 50001
-    server: 182.210.59.164
+  - name: 分享日记_韩国_1
+    port: 60001
+    server: 119.65.139.101
     type: vless
     network: ws
     tls: true
@@ -446,137 +218,11 @@ proxies:
     servername: gaosir.unfeeling.sbs
     skip-cert-verify: true
     ws-opts:
-      path: Telegram @freecodes /?ed=2560
+      path: /Telegram🇨🇳@WangCai2/?ed=2560
       headers:
         host: gaosir.unfeeling.sbs
     uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_美国_8
-    port: 2096
-    server: 150.230.196.57
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gaosir.unfeeling.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: Telegram @freecodes /?ed=2560
-      headers:
-        host: gaosir.unfeeling.sbs
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_韩国_5
-    port: 50001
-    server: 106.252.245.199
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gaosir.unfeeling.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: X @节点狂魔 /?ed=2560
-      headers:
-        host: gaosir.unfeeling.sbs
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_韩国_6
-    port: 50001
-    server: 106.240.137.36
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gaosir.unfeeling.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: X @节点狂魔 /?ed=2560
-      headers:
-        host: gaosir.unfeeling.sbs
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_韩国_7
-    port: 50001
-    server: 180.64.64.201
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gaosir.unfeeling.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: /X @节点狂魔 /
-      headers:
-        host: gaosir.unfeeling.sbs
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_日本_8
-    port: 7002
-    server: 139.162.102.152
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gaosir.unfeeling.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: Telegram @freecodes /?ed=2560
-      headers:
-        host: gaosir.unfeeling.sbs
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_韩国_8
-    port: 50001
-    server: 211.177.114.117
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gaosir.unfeeling.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: X @节点狂魔 /?ed=2560
-      headers:
-        host: gaosir.unfeeling.sbs
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_韩国_9
-    port: 24442
-    server: 58.151.107.230
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gaosir.unfeeling.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: X @节点狂魔 /?ed=2560
-      headers:
-        host: gaosir.unfeeling.sbs
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_韩国_10
-    port: 50000
-    server: 182.208.209.54
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gaosir.unfeeling.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: Telegram @freecodes /?ed=2560
-      headers:
-        host: gaosir.unfeeling.sbs
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_韩国_11
-    port: 12696
-    server: 115.40.244.240
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gaosir.unfeeling.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: Telegram@freecodes/?ed=2560
-      headers:
-        host: gaosir.unfeeling.sbs
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_韩国_12
+  - name: 分享日记_韩国_2
     port: 50001
     server: 122.47.74.139
     type: vless
@@ -590,23 +236,9 @@ proxies:
       headers:
         host: gaosir.unfeeling.sbs
     uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_新加坡_3
-    port: 443
-    server: 178.128.86.3
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gaosir.unfeeling.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: Telegram🇨🇳@WangCai2/?ed=2560
-      headers:
-        host: gaosir.unfeeling.sbs
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_韩国_13
-    port: 30012
-    server: 116.93.199.28
+  - name: 分享日记_韩国_3
+    port: 50001
+    server: 115.94.122.118
     type: vless
     network: ws
     tls: true
@@ -618,9 +250,37 @@ proxies:
       headers:
         host: gaosir.unfeeling.sbs
     uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_美国_9
-    port: 443
-    server: 47.236.71.6
+  - name: 分享日记_韩国_4
+    port: 14041
+    server: 123.143.9.5
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: gaosir.unfeeling.sbs
+    skip-cert-verify: true
+    ws-opts:
+      path: X @节点狂魔 /?ed=2560
+      headers:
+        host: gaosir.unfeeling.sbs
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  - name: 分享日记_韩国_5
+    port: 50001
+    server: 211.177.114.117
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: gaosir.unfeeling.sbs
+    skip-cert-verify: true
+    ws-opts:
+      path: X @节点狂魔 /?ed=2560
+      headers:
+        host: gaosir.unfeeling.sbs
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  - name: 分享日记_韩国_6
+    port: 12696
+    server: 115.40.244.240
     type: vless
     network: ws
     tls: true
@@ -632,9 +292,9 @@ proxies:
       headers:
         host: gaosir.unfeeling.sbs
     uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_美国_10
-    port: 443
-    server: 143.198.92.220
+  - name: 分享日记_韩国_7
+    port: 50000
+    server: 182.208.209.54
     type: vless
     network: ws
     tls: true
@@ -642,11 +302,11 @@ proxies:
     servername: gaosir.unfeeling.sbs
     skip-cert-verify: true
     ws-opts:
-      path: /X@节点狂魔/
+      path: /Telegram🇨🇳@WangCai2/?ed=2560
       headers:
         host: gaosir.unfeeling.sbs
     uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_韩国_14
+  - name: 分享日记_韩国_8
     port: 26257
     server: 124.61.52.107
     type: vless
@@ -660,7 +320,63 @@ proxies:
       headers:
         host: gaosir.unfeeling.sbs
     uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_韩国_15
+  - name: 分享日记_韩国_9
+    port: 12020
+    server: 116.93.199.28
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: gaosir.unfeeling.sbs
+    skip-cert-verify: true
+    ws-opts:
+      path: X @节点狂魔 /?ed=2560
+      headers:
+        host: gaosir.unfeeling.sbs
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  - name: 分享日记_韩国_10
+    port: 12176
+    server: 218.54.55.117
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: gaosir.unfeeling.sbs
+    skip-cert-verify: true
+    ws-opts:
+      path: X@freecodes/?ed=2560
+      headers:
+        host: gaosir.unfeeling.sbs
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  - name: 分享日记_韩国_11
+    port: 50001
+    server: 106.252.245.199
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: gaosir.unfeeling.sbs
+    skip-cert-verify: true
+    ws-opts:
+      path: X @节点狂魔 /?ed=2560
+      headers:
+        host: gaosir.unfeeling.sbs
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  - name: 分享日记_韩国_12
+    port: 30067
+    server: 112.156.154.95
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: gaosir.unfeeling.sbs
+    skip-cert-verify: true
+    ws-opts:
+      path: X@节点狂魔/?ed=2560
+      headers:
+        host: gaosir.unfeeling.sbs
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  - name: 分享日记_韩国_13
     port: 18077
     server: 211.59.232.85
     type: vless
@@ -674,101 +390,23 @@ proxies:
       headers:
         host: gaosir.unfeeling.sbs
     uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_韩国_16
-    port: 50000
-    server: 27.100.189.152
+  - name: 分享日记_韩国_14
+    port: 50001
+    server: 27.100.229.147
     type: vless
     network: ws
     tls: true
     udp: true
     servername: gaosir.unfeeling.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: Telegram @freecodes /?ed=2560
-      headers:
-        host: gaosir.unfeeling.sbs
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_美国_11
-    port: 22222
-    server: 208.87.243.187
-    type: hysteria2
-    udp: true
-    sni: www.bing.com
-    password: dongtaiwang.com
-    skip-cert-verify: true
-  - name: 分享日记_荷兰
-    port: 2096
-    server: 188.42.145.253
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gaosir.unfeeling.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: /Telegram @freecodes /?ed=2560
-      headers:
-        host: gaosir.unfeeling.sbs
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_新加坡_4
-    port: 2096
-    server: 185.18.184.253
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: vless.muzheng.top
     skip-cert-verify: true
     ws-opts:
       path: /Telegram🇨🇳@WangCai2/?ed=2560
       headers:
-        host: vless.muzheng.top
-    uuid: 7556317c-dff6-46e8-ad29-b408f2a6456e
-  - name: 分享日记_中国_3
-    port: 35951
-    server: 36.50.90.241
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gaosir.unfeeling.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: Telegram@freecodes/?ed=2560
-      headers:
         host: gaosir.unfeeling.sbs
     uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_日本_9
-    port: 443
-    server: 161.118.144.143
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: vless.pengjiajin.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: freecodes@节点狂魔/?ed=2560
-      headers:
-        host: vless.pengjiajin.sbs
-    uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
-  - name: 分享日记_美国_12
-    port: 443
-    server: 134.185.93.231
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: vless.pengjiajin.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: Telegram🇨🇳@WangCai2/?ed=2560
-      headers:
-        host: vless.pengjiajin.sbs
-    uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
-  - name: 分享日记_韩国_17
-    port: 12299
-    server: 112.168.174.249
+  - name: 分享日记_韩国_15
+    port: 50001
+    server: 27.117.52.110
     type: vless
     network: ws
     tls: true
@@ -780,9 +418,9 @@ proxies:
       headers:
         host: gaosir.unfeeling.sbs
     uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_韩国_18
-    port: 50003
-    server: 121.181.118.220
+  - name: 分享日记_爱尔兰
+    port: 2053
+    server: 185.18.222.208
     type: vless
     network: ws
     tls: true
@@ -794,42 +432,7 @@ proxies:
       headers:
         host: gaosir.unfeeling.sbs
     uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_澳大利亚_2
-    port: 65121
-    server: 43.154.196.20
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gaosir.unfeeling.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: X@节点狂魔/?ed=2560
-      headers:
-        host: gaosir.unfeeling.sbs
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_美国_13
-    port: 2096
-    server: www.speedtest.net
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: jh2msivc7ik13k3brrox9pa4n0od1u06.pages.dev
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-    uuid: 18bb1b1d-16a2-4ba7-ab27-9720c9f4a875
-    client-fingerprint: chrome
-  - name: 分享日记_伊朗_1
-    port: 57300
-    server: sfjmg4.sufujia.top
-    type: hysteria2
-    udp: true
-    sni: sfjmg4.sufujia.top
-    password: 0cf67795-f468-4c35-8830-f120c56218ec
-    skip-cert-verify: true
-  - name: 分享日记_韩国_19
+  - name: 分享日记_韩国_16
     port: 10042
     server: 61.83.202.17
     type: vless
@@ -843,9 +446,9 @@ proxies:
       headers:
         host: gaosir.unfeeling.sbs
     uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_韩国_20
-    port: 12228
-    server: 218.148.100.87
+  - name: 分享日记_荷兰
+    port: 2096
+    server: 188.42.145.253
     type: vless
     network: ws
     tls: true
@@ -853,88 +456,9 @@ proxies:
     servername: gaosir.unfeeling.sbs
     skip-cert-verify: true
     ws-opts:
-      path: Telegram @freecodes /?ed=2560
-      headers:
-        host: gaosir.unfeeling.sbs
+      path: /
     uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_韩国_21
-    port: 12121
-    server: 175.215.205.40
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gaosir.unfeeling.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: Telegram🇨🇳@WangCai2/?ed=2560
-      headers:
-        host: gaosir.unfeeling.sbs
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_美国_14
-    port: 27446
-    server: 138.2.10.217
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gaosir.unfeeling.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: /X @节点狂魔 /
-      headers:
-        host: gaosir.unfeeling.sbs
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_美国_15
-    port: 39190
-    server: b5-direct.the-best-airport.top
-    type: hysteria2
-    udp: true
-    sni: b1-direct.the-best-airport.top
-    password: acdd585a-6bcf-40ff-875e-657f168e4202
-    skip-cert-verify: true
-  - name: 分享日记_韩国_22
-    port: 12159
-    server: 121.183.90.210
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gaosir.unfeeling.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: Telegram @freecodes /?ed=2560
-      headers:
-        host: gaosir.unfeeling.sbs
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_韩国_23
-    port: 29015
-    server: 59.1.166.218
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gaosir.unfeeling.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: /X @节点狂魔 /
-      headers:
-        host: gaosir.unfeeling.sbs
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_韩国_24
-    port: 20880
-    server: 218.148.106.45
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gaosir.unfeeling.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: Telegram @freecodes /?ed=2560
-      headers:
-        host: gaosir.unfeeling.sbs
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+    client-fingerprint: chrome
   - name: 分享日记_俄罗斯_1
     port: 2096
     server: 195.13.45.253
@@ -949,29 +473,80 @@ proxies:
       headers:
         host: gaosir.unfeeling.sbs
     uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_立陶宛
-    port: 2096
-    server: 185.148.104.253
+  - name: 分享日记_韩国_17
+    port: 12121
+    server: 175.215.205.40
     type: vless
     network: ws
     tls: true
     udp: true
-    servername: vless.muzheng.top
+    servername: gaosir.unfeeling.sbs
     skip-cert-verify: true
     ws-opts:
-      path: /X @节点狂魔 /
+      path: Telegram🇨🇳@WangCai2/?ed=2560
       headers:
-        host: vless.muzheng.top
-    uuid: 7556317c-dff6-46e8-ad29-b408f2a6456e
-  - name: 分享日记_美国_16
-    port: 39025
-    server: a3-direct.the-best-airport.top
-    type: hysteria2
+        host: gaosir.unfeeling.sbs
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  - name: 分享日记_韩国_18
+    port: 10162
+    server: 121.178.12.27
+    type: vless
+    network: ws
+    tls: true
     udp: true
-    sni: a1-direct.the-best-airport.top
-    password: acdd585a-6bcf-40ff-875e-657f168e4202
+    servername: gaosir.unfeeling.sbs
     skip-cert-verify: true
-  - name: 分享日记_韩国_25
+    ws-opts:
+      path: /Telegram@freecodes/?ed=2560
+      headers:
+        host: gaosir.unfeeling.sbs
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  - name: 分享日记_法国_1
+    port: 443
+    server: "2001:41d0:70e:c100::"
+    type: vmess
+    network: ws
+    tls: true
+    udp: true
+    version: "2"
+    servername: serkat.org
+    skip-cert-verify: true
+    ws-opts:
+      path: /linkvws
+      headers:
+        host: serkat.org
+    cipher: auto
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+  - name: 分享日记_美国_4
+    port: 10001
+    server: 64.176.42.125
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: gaosir.unfeeling.sbs
+    skip-cert-verify: true
+    ws-opts:
+      path: Telegram@freecodes/?ed=2560
+      headers:
+        host: gaosir.unfeeling.sbs
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  - name: 分享日记_中国_4
+    port: 35951
+    server: 36.50.90.241
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: gaosir.unfeeling.sbs
+    skip-cert-verify: true
+    ws-opts:
+      path: X@节点狂魔/?ed=2560
+      headers:
+        host: gaosir.unfeeling.sbs
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  - name: 分享日记_韩国_19
     port: 11443
     server: 220.118.153.222
     type: vless
@@ -985,41 +560,9 @@ proxies:
       headers:
         host: gaosir.unfeeling.sbs
     uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_法国_1
-    port: 443
-    server: "2001:41d0:70e:c100::"
-    type: vmess
-    network: ws
-    tls: true
-    udp: true
-    servername: serkat.org
-    skip-cert-verify: true
-    ws-opts:
-      path: /linkvws
-      headers:
-        host: serkat.org
-    cipher: auto
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-    alterId: 0
-  - name: 分享日记_法国_2
-    port: 44579
-    server: 2001:bc8:32d7:302::10
-    type: vmess
-    network: ws
-    tls: false
-    udp: true
-    servername: ""
-    skip-cert-verify: true
-    ws-opts:
-      path: ""
-      headers:
-        host: ""
-    cipher: auto
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-  - name: 分享日记_韩国_26
-    port: 34599
-    server: 183.106.76.116
+  - name: 分享日记_韩国_20
+    port: 12159
+    server: 121.183.90.210
     type: vless
     network: ws
     tls: true
@@ -1031,105 +574,7 @@ proxies:
       headers:
         host: gaosir.unfeeling.sbs
     uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_韩国_27
-    port: 50003
-    server: 222.109.206.218
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gaosir.unfeeling.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: X@节点狂魔/?ed=2560
-      headers:
-        host: gaosir.unfeeling.sbs
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_韩国_28
-    port: 50000
-    server: 119.206.2.42
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gaosir.unfeeling.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: Telegram @freecodes /?ed=2560
-      headers:
-        host: gaosir.unfeeling.sbs
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_韩国_29
-    port: 16923
-    server: 183.104.0.181
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gaosir.unfeeling.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: /X @节点狂魔 /
-      headers:
-        host: gaosir.unfeeling.sbs
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_韩国_30
-    port: 20583
-    server: 175.208.202.41
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gaosir.unfeeling.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: Telegram @freecodes /?ed=2560
-      headers:
-        host: gaosir.unfeeling.sbs
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_英国_2
-    port: 8080
-    server: 82.163.16.69
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gaosir.unfeeling.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: Telegram @freecodes /?ed=2560
-      headers:
-        host: gaosir.unfeeling.sbs
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_韩国_31
-    port: 50001
-    server: 118.45.152.231
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gaosir.unfeeling.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: /X @节点狂魔 /
-      headers:
-        host: gaosir.unfeeling.sbs
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_韩国_32
-    port: 50000
-    server: 118.46.37.203
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gaosir.unfeeling.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: Telegram @freecodes /?ed=2560
-      headers:
-        host: gaosir.unfeeling.sbs
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_韩国_33
+  - name: 分享日记_韩国_21
     port: 12576
     server: 183.101.243.99
     type: vless
@@ -1143,73 +588,17 @@ proxies:
       headers:
         host: gaosir.unfeeling.sbs
     uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_韩国_34
-    port: 50001
-    server: 125.141.38.50
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gaosir.unfeeling.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: Telegram @freecodes /?ed=2560
-      headers:
-        host: gaosir.unfeeling.sbs
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_韩国_35
-    port: 10001
-    server: 119.201.195.135
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gaosir.unfeeling.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: /X @节点狂魔 /
-      headers:
-        host: gaosir.unfeeling.sbs
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_未知
-    port: 44300
-    server: "[2001:bc8:32d7:30b::3]"
+  - name: 分享日记_美国_5
+    port: 22222
+    server: 208.87.243.187
     type: hysteria2
     udp: true
-    sni: apple.com
+    sni: www.bing.com
     password: dongtaiwang.com
     skip-cert-verify: true
-  - name: 分享日记_韩国_36
-    port: 10041
-    server: 211.197.161.123
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gaosir.unfeeling.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: X @节点狂魔 /?ed=2560
-      headers:
-        host: gaosir.unfeeling.sbs
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_韩国_37
-    port: 50001
-    server: 220.90.247.28
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gaosir.unfeeling.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: X@节点狂魔/?ed=2560
-      headers:
-        host: gaosir.unfeeling.sbs
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_韩国_38
-    port: 12290
-    server: 220.118.236.239
+  - name: 分享日记_韩国_22
+    port: 10001
+    server: 119.201.195.135
     type: vless
     network: ws
     tls: true
@@ -1221,9 +610,9 @@ proxies:
       headers:
         host: gaosir.unfeeling.sbs
     uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_韩国_39
-    port: 10004
-    server: 222.113.18.206
+  - name: 分享日记_韩国_23
+    port: 20880
+    server: 218.148.106.45
     type: vless
     network: ws
     tls: true
@@ -1235,9 +624,9 @@ proxies:
       headers:
         host: gaosir.unfeeling.sbs
     uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_韩国_40
-    port: 50001
-    server: 220.72.245.245
+  - name: 分享日记_韩国_24
+    port: 10554
+    server: 112.172.38.246
     type: vless
     network: ws
     tls: true
@@ -1245,13 +634,13 @@ proxies:
     servername: gaosir.unfeeling.sbs
     skip-cert-verify: true
     ws-opts:
-      path: X@节点狂魔/?ed=2560
+      path: X @节点狂魔 /?ed=2560
       headers:
         host: gaosir.unfeeling.sbs
     uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_韩国_41
-    port: 30059
-    server: 211.51.176.6
+  - name: 分享日记_韩国_25
+    port: 10065
+    server: 119.195.219.150
     type: vless
     network: ws
     tls: true
@@ -1263,9 +652,9 @@ proxies:
       headers:
         host: gaosir.unfeeling.sbs
     uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_韩国_42
-    port: 10042
-    server: 220.118.109.204
+  - name: 分享日记_韩国_26
+    port: 12312
+    server: 211.48.77.114
     type: vless
     network: ws
     tls: true
@@ -1273,26 +662,13 @@ proxies:
     servername: gaosir.unfeeling.sbs
     skip-cert-verify: true
     ws-opts:
-      path: Telegram🇨🇳@WangCai2/?ed=2560
+      path: X @节点狂魔 /?ed=2560
       headers:
         host: gaosir.unfeeling.sbs
     uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_美国_17
-    port: 443
-    server: all.tellmethetrue.shop
-    type: vless
-    network: grpc
-    tls: true
-    udp: true
-    servername: pqh30v5.hiddendom.shop
-    skip-cert-verify: true
-    grpc-opts: {}
-    alpn:
-      - h2
-    uuid: e4824193-4f54-453b-d037-88368e85ef0e
-  - name: 分享日记_韩国_43
-    port: 50001
-    server: 118.45.150.77
+  - name: 分享日记_韩国_27
+    port: 16923
+    server: 183.104.0.181
     type: vless
     network: ws
     tls: true
@@ -1304,7 +680,21 @@ proxies:
       headers:
         host: gaosir.unfeeling.sbs
     uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_韩国_44
+  - name: 分享日记_韩国_28
+    port: 10007
+    server: 183.106.76.116
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: gaosir.unfeeling.sbs
+    skip-cert-verify: true
+    ws-opts:
+      path: /Telegram🇨🇳@WangCai2/?ed=2560
+      headers:
+        host: gaosir.unfeeling.sbs
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  - name: 分享日记_韩国_29
     port: 50000
     server: 118.38.245.191
     type: vless
@@ -1318,287 +708,7 @@ proxies:
       headers:
         host: gaosir.unfeeling.sbs
     uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_韩国_45
-    port: 30012
-    server: 211.105.86.219
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gaosir.unfeeling.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: Telegram @freecodes /?ed=2560
-      headers:
-        host: gaosir.unfeeling.sbs
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_韩国_46
-    port: 50001
-    server: 211.184.175.180
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gaosir.unfeeling.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: X @节点狂魔 /?ed=2560
-      headers:
-        host: gaosir.unfeeling.sbs
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_韩国_47
-    port: 12533
-    server: 222.113.18.214
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gaosir.unfeeling.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: Telegram @freecodes /?ed=2560
-      headers:
-        host: gaosir.unfeeling.sbs
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_韩国_48
-    port: 50001
-    server: 112.170.255.67
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gaosir.unfeeling.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: Telegram @freecodes /?ed=2560
-      headers:
-        host: gaosir.unfeeling.sbs
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_韩国_49
-    port: 50000
-    server: 112.184.45.203
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gaosir.unfeeling.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: /X @节点狂魔 /
-      headers:
-        host: gaosir.unfeeling.sbs
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_韩国_50
-    port: 50002
-    server: 121.145.253.124
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gaosir.unfeeling.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: Telegram @freecodes /?ed=2560
-      headers:
-        host: gaosir.unfeeling.sbs
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_韩国_51
-    port: 16030
-    server: 222.113.18.207
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gaosir.unfeeling.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: X@节点狂魔/?ed=2560
-      headers:
-        host: gaosir.unfeeling.sbs
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_韩国_52
-    port: 12312
-    server: 211.48.77.114
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gaosir.unfeeling.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: /X @节点狂魔 /
-      headers:
-        host: gaosir.unfeeling.sbs
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_韩国_53
-    port: 14443
-    server: 222.113.18.211
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gaosir.unfeeling.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: Telegram @freecodes /?ed=2560
-      headers:
-        host: gaosir.unfeeling.sbs
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_韩国_54
-    port: 50001
-    server: 121.182.150.149
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gaosir.unfeeling.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: Telegram @freecodes /?ed=2560
-      headers:
-        host: gaosir.unfeeling.sbs
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_美国_18
-    port: 8443
-    server: 172.237.11.207
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gaosir.unfeeling.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: X @节点狂魔 /?ed=2560
-      headers:
-        host: gaosir.unfeeling.sbs
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_韩国_55
-    port: 50001
-    server: 211.228.5.119
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gaosir.unfeeling.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: /X @节点狂魔 /
-      headers:
-        host: gaosir.unfeeling.sbs
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_韩国_56
-    port: 30010
-    server: 112.173.185.16
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gaosir.unfeeling.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: Telegram @freecodes /?ed=2560
-      headers:
-        host: gaosir.unfeeling.sbs
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_韩国_57
-    port: 50000
-    server: 125.136.226.1
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gaosir.unfeeling.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: X @节点狂魔 /?ed=2560
-      headers:
-        host: gaosir.unfeeling.sbs
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_韩国_58
-    port: 12151
-    server: 218.151.91.131
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gaosir.unfeeling.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: X @节点狂魔 /?ed=2560
-      headers:
-        host: gaosir.unfeeling.sbs
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_韩国_59
-    port: 50001
-    server: 59.11.39.221
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gaosir.unfeeling.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: X@节点狂魔/?ed=2560
-      headers:
-        host: gaosir.unfeeling.sbs
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_韩国_60
-    port: 50000
-    server: 118.39.44.24
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gaosir.unfeeling.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: X@节点狂魔/?ed=2560
-      headers:
-        host: gaosir.unfeeling.sbs
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_韩国_61
-    port: 50001
-    server: 118.40.126.7
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gaosir.unfeeling.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: Telegram @freecodes /?ed=2560
-      headers:
-        host: gaosir.unfeeling.sbs
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_韩国_62
-    port: 30051
-    server: 175.201.95.5
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gaosir.unfeeling.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: Telegram @freecodes /?ed=2560
-      headers:
-        host: gaosir.unfeeling.sbs
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_韩国_63
-    port: 50001
-    server: 14.43.156.59
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gaosir.unfeeling.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: /X @节点狂魔 /
-      headers:
-        host: gaosir.unfeeling.sbs
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_韩国_64
+  - name: 分享日记_韩国_30
     port: 50000
     server: 118.47.194.165
     type: vless
@@ -1608,13 +718,41 @@ proxies:
     servername: gaosir.unfeeling.sbs
     skip-cert-verify: true
     ws-opts:
-      path: X@节点狂魔/?ed=2560
+      path: X@freecodes/?ed=2560
       headers:
         host: gaosir.unfeeling.sbs
     uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_韩国_65
-    port: 50003
-    server: 14.40.124.226
+  - name: 分享日记_美国_6
+    port: 443
+    server: 152.69.228.177
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: gaosir.unfeeling.sbs
+    skip-cert-verify: true
+    ws-opts:
+      path: /Telegram🇨🇳@WangCai2/?ed=2560
+      headers:
+        host: gaosir.unfeeling.sbs
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  - name: 分享日记_韩国_31
+    port: 50000
+    server: 112.186.212.12
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: gaosir.unfeeling.sbs
+    skip-cert-verify: true
+    ws-opts:
+      path: /Telegram🇨🇳@WangCai2/?ed=2560
+      headers:
+        host: gaosir.unfeeling.sbs
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  - name: 分享日记_韩国_32
+    port: 10004
+    server: 222.113.18.206
     type: vless
     network: ws
     tls: true
@@ -1626,31 +764,17 @@ proxies:
       headers:
         host: gaosir.unfeeling.sbs
     uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_美国_19
-    port: 23891
-    server: 108.165.213.197
+  - name: 分享日记_伊朗_1
+    port: 57300
+    server: sfjmg4.sufujia.top
     type: hysteria2
     udp: true
-    sni: fus01.mistea.top
-    password: c232f411-96b5-4b07-b2f7-66a434725ffb
+    sni: sfjmg4.sufujia.top
+    password: 0cf67795-f468-4c35-8830-f120c56218ec
     skip-cert-verify: true
-  - name: 分享日记_韩国_66
-    port: 50003
-    server: 218.154.22.99
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gaosir.unfeeling.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: X@节点狂魔/?ed=2560
-      headers:
-        host: gaosir.unfeeling.sbs
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_韩国_67
+  - name: 分享日记_韩国_33
     port: 50001
-    server: 183.96.245.165
+    server: 118.45.150.77
     type: vless
     network: ws
     tls: true
@@ -1658,11 +782,25 @@ proxies:
     servername: gaosir.unfeeling.sbs
     skip-cert-verify: true
     ws-opts:
-      path: Telegram @freecodes /?ed=2560
+      path: /X @节点狂魔 /
       headers:
         host: gaosir.unfeeling.sbs
     uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_韩国_68
+  - name: 分享日记_韩国_34
+    port: 10041
+    server: 211.197.161.123
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: gaosir.unfeeling.sbs
+    skip-cert-verify: true
+    ws-opts:
+      path: /X @节点狂魔 /
+      headers:
+        host: gaosir.unfeeling.sbs
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  - name: 分享日记_韩国_35
     port: 50000
     server: 210.99.119.3
     type: vless
@@ -1676,7 +814,203 @@ proxies:
       headers:
         host: gaosir.unfeeling.sbs
     uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_韩国_69
+  - name: 分享日记_韩国_36
+    port: 30059
+    server: 211.51.176.6
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: gaosir.unfeeling.sbs
+    skip-cert-verify: true
+    ws-opts:
+      path: /X@节点狂魔/
+      headers:
+        host: gaosir.unfeeling.sbs
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  - name: 分享日记_韩国_37
+    port: 18111
+    server: 61.79.232.2
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: gaosir.unfeeling.sbs
+    skip-cert-verify: true
+    ws-opts:
+      path: /Telegram@freecodes/?ed=2560
+      headers:
+        host: gaosir.unfeeling.sbs
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  - name: 分享日记_韩国_38
+    port: 12336
+    server: 182.31.70.92
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: gaosir.unfeeling.sbs
+    skip-cert-verify: true
+    ws-opts:
+      path: /X@节点狂魔/
+      headers:
+        host: gaosir.unfeeling.sbs
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  - name: 分享日记_韩国_39
+    port: 20583
+    server: 175.208.202.41
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: gaosir.unfeeling.sbs
+    skip-cert-verify: true
+    ws-opts:
+      path: Telegram@freecodes/?ed=2560
+      headers:
+        host: gaosir.unfeeling.sbs
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  - name: 分享日记_韩国_40
+    port: 50001
+    server: 222.96.197.31
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: gaosir.unfeeling.sbs
+    skip-cert-verify: true
+    ws-opts:
+      path: Telegram @freecodes /?ed=2560
+      headers:
+        host: gaosir.unfeeling.sbs
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  - name: 分享日记_韩国_41
+    port: 50000
+    server: 118.46.37.203
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: gaosir.unfeeling.sbs
+    skip-cert-verify: true
+    ws-opts:
+      path: Telegram@freecodes/?ed=2560
+      headers:
+        host: gaosir.unfeeling.sbs
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  - name: 分享日记_韩国_42
+    port: 50003
+    server: 175.211.35.161
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: gaosir.unfeeling.sbs
+    skip-cert-verify: true
+    ws-opts:
+      path: X @节点狂魔 /?ed=2560
+      headers:
+        host: gaosir.unfeeling.sbs
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  - name: 分享日记_韩国_43
+    port: 30050
+    server: 121.145.253.124
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: gaosir.unfeeling.sbs
+    skip-cert-verify: true
+    ws-opts:
+      path: X @节点狂魔 /?ed=2560
+      headers:
+        host: gaosir.unfeeling.sbs
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  - name: 分享日记_韩国_44
+    port: 12533
+    server: 222.113.18.214
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: gaosir.unfeeling.sbs
+    skip-cert-verify: true
+    ws-opts:
+      path: Telegram @节点狂魔 /?ed=2560
+      headers:
+        host: gaosir.unfeeling.sbs
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  - name: 分享日记_韩国_45
+    port: 30051
+    server: 175.201.95.5
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: gaosir.unfeeling.sbs
+    skip-cert-verify: true
+    ws-opts:
+      path: Telegram@freecodes/?ed=2560
+      headers:
+        host: gaosir.unfeeling.sbs
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  - name: 分享日记_韩国_46
+    port: 50000
+    server: 203.251.70.240
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: gaosir.unfeeling.sbs
+    skip-cert-verify: true
+    ws-opts:
+      path: X @节点狂魔 /?ed=2560
+      headers:
+        host: gaosir.unfeeling.sbs
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  - name: 分享日记_韩国_47
+    port: 50001
+    server: 118.45.152.231
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: gaosir.unfeeling.sbs
+    skip-cert-verify: true
+    ws-opts:
+      path: /X @节点狂魔 /
+      headers:
+        host: gaosir.unfeeling.sbs
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  - name: 分享日记_韩国_48
+    port: 50001
+    server: 118.40.126.7
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: gaosir.unfeeling.sbs
+    skip-cert-verify: true
+    ws-opts:
+      path: X @节点狂魔 /?ed=2560
+      headers:
+        host: gaosir.unfeeling.sbs
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  - name: 分享日记_韩国_49
+    port: 50000
+    server: 59.30.203.246
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: gaosir.unfeeling.sbs
+    skip-cert-verify: true
+    ws-opts:
+      path: /Telegram @freecodes /?ed=2560
+      headers:
+        host: gaosir.unfeeling.sbs
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  - name: 分享日记_韩国_50
     port: 12462
     server: 59.22.140.62
     type: vless
@@ -1686,7 +1020,283 @@ proxies:
     servername: gaosir.unfeeling.sbs
     skip-cert-verify: true
     ws-opts:
+      path: /X@节点狂魔/
+      headers:
+        host: gaosir.unfeeling.sbs
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  - name: 分享日记_韩国_51
+    port: 50001
+    server: 175.202.53.36
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: gaosir.unfeeling.sbs
+    skip-cert-verify: true
+    ws-opts:
       path: /X @节点狂魔 /
+      headers:
+        host: gaosir.unfeeling.sbs
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  - name: 分享日记_韩国_52
+    port: 50002
+    server: 59.30.5.169
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: gaosir.unfeeling.sbs
+    skip-cert-verify: true
+    ws-opts:
+      path: X @节点狂魔 /?ed=2560
+      headers:
+        host: gaosir.unfeeling.sbs
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  - name: 分享日记_韩国_53
+    port: 50001
+    server: 210.178.107.198
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: gaosir.unfeeling.sbs
+    skip-cert-verify: true
+    ws-opts:
+      path: /X @节点狂魔 /?ed=2560
+      headers:
+        host: gaosir.unfeeling.sbs
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  - name: 分享日记_韩国_54
+    port: 50001
+    server: 121.182.150.149
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: gaosir.unfeeling.sbs
+    skip-cert-verify: true
+    ws-opts:
+      path: X @节点狂魔 /?ed=2560
+      headers:
+        host: gaosir.unfeeling.sbs
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  - name: 分享日记_韩国_55
+    port: 50000
+    server: 14.33.140.80
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: gaosir.unfeeling.sbs
+    skip-cert-verify: true
+    ws-opts:
+      path: X@节点狂魔/?ed=2560
+      headers:
+        host: gaosir.unfeeling.sbs
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  - name: 分享日记_韩国_56
+    port: 50004
+    server: 221.163.173.252
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: gaosir.unfeeling.sbs
+    skip-cert-verify: true
+    ws-opts:
+      path: /X @节点狂魔 /
+      headers:
+        host: gaosir.unfeeling.sbs
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  - name: 分享日记_韩国_57
+    port: 50001
+    server: 14.43.156.59
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: gaosir.unfeeling.sbs
+    skip-cert-verify: true
+    ws-opts:
+      path: /X @节点狂魔 /
+      headers:
+        host: gaosir.unfeeling.sbs
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  - name: 分享日记_韩国_58
+    port: 50000
+    server: 121.143.95.1
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: gaosir.unfeeling.sbs
+    skip-cert-verify: true
+    ws-opts:
+      path: X @节点狂魔 /?ed=2560
+      headers:
+        host: gaosir.unfeeling.sbs
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  - name: 分享日记_韩国_59
+    port: 50000
+    server: 14.39.99.235
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: gaosir.unfeeling.sbs
+    skip-cert-verify: true
+    ws-opts:
+      path: /X @节点狂魔 /
+      headers:
+        host: gaosir.unfeeling.sbs
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  - name: 分享日记_韩国_60
+    port: 14443
+    server: 222.113.18.211
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: gaosir.unfeeling.sbs
+    skip-cert-verify: true
+    ws-opts:
+      path: Telegram @freecodes /?ed=2560
+      headers:
+        host: gaosir.unfeeling.sbs
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  - name: 分享日记_韩国_61
+    port: 50001
+    server: 220.126.185.107
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: gaosir.unfeeling.sbs
+    skip-cert-verify: true
+    ws-opts:
+      path: /X@节点狂魔/
+      headers:
+        host: gaosir.unfeeling.sbs
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  - name: 分享日记_韩国_62
+    port: 50003
+    server: 222.109.206.218
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: gaosir.unfeeling.sbs
+    skip-cert-verify: true
+    ws-opts:
+      path: X@节点狂魔/?ed=2560
+      headers:
+        host: gaosir.unfeeling.sbs
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  - name: 分享日记_韩国_63
+    port: 50000
+    server: 125.136.226.1
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: gaosir.unfeeling.sbs
+    skip-cert-verify: true
+    ws-opts:
+      path: X @节点狂魔 /?ed=2560
+      headers:
+        host: gaosir.unfeeling.sbs
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  - name: 分享日记_韩国_64
+    port: 31337
+    server: 211.219.241.28
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: gaosir.unfeeling.sbs
+    skip-cert-verify: true
+    ws-opts:
+      path: X@节点狂魔/?ed=2560
+      headers:
+        host: gaosir.unfeeling.sbs
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  - name: 分享日记_中国_5
+    port: 20000
+    server: hk1.aeccghuyjftyg.shop
+    type: hysteria2
+    udp: true
+    sni: hk1.aeccghuyjftyg.shop
+    obfs: salamander
+    password: b8b00ee8-87e7-4ebb-a6c2-00073c6535c1
+    skip-cert-verify: true
+    obfs-password: fdrccJDGatdFDDRp
+  - name: 分享日记_韩国_65
+    port: 10008
+    server: 14.32.12.235
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: gaosir.unfeeling.sbs
+    skip-cert-verify: true
+    ws-opts:
+      path: /X @节点狂魔 /
+      headers:
+        host: gaosir.unfeeling.sbs
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  - name: 分享日记_韩国_66
+    port: 50001
+    server: 211.228.5.119
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: gaosir.unfeeling.sbs
+    skip-cert-verify: true
+    ws-opts:
+      path: /X @节点狂魔 /
+      headers:
+        host: gaosir.unfeeling.sbs
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  - name: 分享日记_韩国_67
+    port: 50001
+    server: 118.91.78.76
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: gaosir.unfeeling.sbs
+    skip-cert-verify: true
+    ws-opts:
+      path: /Telegram @节点狂魔 /?ed=2560
+      headers:
+        host: gaosir.unfeeling.sbs
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  - name: 分享日记_韩国_68
+    port: 30010
+    server: 112.173.185.16
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: gaosir.unfeeling.sbs
+    skip-cert-verify: true
+    ws-opts:
+      path: Telegram @freecodes /?ed=2560
+      headers:
+        host: gaosir.unfeeling.sbs
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  - name: 分享日记_韩国_69
+    port: 50001
+    server: 211.184.133.123
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: gaosir.unfeeling.sbs
+    skip-cert-verify: true
+    ws-opts:
+      path: X @节点狂魔 /?ed=2560
       headers:
         host: gaosir.unfeeling.sbs
     uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
@@ -1705,8 +1315,8 @@ proxies:
         host: gaosir.unfeeling.sbs
     uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
   - name: 分享日记_韩国_71
-    port: 50001
-    server: 220.126.185.107
+    port: 50003
+    server: 14.40.124.226
     type: vless
     network: ws
     tls: true
@@ -1714,13 +1324,13 @@ proxies:
     servername: gaosir.unfeeling.sbs
     skip-cert-verify: true
     ws-opts:
-      path: /X @节点狂魔 /
+      path: X @freecodes /?ed=2560
       headers:
         host: gaosir.unfeeling.sbs
     uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
   - name: 分享日记_韩国_72
-    port: 12346
-    server: 112.172.38.246
+    port: 50000
+    server: 118.39.44.24
     type: vless
     network: ws
     tls: true
@@ -1728,207 +1338,11 @@ proxies:
     servername: gaosir.unfeeling.sbs
     skip-cert-verify: true
     ws-opts:
-      path: Telegram @freecodes /?ed=2560
+      path: X @节点狂魔 /?ed=2560
       headers:
         host: gaosir.unfeeling.sbs
     uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
   - name: 分享日记_韩国_73
-    port: 50000
-    server: 222.101.91.204
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gaosir.unfeeling.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: Telegram @freecodes /?ed=2560
-      headers:
-        host: gaosir.unfeeling.sbs
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_韩国_74
-    port: 50001
-    server: 125.141.4.132
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gaosir.unfeeling.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: X @节点狂魔 /?ed=2560
-      headers:
-        host: gaosir.unfeeling.sbs
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_韩国_75
-    port: 50004
-    server: 221.163.173.252
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gaosir.unfeeling.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: /X @节点狂魔 /
-      headers:
-        host: gaosir.unfeeling.sbs
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_韩国_76
-    port: 12902
-    server: 121.167.146.253
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gaosir.unfeeling.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: Telegram @freecodes /?ed=2560
-      headers:
-        host: gaosir.unfeeling.sbs
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_韩国_77
-    port: 16020
-    server: 121.147.108.106
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gaosir.unfeeling.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: /X@节点狂魔/
-      headers:
-        host: gaosir.unfeeling.sbs
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_韩国_78
-    port: 10065
-    server: 119.195.219.150
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gaosir.unfeeling.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: Telegram @freecodes /?ed=2560
-      headers:
-        host: gaosir.unfeeling.sbs
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_韩国_79
-    port: 50000
-    server: 125.128.215.162
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gaosir.unfeeling.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: X@节点狂魔/?ed=2560
-      headers:
-        host: gaosir.unfeeling.sbs
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_中国_4
-    port: 4432
-    server: 47.240.15.210
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gaosir.unfeeling.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: Telegram @freecodes /?ed=2560
-      headers:
-        host: gaosir.unfeeling.sbs
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_韩国_80
-    port: 50001
-    server: 222.96.197.31
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gaosir.unfeeling.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: X @节点狂魔 /?ed=2560
-      headers:
-        host: gaosir.unfeeling.sbs
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_韩国_81
-    port: 12566
-    server: 111.118.118.177
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gaosir.unfeeling.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: Telegram🇨🇳@WangCai2/?ed=2560
-      headers:
-        host: gaosir.unfeeling.sbs
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_韩国_82
-    port: 50000
-    server: 203.251.70.240
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gaosir.unfeeling.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: Telegram @freecodes /?ed=2560
-      headers:
-        host: gaosir.unfeeling.sbs
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_日本_10
-    port: 12553
-    server: 113.37.149.36
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gaosir.unfeeling.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: Telegram @freecodes /?ed=2560
-      headers:
-        host: gaosir.unfeeling.sbs
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_韩国_83
-    port: 23023
-    server: 121.144.160.103
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gaosir.unfeeling.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: Telegram @freecodes /?ed=2560
-      headers:
-        host: gaosir.unfeeling.sbs
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_韩国_84
-    port: 50001
-    server: 106.245.216.35
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gaosir.unfeeling.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: X@节点狂魔/?ed=2560
-      headers:
-        host: gaosir.unfeeling.sbs
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_韩国_85
     port: 50001
     server: 222.114.57.191
     type: vless
@@ -1942,9 +1356,9 @@ proxies:
       headers:
         host: gaosir.unfeeling.sbs
     uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_韩国_86
-    port: 18888
-    server: 59.19.192.51
+  - name: 分享日记_韩国_74
+    port: 12228
+    server: 218.148.100.87
     type: vless
     network: ws
     tls: true
@@ -1952,13 +1366,41 @@ proxies:
     servername: gaosir.unfeeling.sbs
     skip-cert-verify: true
     ws-opts:
-      path: Telegram🇨🇳@WangCai2/?ed=2560
+      path: freecodes/?ed=2560
       headers:
         host: gaosir.unfeeling.sbs
     uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_韩国_87
-    port: 30112
-    server: 175.202.241.130
+  - name: 分享日记_韩国_75
+    port: 50000
+    server: 119.206.2.42
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: gaosir.unfeeling.sbs
+    skip-cert-verify: true
+    ws-opts:
+      path: /Telegram🇨🇳@WangCai2/?ed=2560
+      headers:
+        host: gaosir.unfeeling.sbs
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  - name: 分享日记_韩国_76
+    port: 50001
+    server: 220.72.245.245
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: gaosir.unfeeling.sbs
+    skip-cert-verify: true
+    ws-opts:
+      path: X@节点狂魔/?ed=2560
+      headers:
+        host: gaosir.unfeeling.sbs
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  - name: 分享日记_韩国_77
+    port: 50001
+    server: 112.170.255.67
     type: vless
     network: ws
     tls: true
@@ -1970,25 +1412,37 @@ proxies:
       headers:
         host: gaosir.unfeeling.sbs
     uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_美国_20
-    port: 443
-    server: 172.67.206.152
-    type: vmess
+  - name: 分享日记_韩国_78
+    port: 15211
+    server: 14.35.29.177
+    type: vless
     network: ws
     tls: true
     udp: true
-    servername: 9ef7d8c2-70ef-dcb5-39a5-5c514e43bf12.freevpnatm2025.dpdns.org
+    servername: gaosir.unfeeling.sbs
     skip-cert-verify: true
     ws-opts:
-      path: /ri9mOOVJuAimB74kgXZ
+      path: /Telegram🇨🇳@WangCai2/?ed=2560
       headers:
-        host: 9ef7d8c2-70ef-dcb5-39a5-5c514e43bf12.freevpnatm2025.dpdns.org
-    cipher: auto
-    uuid: e053ff61-f350-4fe8-9a45-56da927d417c
-    alterId: 0
-  - name: 分享日记_中国_5
-    port: 7000
-    server: 175.29.23.5
+        host: gaosir.unfeeling.sbs
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  - name: 分享日记_韩国_79
+    port: 16030
+    server: 222.113.18.207
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: gaosir.unfeeling.sbs
+    skip-cert-verify: true
+    ws-opts:
+      path: X@节点狂魔/?ed=2560
+      headers:
+        host: gaosir.unfeeling.sbs
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  - name: 分享日记_韩国_80
+    port: 11611
+    server: 121.158.194.32
     type: vless
     network: ws
     tls: true
@@ -2001,8 +1455,8 @@ proxies:
         host: gaosir.unfeeling.sbs
     uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
   - name: 分享日记_中国_6
-    port: 10201
-    server: 223.16.138.113
+    port: 57537
+    server: 221.125.10.8
     type: vless
     network: ws
     tls: true
@@ -2010,13 +1464,27 @@ proxies:
     servername: gaosir.unfeeling.sbs
     skip-cert-verify: true
     ws-opts:
-      path: Telegram @freecodes /?ed=2560
+      path: Telegram@freecodes/?ed=2560
       headers:
         host: gaosir.unfeeling.sbs
     uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_韩国_88
-    port: 18245
-    server: 221.148.181.220
+  - name: 分享日记_韩国_81
+    port: 50000
+    server: 222.101.91.204
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: gaosir.unfeeling.sbs
+    skip-cert-verify: true
+    ws-opts:
+      path: Telegram@freecodes/?ed=2560
+      headers:
+        host: gaosir.unfeeling.sbs
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  - name: 分享日记_韩国_82
+    port: 50001
+    server: 221.156.182.211
     type: vless
     network: ws
     tls: true
@@ -2025,6 +1493,194 @@ proxies:
     skip-cert-verify: true
     ws-opts:
       path: Telegram🇨🇳@WangCai2/?ed=2560
+      headers:
+        host: gaosir.unfeeling.sbs
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  - name: 分享日记_美国_7
+    port: 443
+    server: join-raiv2mmr-telegram.koyeb.app
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: JOIN-RAIV2MMR-TELEGRAM.koyeb.app
+    skip-cert-verify: true
+    ws-opts:
+      path: /@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr
+    alpn:
+      - h3,h2,http/1.1
+    uuid: 5c9b6087-f955-4506-9c1d-67a5aae44bc9
+    client-fingerprint: firefox
+  - name: 分享日记_韩国_83
+    port: 50000
+    server: 125.128.215.162
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: gaosir.unfeeling.sbs
+    skip-cert-verify: true
+    ws-opts:
+      path: X@节点狂魔/?ed=2560
+      headers:
+        host: gaosir.unfeeling.sbs
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  - name: 分享日记_未知
+    port: 44300
+    server: "[2001:bc8:32d7:30b::3]"
+    type: hysteria2
+    udp: true
+    sni: apple.com
+    password: dongtaiwang.com
+    skip-cert-verify: true
+  - name: 分享日记_韩国_84
+    port: 50001
+    server: 125.141.38.50
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: gaosir.unfeeling.sbs
+    skip-cert-verify: true
+    ws-opts:
+      path: Telegram@freecodes/?ed=2560
+      headers:
+        host: gaosir.unfeeling.sbs
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  - name: 分享日记_韩国_85
+    port: 12196
+    server: 202.150.185.128
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: gaosir.unfeeling.sbs
+    skip-cert-verify: true
+    ws-opts:
+      path: /Telegram @freecodes /?ed=2560
+      headers:
+        host: gaosir.unfeeling.sbs
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  - name: 分享日记_韩国_86
+    port: 18097
+    server: 58.143.198.82
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: gaosir.unfeeling.sbs
+    skip-cert-verify: true
+    ws-opts:
+      path: Telegram@freecodes/?ed=2560
+      headers:
+        host: gaosir.unfeeling.sbs
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  - name: 分享日记_法国_2
+    port: 44579
+    server: 2001:bc8:32d7:302::10
+    type: vmess
+    network: ws
+    tls: false
+    udp: true
+    version: "2"
+    servername: ""
+    skip-cert-verify: true
+    ws-opts:
+      path: ""
+      headers:
+        host: ""
+    cipher: auto
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+  - name: 分享日记_韩国_87
+    port: 11434
+    server: 125.135.4.15
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: gaosir.unfeeling.sbs
+    skip-cert-verify: true
+    ws-opts:
+      path: /X @节点狂魔 /
+      headers:
+        host: gaosir.unfeeling.sbs
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  - name: 分享日记_韩国_88
+    port: 10249
+    server: 121.176.175.54
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: gaosir.unfeeling.sbs
+    skip-cert-verify: true
+    ws-opts:
+      path: X @节点狂魔 /?ed=2560
+      headers:
+        host: gaosir.unfeeling.sbs
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  - name: 分享日记_美国_8
+    port: 443
+    server: 47.79.35.191
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: vless.pengjiajin.sbs
+    skip-cert-verify: true
+    ws-opts:
+      path: freecodes @节点狂魔 /?ed=2560
+      headers:
+        host: vless.pengjiajin.sbs
+    uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
+  - name: 分享日记_日本_4
+    port: 443
+    server: 160.187.111.222
+    type: vless
+    network: tcp
+    tls: true
+    udp: true
+    servername: images-na.ssl-images-amazon.com
+    skip-cert-verify: true
+    reality-opts:
+      public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
+    uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
+    client-fingerprint: chrome
+  - name: 分享日记_俄罗斯_2
+    port: 443
+    server: 81.19.140.131
+    type: vless
+    network: tcp
+    tls: true
+    udp: true
+    servername: vk.cc
+    skip-cert-verify: true
+    reality-opts:
+      public-key: 18otPJIOnisNtfhP_PxpdJgPYqFbkYQAM-pecy90xwk
+      short-id: 5ec229f9
+    uuid: 677615f7-87d5-5019-a44d-4fc3ff8d59d7
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+  - name: 分享日记_美国_9
+    port: 23891
+    server: 108.165.213.197
+    type: hysteria2
+    udp: true
+    sni: fus01.mistea.top
+    password: c232f411-96b5-4b07-b2f7-66a434725ffb
+    skip-cert-verify: true
+  - name: 分享日记_日本_5
+    port: 12553
+    server: 113.37.149.36
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: gaosir.unfeeling.sbs
+    skip-cert-verify: true
+    ws-opts:
+      path: Telegram @freecodes /?ed=2560
       headers:
         host: gaosir.unfeeling.sbs
     uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
@@ -2042,48 +1698,9 @@ proxies:
       headers:
         host: gaosir.unfeeling.sbs
     uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_伊朗_2
-    port: 2053
-    server: 217.60.38.191
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gaosir.unfeeling.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: Telegram🇨🇳@WangCai2/?ed=2560
-      headers:
-        host: gaosir.unfeeling.sbs
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_日本_11
-    port: 19999
-    server: 202.84.53.85
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gaosir.unfeeling.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: X@节点狂魔/?ed=2560
-      headers:
-        host: gaosir.unfeeling.sbs
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_法国_3
-    port: 22008
-    server: 212.129.5.242
-    type: vless
-    network: tcp
-    udp: true
-    servername: www.yahoo.com
-    skip-cert-verify: true
-    uuid: 77a33d77-7af9-4c33-9556-d6711becca04
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
   - name: 分享日记_韩国_90
-    port: 50001
-    server: 27.117.52.110
+    port: 27443
+    server: 211.229.77.184
     type: vless
     network: ws
     tls: true
@@ -2091,21 +1708,7 @@ proxies:
     servername: gaosir.unfeeling.sbs
     skip-cert-verify: true
     ws-opts:
-      path: Telegram @freecodes /?ed=2560
-      headers:
-        host: gaosir.unfeeling.sbs
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_俄罗斯_2
-    port: 2053
-    server: 31.192.238.71
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gaosir.unfeeling.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: Telegram🇨🇳@WangCai2/?ed=2560
+      path: X @节点狂魔 /?ed=2560
       headers:
         host: gaosir.unfeeling.sbs
     uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
@@ -2119,13 +1722,13 @@ proxies:
     servername: gaosir.unfeeling.sbs
     skip-cert-verify: true
     ws-opts:
-      path: Telegram@freecodes/?ed=2560
+      path: Telegram🇨🇳@WangCai2/?ed=2560
       headers:
         host: gaosir.unfeeling.sbs
     uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
   - name: 分享日记_韩国_92
-    port: 50001
-    server: 175.202.53.36
+    port: 12326
+    server: 59.19.192.51
     type: vless
     network: ws
     tls: true
@@ -2133,33 +1736,40 @@ proxies:
     servername: gaosir.unfeeling.sbs
     skip-cert-verify: true
     ws-opts:
-      path: /X @节点狂魔 /
+      path: X @节点狂魔 /?ed=2560
       headers:
         host: gaosir.unfeeling.sbs
     uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_美国_21
-    port: 36600
-    server: 206.71.158.37
-    type: hysteria2
+  - name: 分享日记_韩国_93
+    port: 36167
+    server: 111.118.118.177
+    type: vless
+    network: ws
+    tls: true
     udp: true
-    sni: YAPC-1.afshin.ir
-    obfs: salamander
-    password: Yet-Another-Public-Config-1
+    servername: gaosir.unfeeling.sbs
     skip-cert-verify: true
-    obfs-password: Yet-Another-Public-Config-1
-  - name: 分享日记_美国_22
-    port: 45000
-    server: gavazn.lnmarketplace.net
-    type: hysteria2
+    ws-opts:
+      path: X@节点狂魔/?ed=2560
+      headers:
+        host: gaosir.unfeeling.sbs
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  - name: 分享日记_美国_10
+    port: 2096
+    server: www.speedtest.net
+    type: vless
+    network: ws
+    tls: true
     udp: true
-    sni: gavazn.55994421.xyz
-    obfs: salamander
-    password: Telegram--%3E%40Ln2Ray
+    servername: jh2msivc7ik13k3brrox9pa4n0od1u06.pages.dev
     skip-cert-verify: true
-    obfs-password: Telegram-->@Ln2Ray
-  - name: 分享日记_日本_12
-    port: 57517
-    server: 219.117.2.190
+    ws-opts:
+      path: /
+    uuid: 18bb1b1d-16a2-4ba7-ab27-9720c9f4a875
+    client-fingerprint: chrome
+  - name: 分享日记_韩国_94
+    port: 10042
+    server: 220.118.109.204
     type: vless
     network: ws
     tls: true
@@ -2171,25 +1781,9 @@ proxies:
       headers:
         host: gaosir.unfeeling.sbs
     uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_法国_4
-    port: 33200
-    server: 2001:bc8:32d7:30b::201
-    type: vmess
-    network: ws
-    tls: false
-    udp: true
-    servername: www.bing.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /github.com/Alvin9999
-      headers:
-        host: www.bing.com
-    cipher: auto
-    uuid: 82dc5319-662c-4ca5-8e82-69744d2300c1
-    alterId: 0
-  - name: 分享日记_美国_23
-    port: 8443
-    server: 64.49.14.41
+  - name: 分享日记_韩国_95
+    port: 12105
+    server: 222.113.89.142
     type: vless
     network: ws
     tls: true
@@ -2197,11 +1791,85 @@ proxies:
     servername: gaosir.unfeeling.sbs
     skip-cert-verify: true
     ws-opts:
-      path: /X@节点狂魔/
+      path: Telegram@freecodes/?ed=2560
       headers:
         host: gaosir.unfeeling.sbs
     uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_英国_3
+  - name: 分享日记_美国_11
+    port: 443
+    server: 172.67.206.152
+    type: vmess
+    network: ws
+    tls: true
+    udp: true
+    version: "2"
+    servername: 9ef7d8c2-70ef-dcb5-39a5-5c514e43bf12.freevpnatm2025.dpdns.org
+    skip-cert-verify: true
+    ws-opts:
+      path: /ri9mOOVJuAimB74kgXZ
+      headers:
+        host: 9ef7d8c2-70ef-dcb5-39a5-5c514e43bf12.freevpnatm2025.dpdns.org
+    cipher: auto
+    uuid: e053ff61-f350-4fe8-9a45-56da927d417c
+    alterId: 0
+  - name: 分享日记_中国_7
+    port: 10201
+    server: 223.16.138.113
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: gaosir.unfeeling.sbs
+    skip-cert-verify: true
+    ws-opts:
+      path: Telegram @freecodes /?ed=2560
+      headers:
+        host: gaosir.unfeeling.sbs
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  - name: 分享日记_韩国_96
+    port: 50001
+    server: 182.210.59.164
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: gaosir.unfeeling.sbs
+    skip-cert-verify: true
+    ws-opts:
+      path: Telegram@freecodes/?ed=2560
+      headers:
+        host: gaosir.unfeeling.sbs
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  - name: 分享日记_瑞士
+    port: 443
+    server: 212.18.104.19
+    type: vless
+    network: tcp
+    tls: true
+    udp: true
+    servername: vk.cc
+    skip-cert-verify: true
+    reality-opts:
+      public-key: 9tpeVTkuJ5il6GaLG9YqMn99OK8AFlzgEFtoD1_MkyI
+      short-id: f8c64c7a
+    uuid: 677615f7-87d5-5019-a44d-4fc3ff8d59d7
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+  - name: 分享日记_韩国_97
+    port: 443
+    server: 147.75.225.105
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: vless.pengjiajin.sbs
+    skip-cert-verify: true
+    ws-opts:
+      path: freecodes @节点狂魔 /?ed=2560
+      headers:
+        host: vless.pengjiajin.sbs
+    uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
+  - name: 分享日记_英国_2
     port: 2083
     server: 81.168.83.89
     type: hysteria2
@@ -2211,76 +1879,9 @@ proxies:
     password: YwuvGJk36B
     skip-cert-verify: true
     obfs-password: khameniiko@smad@ret
-  - name: 分享日记_美国_24
-    port: 20335
-    server: 70.34.215.221
-    type: hysteria2
-    udp: true
-    sni: drhystuichdfy.samanidempire.org
-    obfs: salamander
-    password: 80747420-96c4-4a2f-83e6-eea4e46beb09
-    skip-cert-verify: true
-    obfs-password: U1wBrYQyFm
-  - name: 分享日记_日本_13
-    port: 443
-    server: 160.16.203.210
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gaosir.unfeeling.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: /Telegram@freecodes/?ed=2560
-      headers:
-        host: gaosir.unfeeling.sbs
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_韩国_93
-    port: 12421
-    server: 220.120.44.95
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gaosir.unfeeling.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: Telegram🇨🇳@WangCai2/?ed=2560
-      headers:
-        host: gaosir.unfeeling.sbs
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_美国_25
-    port: 443
-    server: 47.76.218.163
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gaosir.unfeeling.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: Telegram🇨🇳@WangCai2/?ed=2560
-      headers:
-        host: gaosir.unfeeling.sbs
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_瑞士_2
-    port: 443
-    server: 212.18.104.19
-    type: vless
-    network: tcp
-    tls: true
-    udp: true
-    servername: nspk.ru
-    skip-cert-verify: true
-    reality-opts:
-      public-key: 9tpeVTkuJ5il6GaLG9YqMn99OK8AFlzgEFtoD1_MkyI
-      short-id: f8c64c7a
-    uuid: 677615f7-87d5-5019-a44d-4fc3ff8d59d7
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-  - name: 分享日记_美国_26
-    port: 10001
-    server: 64.176.42.125
+  - name: 分享日记_伊朗_2
+    port: 8443
+    server: 217.60.38.191
     type: vless
     network: ws
     tls: true
@@ -2292,189 +1893,7 @@ proxies:
       headers:
         host: gaosir.unfeeling.sbs
     uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_美国_27
-    port: 36600
-    server: yapc-1.adamhayward.co.uk
-    type: hysteria2
-    udp: true
-    sni: YAPC-1.afshin.ir
-    obfs: salamander
-    password: Yet-Another-Public-Config-1
-    skip-cert-verify: true
-    obfs-password: Yet-Another-Public-Config-1
-  - name: 分享日记_韩国_94
-    port: 30067
-    server: 112.156.154.95
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gaosir.unfeeling.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: X @节点狂魔 /?ed=2560
-      headers:
-        host: gaosir.unfeeling.sbs
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_美国_28
-    port: 443
-    server: 138.2.64.229
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gaosir.unfeeling.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: Telegram @freecodes /?ed=2560
-      headers:
-        host: gaosir.unfeeling.sbs
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_新加坡_5
-    port: 443
-    server: 172.104.188.163
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gaosir.unfeeling.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: Telegram🇨🇳@WangCai2/?ed=2560
-      headers:
-        host: gaosir.unfeeling.sbs
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_中国_7
-    port: 29495
-    server: 89.44.242.222
-    type: vless
-    network: tcp
-    udp: true
-    skip-cert-verify: true
-    uuid: 4a0e3cf3-4a10-4a38-bba4-b17b592a0d2b
-  - name: 分享日记_美国_29
-    port: 443
-    server: join-raiv2mmr-telegram.koyeb.app
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: JOIN-RAIV2MMR-TELEGRAM.koyeb.app
-    skip-cert-verify: true
-    ws-opts:
-      path: /@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr
-    uuid: 5c9b6087-f955-4506-9c1d-67a5aae44bc9
-  - name: 分享日记_日本_14
-    port: 443
-    server: 172.105.199.168
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gaosir.unfeeling.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: /X @节点狂魔 /
-      headers:
-        host: gaosir.unfeeling.sbs
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_澳大利亚_3
-    port: 42734
-    server: 103.238.129.215
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gaosir.unfeeling.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: X@节点狂魔/?ed=2560
-      headers:
-        host: gaosir.unfeeling.sbs
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_韩国_95
-    port: 50001
-    server: 106.245.165.137
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gaosir.unfeeling.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: X @节点狂魔 /?ed=2560
-      headers:
-        host: gaosir.unfeeling.sbs
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_俄罗斯_3
-    port: 443
-    server: 185.39.204.70
-    type: vless
-    network: tcp
-    tls: true
-    udp: true
-    servername: nspk.ru
-    skip-cert-verify: true
-    reality-opts:
-      public-key: v2Pjie80dzvV3Cqqvxk2edTyq-eacd-vHYI9Hd59sTU
-      short-id: 626cffde
-    uuid: 677615f7-87d5-5019-a44d-4fc3ff8d59d7
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-  - name: 分享日记_韩国_96
-    port: 50000
-    server: 27.100.229.147
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gaosir.unfeeling.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: X @节点狂魔 /?ed=2560
-      headers:
-        host: gaosir.unfeeling.sbs
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_瑞典_4
-    port: 443
-    server: 217.142.226.168
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gaosir.unfeeling.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: X@节点狂魔/?ed=2560
-      headers:
-        host: gaosir.unfeeling.sbs
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_韩国_97
-    port: 60001
-    server: 119.65.139.101
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: gaosir.unfeeling.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: /Telegram@freecodes/?ed=2560
-      headers:
-        host: gaosir.unfeeling.sbs
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_伊朗_3
-    port: 44443
-    server: hybrid.arvancloud.online
-    type: vless
-    network: tcp
-    udp: true
-    servername: www.speedtest.net
-    skip-cert-verify: true
-    uuid: 53fff6cc-b4ec-43e8-ade5-e0c42972fc33
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-  - name: 分享日记_英国_4
+  - name: 分享日记_英国_3
     port: 443
     server: 158.180.73.165
     type: vless
@@ -2488,9 +1907,9 @@ proxies:
       headers:
         host: vless.pengjiajin.sbs
     uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
-  - name: 分享日记_韩国_98
-    port: 12176
-    server: 218.54.55.117
+  - name: 分享日记_俄罗斯_3
+    port: 2053
+    server: 31.192.238.71
     type: vless
     network: ws
     tls: true
@@ -2498,26 +1917,148 @@ proxies:
     servername: gaosir.unfeeling.sbs
     skip-cert-verify: true
     ws-opts:
-      path: Telegram @freecodes /?ed=2560
+      path: /Telegram🇨🇳@WangCai2/?ed=2560
       headers:
         host: gaosir.unfeeling.sbs
     uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_美国_30
-    port: 80
-    server: tgju.org
+  - name: 分享日记_法国_3
+    port: 443
+    server: 178.20.215.2
+    type: vless
+    network: tcp
+    tls: true
+    udp: true
+    servername: speed.cloudflare.com
+    skip-cert-verify: true
+    reality-opts:
+      public-key: GfTzhy59k9CXlAdF819OUVeBdrqIILaDIWa1bddjGnA
+    uuid: 192ea2c7-d7d0-6676-2929-b04a072b387d
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+  - name: 分享日记_美国_12
+    port: 443
+    server: 161.33.165.47
     type: vless
     network: ws
+    tls: true
     udp: true
-    servername: black-orDeR.ONEeAt.CO
+    servername: vless.pengjiajin.sbs
     skip-cert-verify: true
     ws-opts:
-      path: /?ed=2048
+      path: Telegram🇨🇳@WangCai2/?ed=2560
       headers:
-        host: black-orDeR.ONEeAt.CO
-    uuid: 4a4c08c2-0e58-4781-8729-f6873a7b1996
-  - name: 分享日记_韩国_99
-    port: 31337
-    server: 211.219.241.28
+        host: vless.pengjiajin.sbs
+    uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
+  - name: 分享日记_美国_13
+    port: 45000
+    server: gavazn.lnmarketplace.net
+    type: hysteria2
+    udp: true
+    sni: gavazn.55994421.xyz
+    obfs: salamander
+    password: Telegram--%3E%40Ln2Ray
+    skip-cert-verify: true
+    obfs-password: Telegram-->@Ln2Ray
+  - name: 分享日记_美国_14
+    port: 36600
+    server: 206.71.158.37
+    type: hysteria2
+    udp: true
+    sni: YAPC-1.afshin.ir
+    obfs: salamander
+    password: Yet-Another-Public-Config-1
+    skip-cert-verify: true
+    obfs-password: Yet-Another-Public-Config-1
+  - name: 分享日记_美国_15
+    port: 36600
+    server: yapc-1.adamhayward.co.uk
+    type: hysteria2
+    udp: true
+    sni: YAPC-1.afshin.ir
+    obfs: salamander
+    password: Yet-Another-Public-Config-1
+    skip-cert-verify: true
+    obfs-password: Yet-Another-Public-Config-1
+  - name: 分享日记_美国_16
+    port: 20335
+    server: 70.34.215.221
+    type: hysteria2
+    udp: true
+    sni: drhystuichdfy.samanidempire.org
+    obfs: salamander
+    password: 80747420-96c4-4a2f-83e6-eea4e46beb09
+    skip-cert-verify: true
+    obfs-password: U1wBrYQyFm
+  - name: 分享日记_新加坡_2
+    port: 443
+    server: 13.250.131.37
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: vless.pengjiajin.sbs
+    skip-cert-verify: true
+    ws-opts:
+      path: freecodes @节点狂魔 /?ed=2560
+      headers:
+        host: vless.pengjiajin.sbs
+    uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
+  - name: 分享日记_法国_4
+    port: 33200
+    server: 2001:bc8:32d7:30b::201
+    type: vmess
+    network: ws
+    tls: false
+    udp: true
+    version: "2"
+    servername: www.bing.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /github.com/Alvin9999
+      headers:
+        host: www.bing.com
+    cipher: auto
+    uuid: 82dc5319-662c-4ca5-8e82-69744d2300c1
+    alterId: 0
+  - name: 分享日记_美国_17
+    port: 8443
+    server: 64.49.14.41
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: gaosir.unfeeling.sbs
+    skip-cert-verify: true
+    ws-opts:
+      path: /X@节点狂魔/
+      headers:
+        host: gaosir.unfeeling.sbs
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  - name: 分享日记_英国_4
+    port: 443
+    server: 213.35.107.73
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: vless.pengjiajin.sbs
+    skip-cert-verify: true
+    ws-opts:
+      path: freecodes @节点狂魔 /?ed=2560
+      headers:
+        host: vless.pengjiajin.sbs
+    uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
+  - name: 分享日记_美国_18
+    port: 80
+    server: mci.dl101movis.ir
+    type: vless
+    network: xhttp
+    udp: true
+    skip-cert-verify: true
+    uuid: 117ca567-3180-4d62-abcc-8fc0104c93ff
+  - name: 分享日记_韩国_98
+    port: 50003
+    server: 218.154.22.99
     type: vless
     network: ws
     tls: true
@@ -2529,9 +2070,23 @@ proxies:
       headers:
         host: gaosir.unfeeling.sbs
     uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_韩国_100
-    port: 50001
-    server: 115.94.122.118
+  - name: 分享日记_中国_8
+    port: 7000
+    server: 175.29.23.5
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: gaosir.unfeeling.sbs
+    skip-cert-verify: true
+    ws-opts:
+      path: /X@节点狂魔/?ed=2560
+      headers:
+        host: gaosir.unfeeling.sbs
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  - name: 分享日记_俄罗斯_4
+    port: 8443
+    server: 46.8.226.39
     type: vless
     network: ws
     tls: true
@@ -2543,9 +2098,34 @@ proxies:
       headers:
         host: gaosir.unfeeling.sbs
     uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_美国_31
+  - name: 分享日记_英国_5
     port: 443
-    server: 152.70.240.1
+    server: 144.24.73.232
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: vless.pengjiajin.sbs
+    skip-cert-verify: true
+    ws-opts:
+      path: freecodes @节点狂魔 /?ed=2560
+      headers:
+        host: vless.pengjiajin.sbs
+    uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
+  - name: 分享日记_法国_5
+    port: 22008
+    server: 212.129.5.242
+    type: vless
+    network: tcp
+    udp: true
+    servername: www.yahoo.com
+    skip-cert-verify: true
+    uuid: 77a33d77-7af9-4c33-9556-d6711becca04
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+  - name: 分享日记_韩国_99
+    port: 50000
+    server: 121.142.128.120
     type: vless
     network: ws
     tls: true
@@ -2557,7 +2137,77 @@ proxies:
       headers:
         host: gaosir.unfeeling.sbs
     uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  - name: 分享日记_新加坡_6
+  - name: 分享日记_韩国_100
+    port: 16020
+    server: 121.147.108.106
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: gaosir.unfeeling.sbs
+    skip-cert-verify: true
+    ws-opts:
+      path: X@节点狂魔/?ed=2560
+      headers:
+        host: gaosir.unfeeling.sbs
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  - name: 分享日记_美国_19
+    port: 443
+    server: 104.20.31.27
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: JOIN-RAIV2MMR-TELEGRAM.koyeb.app
+    skip-cert-verify: true
+    ws-opts:
+      path: /@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr
+      headers:
+        host: JOIN-RAIV2MMR-TELEGRAM.koyeb.app
+    uuid: 5c9b6087-f955-4506-9c1d-67a5aae44bc9
+  - name: 分享日记_韩国_101
+    port: 50001
+    server: 112.218.166.156
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: gaosir.unfeeling.sbs
+    skip-cert-verify: true
+    ws-opts:
+      path: X @节点狂魔 /?ed=2560
+      headers:
+        host: gaosir.unfeeling.sbs
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  - name: 分享日记_韩国_102
+    port: 50008
+    server: 59.25.160.141
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: gaosir.unfeeling.sbs
+    skip-cert-verify: true
+    ws-opts:
+      path: X @节点狂魔 /?ed=2560
+      headers:
+        host: gaosir.unfeeling.sbs
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  - name: 分享日记_日本_6
+    port: 443
+    server: 158.101.77.33
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: gaosir.unfeeling.sbs
+    skip-cert-verify: true
+    ws-opts:
+      path: X @节点狂魔 /?ed=2560
+      headers:
+        host: gaosir.unfeeling.sbs
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  - name: 分享日记_新加坡_3
     port: 443
     server: 172.104.180.43
     type: vless
@@ -2571,102 +2221,179 @@ proxies:
       headers:
         host: vless.pengjiajin.sbs
     uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
-  - name: 分享日记_美国_32
-    port: 80
-    server: mci.dl101movis.ir
+  - name: 分享日记_韩国_103
+    port: 50000
+    server: 112.165.52.204
     type: vless
-    network: xhttp
+    network: ws
+    tls: true
     udp: true
+    servername: gaosir.unfeeling.sbs
     skip-cert-verify: true
-    uuid: 117ca567-3180-4d62-abcc-8fc0104c93ff
+    ws-opts:
+      path: /Telegram🇨🇳@WangCai2/?ed=2560
+      headers:
+        host: gaosir.unfeeling.sbs
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  - name: 分享日记_美国_20
+    port: 443
+    server: 192.46.231.158
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: vless.pengjiajin.sbs
+    skip-cert-verify: true
+    ws-opts:
+      path: freecodes @节点狂魔 /?ed=2560
+      headers:
+        host: vless.pengjiajin.sbs
+    uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
+  - name: 分享日记_韩国_104
+    port: 12151
+    server: 218.151.91.131
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: gaosir.unfeeling.sbs
+    skip-cert-verify: true
+    ws-opts:
+      path: X @节点狂魔 /?ed=2560
+      headers:
+        host: gaosir.unfeeling.sbs
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  - name: 分享日记_英国_6
+    port: 443
+    server: 176.97.70.166
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: vless.pengjiajin.sbs
+    skip-cert-verify: true
+    ws-opts:
+      path: freecodes @节点狂魔 /?ed=2560
+      headers:
+        host: vless.pengjiajin.sbs
+    uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
+  - name: 分享日记_韩国_105
+    port: 443
+    server: 193.123.230.250
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: vless.pengjiajin.sbs
+    skip-cert-verify: true
+    ws-opts:
+      path: Telegram🇨🇳@WangCai2/?ed=2560
+      headers:
+        host: vless.pengjiajin.sbs
+    uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
+  - name: 分享日记_日本_7
+    port: 443
+    server: 153.121.45.101
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: gaosir.unfeeling.sbs
+    skip-cert-verify: true
+    ws-opts:
+      path: /Telegram@freecodes/?ed=2560
+      headers:
+        host: gaosir.unfeeling.sbs
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  - name: 分享日记_新加坡_4
+    port: 443
+    server: 178.128.80.43
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: vless.pengjiajin.sbs
+    skip-cert-verify: true
+    ws-opts:
+      path: Telegram🇨🇳@WangCai2/?ed=2560
+      headers:
+        host: vless.pengjiajin.sbs
+    uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
+  - name: 分享日记_澳大利亚
+    port: 42734
+    server: 103.238.129.215
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: gaosir.unfeeling.sbs
+    skip-cert-verify: true
+    ws-opts:
+      path: X@节点狂魔/?ed=2560
+      headers:
+        host: gaosir.unfeeling.sbs
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - 分享日记_中国_1
       - 分享日记_美国_1
+      - 分享日记_中国_2
       - 分享日记_日本_1
-      - 分享日记_瑞典_1
-      - 分享日记_韩国_1
       - 分享日记_日本_2
-      - 分享日记_日本_3
       - 分享日记_美国_2
-      - 分享日记_美国_3
       - 分享日记_新加坡_1
       - 分享日记_英国_1
-      - 分享日记_日本_4
-      - 分享日记_美国_4
-      - 分享日记_新加坡_2
-      - 分享日记_日本_5
-      - 分享日记_日本_6
-      - 分享日记_中国_1
-      - 分享日记_日本_7
-      - 分享日记_美国_5
-      - 分享日记_美国_6
+      - 分享日记_日本_3
+      - 分享日记_美国_3
+      - 分享日记_中国_3
+      - 分享日记_韩国_1
       - 分享日记_韩国_2
-      - 分享日记_美国_7
-      - 分享日记_瑞典_2
-      - 分享日记_瑞士_1
-      - 分享日记_瑞典_3
-      - 分享日记_澳大利亚_1
       - 分享日记_韩国_3
-      - 分享日记_中国_2
       - 分享日记_韩国_4
-      - 分享日记_美国_8
       - 分享日记_韩国_5
       - 分享日记_韩国_6
       - 分享日记_韩国_7
-      - 分享日记_日本_8
       - 分享日记_韩国_8
       - 分享日记_韩国_9
       - 分享日记_韩国_10
       - 分享日记_韩国_11
       - 分享日记_韩国_12
-      - 分享日记_新加坡_3
       - 分享日记_韩国_13
-      - 分享日记_美国_9
-      - 分享日记_美国_10
       - 分享日记_韩国_14
       - 分享日记_韩国_15
+      - 分享日记_爱尔兰
       - 分享日记_韩国_16
-      - 分享日记_美国_11
       - 分享日记_荷兰
-      - 分享日记_新加坡_4
-      - 分享日记_中国_3
-      - 分享日记_日本_9
-      - 分享日记_美国_12
+      - 分享日记_俄罗斯_1
       - 分享日记_韩国_17
       - 分享日记_韩国_18
-      - 分享日记_澳大利亚_2
-      - 分享日记_美国_13
-      - 分享日记_伊朗_1
+      - 分享日记_法国_1
+      - 分享日记_美国_4
+      - 分享日记_中国_4
       - 分享日记_韩国_19
       - 分享日记_韩国_20
       - 分享日记_韩国_21
-      - 分享日记_美国_14
-      - 分享日记_美国_15
+      - 分享日记_美国_5
       - 分享日记_韩国_22
       - 分享日记_韩国_23
       - 分享日记_韩国_24
-      - 分享日记_俄罗斯_1
-      - 分享日记_立陶宛
-      - 分享日记_美国_16
       - 分享日记_韩国_25
-      - 分享日记_法国_1
-      - 分享日记_法国_2
       - 分享日记_韩国_26
       - 分享日记_韩国_27
       - 分享日记_韩国_28
       - 分享日记_韩国_29
       - 分享日记_韩国_30
-      - 分享日记_英国_2
+      - 分享日记_美国_6
       - 分享日记_韩国_31
       - 分享日记_韩国_32
+      - 分享日记_伊朗_1
       - 分享日记_韩国_33
       - 分享日记_韩国_34
       - 分享日记_韩国_35
-      - 分享日记_未知
       - 分享日记_韩国_36
       - 分享日记_韩国_37
       - 分享日记_韩国_38
@@ -2674,7 +2401,6 @@ proxy-groups:
       - 分享日记_韩国_40
       - 分享日记_韩国_41
       - 分享日记_韩国_42
-      - 分享日记_美国_17
       - 分享日记_韩国_43
       - 分享日记_韩国_44
       - 分享日记_韩国_45
@@ -2687,7 +2413,6 @@ proxy-groups:
       - 分享日记_韩国_52
       - 分享日记_韩国_53
       - 分享日记_韩国_54
-      - 分享日记_美国_18
       - 分享日记_韩国_55
       - 分享日记_韩国_56
       - 分享日记_韩国_57
@@ -2698,8 +2423,8 @@ proxy-groups:
       - 分享日记_韩国_62
       - 分享日记_韩国_63
       - 分享日记_韩国_64
+      - 分享日记_中国_5
       - 分享日记_韩国_65
-      - 分享日记_美国_19
       - 分享日记_韩国_66
       - 分享日记_韩国_67
       - 分享日记_韩国_68
@@ -2714,150 +2439,133 @@ proxy-groups:
       - 分享日记_韩国_77
       - 分享日记_韩国_78
       - 分享日记_韩国_79
-      - 分享日记_中国_4
       - 分享日记_韩国_80
+      - 分享日记_中国_6
       - 分享日记_韩国_81
       - 分享日记_韩国_82
-      - 分享日记_日本_10
+      - 分享日记_美国_7
       - 分享日记_韩国_83
+      - 分享日记_未知
       - 分享日记_韩国_84
       - 分享日记_韩国_85
       - 分享日记_韩国_86
+      - 分享日记_法国_2
       - 分享日记_韩国_87
-      - 分享日记_美国_20
-      - 分享日记_中国_5
-      - 分享日记_中国_6
       - 分享日记_韩国_88
-      - 分享日记_韩国_89
-      - 分享日记_伊朗_2
-      - 分享日记_日本_11
-      - 分享日记_法国_3
-      - 分享日记_韩国_90
+      - 分享日记_美国_8
+      - 分享日记_日本_4
       - 分享日记_俄罗斯_2
+      - 分享日记_美国_9
+      - 分享日记_日本_5
+      - 分享日记_韩国_89
+      - 分享日记_韩国_90
       - 分享日记_韩国_91
       - 分享日记_韩国_92
-      - 分享日记_美国_21
-      - 分享日记_美国_22
-      - 分享日记_日本_12
-      - 分享日记_法国_4
-      - 分享日记_美国_23
-      - 分享日记_英国_3
-      - 分享日记_美国_24
-      - 分享日记_日本_13
       - 分享日记_韩国_93
-      - 分享日记_美国_25
-      - 分享日记_瑞士_2
-      - 分享日记_美国_26
-      - 分享日记_美国_27
+      - 分享日记_美国_10
       - 分享日记_韩国_94
-      - 分享日记_美国_28
-      - 分享日记_新加坡_5
-      - 分享日记_中国_7
-      - 分享日记_美国_29
-      - 分享日记_日本_14
-      - 分享日记_澳大利亚_3
       - 分享日记_韩国_95
-      - 分享日记_俄罗斯_3
+      - 分享日记_美国_11
+      - 分享日记_中国_7
       - 分享日记_韩国_96
-      - 分享日记_瑞典_4
+      - 分享日记_瑞士
       - 分享日记_韩国_97
-      - 分享日记_伊朗_3
+      - 分享日记_英国_2
+      - 分享日记_伊朗_2
+      - 分享日记_英国_3
+      - 分享日记_俄罗斯_3
+      - 分享日记_法国_3
+      - 分享日记_美国_12
+      - 分享日记_美国_13
+      - 分享日记_美国_14
+      - 分享日记_美国_15
+      - 分享日记_美国_16
+      - 分享日记_新加坡_2
+      - 分享日记_法国_4
+      - 分享日记_美国_17
       - 分享日记_英国_4
+      - 分享日记_美国_18
       - 分享日记_韩国_98
-      - 分享日记_美国_30
+      - 分享日记_中国_8
+      - 分享日记_俄罗斯_4
+      - 分享日记_英国_5
+      - 分享日记_法国_5
       - 分享日记_韩国_99
       - 分享日记_韩国_100
-      - 分享日记_美国_31
-      - 分享日记_新加坡_6
-      - 分享日记_美国_32
+      - 分享日记_美国_19
+      - 分享日记_韩国_101
+      - 分享日记_韩国_102
+      - 分享日记_日本_6
+      - 分享日记_新加坡_3
+      - 分享日记_韩国_103
+      - 分享日记_美国_20
+      - 分享日记_韩国_104
+      - 分享日记_英国_6
+      - 分享日记_韩国_105
+      - 分享日记_日本_7
+      - 分享日记_新加坡_4
+      - 分享日记_澳大利亚
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - 分享日记_中国_1
       - 分享日记_美国_1
+      - 分享日记_中国_2
       - 分享日记_日本_1
-      - 分享日记_瑞典_1
-      - 分享日记_韩国_1
       - 分享日记_日本_2
-      - 分享日记_日本_3
       - 分享日记_美国_2
-      - 分享日记_美国_3
       - 分享日记_新加坡_1
       - 分享日记_英国_1
-      - 分享日记_日本_4
-      - 分享日记_美国_4
-      - 分享日记_新加坡_2
-      - 分享日记_日本_5
-      - 分享日记_日本_6
-      - 分享日记_中国_1
-      - 分享日记_日本_7
-      - 分享日记_美国_5
-      - 分享日记_美国_6
+      - 分享日记_日本_3
+      - 分享日记_美国_3
+      - 分享日记_中国_3
+      - 分享日记_韩国_1
       - 分享日记_韩国_2
-      - 分享日记_美国_7
-      - 分享日记_瑞典_2
-      - 分享日记_瑞士_1
-      - 分享日记_瑞典_3
-      - 分享日记_澳大利亚_1
       - 分享日记_韩国_3
-      - 分享日记_中国_2
       - 分享日记_韩国_4
-      - 分享日记_美国_8
       - 分享日记_韩国_5
       - 分享日记_韩国_6
       - 分享日记_韩国_7
-      - 分享日记_日本_8
       - 分享日记_韩国_8
       - 分享日记_韩国_9
       - 分享日记_韩国_10
       - 分享日记_韩国_11
       - 分享日记_韩国_12
-      - 分享日记_新加坡_3
       - 分享日记_韩国_13
-      - 分享日记_美国_9
-      - 分享日记_美国_10
       - 分享日记_韩国_14
       - 分享日记_韩国_15
+      - 分享日记_爱尔兰
       - 分享日记_韩国_16
-      - 分享日记_美国_11
       - 分享日记_荷兰
-      - 分享日记_新加坡_4
-      - 分享日记_中国_3
-      - 分享日记_日本_9
-      - 分享日记_美国_12
+      - 分享日记_俄罗斯_1
       - 分享日记_韩国_17
       - 分享日记_韩国_18
-      - 分享日记_澳大利亚_2
-      - 分享日记_美国_13
-      - 分享日记_伊朗_1
+      - 分享日记_法国_1
+      - 分享日记_美国_4
+      - 分享日记_中国_4
       - 分享日记_韩国_19
       - 分享日记_韩国_20
       - 分享日记_韩国_21
-      - 分享日记_美国_14
-      - 分享日记_美国_15
+      - 分享日记_美国_5
       - 分享日记_韩国_22
       - 分享日记_韩国_23
       - 分享日记_韩国_24
-      - 分享日记_俄罗斯_1
-      - 分享日记_立陶宛
-      - 分享日记_美国_16
       - 分享日记_韩国_25
-      - 分享日记_法国_1
-      - 分享日记_法国_2
       - 分享日记_韩国_26
       - 分享日记_韩国_27
       - 分享日记_韩国_28
       - 分享日记_韩国_29
       - 分享日记_韩国_30
-      - 分享日记_英国_2
+      - 分享日记_美国_6
       - 分享日记_韩国_31
       - 分享日记_韩国_32
+      - 分享日记_伊朗_1
       - 分享日记_韩国_33
       - 分享日记_韩国_34
       - 分享日记_韩国_35
-      - 分享日记_未知
       - 分享日记_韩国_36
       - 分享日记_韩国_37
       - 分享日记_韩国_38
@@ -2865,7 +2573,6 @@ proxy-groups:
       - 分享日记_韩国_40
       - 分享日记_韩国_41
       - 分享日记_韩国_42
-      - 分享日记_美国_17
       - 分享日记_韩国_43
       - 分享日记_韩国_44
       - 分享日记_韩国_45
@@ -2878,7 +2585,6 @@ proxy-groups:
       - 分享日记_韩国_52
       - 分享日记_韩国_53
       - 分享日记_韩国_54
-      - 分享日记_美国_18
       - 分享日记_韩国_55
       - 分享日记_韩国_56
       - 分享日记_韩国_57
@@ -2889,8 +2595,8 @@ proxy-groups:
       - 分享日记_韩国_62
       - 分享日记_韩国_63
       - 分享日记_韩国_64
+      - 分享日记_中国_5
       - 分享日记_韩国_65
-      - 分享日记_美国_19
       - 分享日记_韩国_66
       - 分享日记_韩国_67
       - 分享日记_韩国_68
@@ -2905,150 +2611,133 @@ proxy-groups:
       - 分享日记_韩国_77
       - 分享日记_韩国_78
       - 分享日记_韩国_79
-      - 分享日记_中国_4
       - 分享日记_韩国_80
+      - 分享日记_中国_6
       - 分享日记_韩国_81
       - 分享日记_韩国_82
-      - 分享日记_日本_10
+      - 分享日记_美国_7
       - 分享日记_韩国_83
+      - 分享日记_未知
       - 分享日记_韩国_84
       - 分享日记_韩国_85
       - 分享日记_韩国_86
+      - 分享日记_法国_2
       - 分享日记_韩国_87
-      - 分享日记_美国_20
-      - 分享日记_中国_5
-      - 分享日记_中国_6
       - 分享日记_韩国_88
-      - 分享日记_韩国_89
-      - 分享日记_伊朗_2
-      - 分享日记_日本_11
-      - 分享日记_法国_3
-      - 分享日记_韩国_90
+      - 分享日记_美国_8
+      - 分享日记_日本_4
       - 分享日记_俄罗斯_2
+      - 分享日记_美国_9
+      - 分享日记_日本_5
+      - 分享日记_韩国_89
+      - 分享日记_韩国_90
       - 分享日记_韩国_91
       - 分享日记_韩国_92
-      - 分享日记_美国_21
-      - 分享日记_美国_22
-      - 分享日记_日本_12
-      - 分享日记_法国_4
-      - 分享日记_美国_23
-      - 分享日记_英国_3
-      - 分享日记_美国_24
-      - 分享日记_日本_13
       - 分享日记_韩国_93
-      - 分享日记_美国_25
-      - 分享日记_瑞士_2
-      - 分享日记_美国_26
-      - 分享日记_美国_27
+      - 分享日记_美国_10
       - 分享日记_韩国_94
-      - 分享日记_美国_28
-      - 分享日记_新加坡_5
-      - 分享日记_中国_7
-      - 分享日记_美国_29
-      - 分享日记_日本_14
-      - 分享日记_澳大利亚_3
       - 分享日记_韩国_95
-      - 分享日记_俄罗斯_3
+      - 分享日记_美国_11
+      - 分享日记_中国_7
       - 分享日记_韩国_96
-      - 分享日记_瑞典_4
+      - 分享日记_瑞士
       - 分享日记_韩国_97
-      - 分享日记_伊朗_3
+      - 分享日记_英国_2
+      - 分享日记_伊朗_2
+      - 分享日记_英国_3
+      - 分享日记_俄罗斯_3
+      - 分享日记_法国_3
+      - 分享日记_美国_12
+      - 分享日记_美国_13
+      - 分享日记_美国_14
+      - 分享日记_美国_15
+      - 分享日记_美国_16
+      - 分享日记_新加坡_2
+      - 分享日记_法国_4
+      - 分享日记_美国_17
       - 分享日记_英国_4
+      - 分享日记_美国_18
       - 分享日记_韩国_98
-      - 分享日记_美国_30
+      - 分享日记_中国_8
+      - 分享日记_俄罗斯_4
+      - 分享日记_英国_5
+      - 分享日记_法国_5
       - 分享日记_韩国_99
       - 分享日记_韩国_100
-      - 分享日记_美国_31
-      - 分享日记_新加坡_6
-      - 分享日记_美国_32
+      - 分享日记_美国_19
+      - 分享日记_韩国_101
+      - 分享日记_韩国_102
+      - 分享日记_日本_6
+      - 分享日记_新加坡_3
+      - 分享日记_韩国_103
+      - 分享日记_美国_20
+      - 分享日记_韩国_104
+      - 分享日记_英国_6
+      - 分享日记_韩国_105
+      - 分享日记_日本_7
+      - 分享日记_新加坡_4
+      - 分享日记_澳大利亚
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 分享日记_中国_1
       - 分享日记_美国_1
+      - 分享日记_中国_2
       - 分享日记_日本_1
-      - 分享日记_瑞典_1
-      - 分享日记_韩国_1
       - 分享日记_日本_2
-      - 分享日记_日本_3
       - 分享日记_美国_2
-      - 分享日记_美国_3
       - 分享日记_新加坡_1
       - 分享日记_英国_1
-      - 分享日记_日本_4
-      - 分享日记_美国_4
-      - 分享日记_新加坡_2
-      - 分享日记_日本_5
-      - 分享日记_日本_6
-      - 分享日记_中国_1
-      - 分享日记_日本_7
-      - 分享日记_美国_5
-      - 分享日记_美国_6
+      - 分享日记_日本_3
+      - 分享日记_美国_3
+      - 分享日记_中国_3
+      - 分享日记_韩国_1
       - 分享日记_韩国_2
-      - 分享日记_美国_7
-      - 分享日记_瑞典_2
-      - 分享日记_瑞士_1
-      - 分享日记_瑞典_3
-      - 分享日记_澳大利亚_1
       - 分享日记_韩国_3
-      - 分享日记_中国_2
       - 分享日记_韩国_4
-      - 分享日记_美国_8
       - 分享日记_韩国_5
       - 分享日记_韩国_6
       - 分享日记_韩国_7
-      - 分享日记_日本_8
       - 分享日记_韩国_8
       - 分享日记_韩国_9
       - 分享日记_韩国_10
       - 分享日记_韩国_11
       - 分享日记_韩国_12
-      - 分享日记_新加坡_3
       - 分享日记_韩国_13
-      - 分享日记_美国_9
-      - 分享日记_美国_10
       - 分享日记_韩国_14
       - 分享日记_韩国_15
+      - 分享日记_爱尔兰
       - 分享日记_韩国_16
-      - 分享日记_美国_11
       - 分享日记_荷兰
-      - 分享日记_新加坡_4
-      - 分享日记_中国_3
-      - 分享日记_日本_9
-      - 分享日记_美国_12
+      - 分享日记_俄罗斯_1
       - 分享日记_韩国_17
       - 分享日记_韩国_18
-      - 分享日记_澳大利亚_2
-      - 分享日记_美国_13
-      - 分享日记_伊朗_1
+      - 分享日记_法国_1
+      - 分享日记_美国_4
+      - 分享日记_中国_4
       - 分享日记_韩国_19
       - 分享日记_韩国_20
       - 分享日记_韩国_21
-      - 分享日记_美国_14
-      - 分享日记_美国_15
+      - 分享日记_美国_5
       - 分享日记_韩国_22
       - 分享日记_韩国_23
       - 分享日记_韩国_24
-      - 分享日记_俄罗斯_1
-      - 分享日记_立陶宛
-      - 分享日记_美国_16
       - 分享日记_韩国_25
-      - 分享日记_法国_1
-      - 分享日记_法国_2
       - 分享日记_韩国_26
       - 分享日记_韩国_27
       - 分享日记_韩国_28
       - 分享日记_韩国_29
       - 分享日记_韩国_30
-      - 分享日记_英国_2
+      - 分享日记_美国_6
       - 分享日记_韩国_31
       - 分享日记_韩国_32
+      - 分享日记_伊朗_1
       - 分享日记_韩国_33
       - 分享日记_韩国_34
       - 分享日记_韩国_35
-      - 分享日记_未知
       - 分享日记_韩国_36
       - 分享日记_韩国_37
       - 分享日记_韩国_38
@@ -3056,7 +2745,6 @@ proxy-groups:
       - 分享日记_韩国_40
       - 分享日记_韩国_41
       - 分享日记_韩国_42
-      - 分享日记_美国_17
       - 分享日记_韩国_43
       - 分享日记_韩国_44
       - 分享日记_韩国_45
@@ -3069,7 +2757,6 @@ proxy-groups:
       - 分享日记_韩国_52
       - 分享日记_韩国_53
       - 分享日记_韩国_54
-      - 分享日记_美国_18
       - 分享日记_韩国_55
       - 分享日记_韩国_56
       - 分享日记_韩国_57
@@ -3080,8 +2767,8 @@ proxy-groups:
       - 分享日记_韩国_62
       - 分享日记_韩国_63
       - 分享日记_韩国_64
+      - 分享日记_中国_5
       - 分享日记_韩国_65
-      - 分享日记_美国_19
       - 分享日记_韩国_66
       - 分享日记_韩国_67
       - 分享日记_韩国_68
@@ -3096,149 +2783,132 @@ proxy-groups:
       - 分享日记_韩国_77
       - 分享日记_韩国_78
       - 分享日记_韩国_79
-      - 分享日记_中国_4
       - 分享日记_韩国_80
+      - 分享日记_中国_6
       - 分享日记_韩国_81
       - 分享日记_韩国_82
-      - 分享日记_日本_10
+      - 分享日记_美国_7
       - 分享日记_韩国_83
+      - 分享日记_未知
       - 分享日记_韩国_84
       - 分享日记_韩国_85
       - 分享日记_韩国_86
+      - 分享日记_法国_2
       - 分享日记_韩国_87
-      - 分享日记_美国_20
-      - 分享日记_中国_5
-      - 分享日记_中国_6
       - 分享日记_韩国_88
-      - 分享日记_韩国_89
-      - 分享日记_伊朗_2
-      - 分享日记_日本_11
-      - 分享日记_法国_3
-      - 分享日记_韩国_90
+      - 分享日记_美国_8
+      - 分享日记_日本_4
       - 分享日记_俄罗斯_2
+      - 分享日记_美国_9
+      - 分享日记_日本_5
+      - 分享日记_韩国_89
+      - 分享日记_韩国_90
       - 分享日记_韩国_91
       - 分享日记_韩国_92
-      - 分享日记_美国_21
-      - 分享日记_美国_22
-      - 分享日记_日本_12
-      - 分享日记_法国_4
-      - 分享日记_美国_23
-      - 分享日记_英国_3
-      - 分享日记_美国_24
-      - 分享日记_日本_13
       - 分享日记_韩国_93
-      - 分享日记_美国_25
-      - 分享日记_瑞士_2
-      - 分享日记_美国_26
-      - 分享日记_美国_27
+      - 分享日记_美国_10
       - 分享日记_韩国_94
-      - 分享日记_美国_28
-      - 分享日记_新加坡_5
-      - 分享日记_中国_7
-      - 分享日记_美国_29
-      - 分享日记_日本_14
-      - 分享日记_澳大利亚_3
       - 分享日记_韩国_95
-      - 分享日记_俄罗斯_3
+      - 分享日记_美国_11
+      - 分享日记_中国_7
       - 分享日记_韩国_96
-      - 分享日记_瑞典_4
+      - 分享日记_瑞士
       - 分享日记_韩国_97
-      - 分享日记_伊朗_3
+      - 分享日记_英国_2
+      - 分享日记_伊朗_2
+      - 分享日记_英国_3
+      - 分享日记_俄罗斯_3
+      - 分享日记_法国_3
+      - 分享日记_美国_12
+      - 分享日记_美国_13
+      - 分享日记_美国_14
+      - 分享日记_美国_15
+      - 分享日记_美国_16
+      - 分享日记_新加坡_2
+      - 分享日记_法国_4
+      - 分享日记_美国_17
       - 分享日记_英国_4
+      - 分享日记_美国_18
       - 分享日记_韩国_98
-      - 分享日记_美国_30
+      - 分享日记_中国_8
+      - 分享日记_俄罗斯_4
+      - 分享日记_英国_5
+      - 分享日记_法国_5
       - 分享日记_韩国_99
       - 分享日记_韩国_100
-      - 分享日记_美国_31
-      - 分享日记_新加坡_6
-      - 分享日记_美国_32
+      - 分享日记_美国_19
+      - 分享日记_韩国_101
+      - 分享日记_韩国_102
+      - 分享日记_日本_6
+      - 分享日记_新加坡_3
+      - 分享日记_韩国_103
+      - 分享日记_美国_20
+      - 分享日记_韩国_104
+      - 分享日记_英国_6
+      - 分享日记_韩国_105
+      - 分享日记_日本_7
+      - 分享日记_新加坡_4
+      - 分享日记_澳大利亚
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 分享日记_中国_1
       - 分享日记_美国_1
+      - 分享日记_中国_2
       - 分享日记_日本_1
-      - 分享日记_瑞典_1
-      - 分享日记_韩国_1
       - 分享日记_日本_2
-      - 分享日记_日本_3
       - 分享日记_美国_2
-      - 分享日记_美国_3
       - 分享日记_新加坡_1
       - 分享日记_英国_1
-      - 分享日记_日本_4
-      - 分享日记_美国_4
-      - 分享日记_新加坡_2
-      - 分享日记_日本_5
-      - 分享日记_日本_6
-      - 分享日记_中国_1
-      - 分享日记_日本_7
-      - 分享日记_美国_5
-      - 分享日记_美国_6
+      - 分享日记_日本_3
+      - 分享日记_美国_3
+      - 分享日记_中国_3
+      - 分享日记_韩国_1
       - 分享日记_韩国_2
-      - 分享日记_美国_7
-      - 分享日记_瑞典_2
-      - 分享日记_瑞士_1
-      - 分享日记_瑞典_3
-      - 分享日记_澳大利亚_1
       - 分享日记_韩国_3
-      - 分享日记_中国_2
       - 分享日记_韩国_4
-      - 分享日记_美国_8
       - 分享日记_韩国_5
       - 分享日记_韩国_6
       - 分享日记_韩国_7
-      - 分享日记_日本_8
       - 分享日记_韩国_8
       - 分享日记_韩国_9
       - 分享日记_韩国_10
       - 分享日记_韩国_11
       - 分享日记_韩国_12
-      - 分享日记_新加坡_3
       - 分享日记_韩国_13
-      - 分享日记_美国_9
-      - 分享日记_美国_10
       - 分享日记_韩国_14
       - 分享日记_韩国_15
+      - 分享日记_爱尔兰
       - 分享日记_韩国_16
-      - 分享日记_美国_11
       - 分享日记_荷兰
-      - 分享日记_新加坡_4
-      - 分享日记_中国_3
-      - 分享日记_日本_9
-      - 分享日记_美国_12
+      - 分享日记_俄罗斯_1
       - 分享日记_韩国_17
       - 分享日记_韩国_18
-      - 分享日记_澳大利亚_2
-      - 分享日记_美国_13
-      - 分享日记_伊朗_1
+      - 分享日记_法国_1
+      - 分享日记_美国_4
+      - 分享日记_中国_4
       - 分享日记_韩国_19
       - 分享日记_韩国_20
       - 分享日记_韩国_21
-      - 分享日记_美国_14
-      - 分享日记_美国_15
+      - 分享日记_美国_5
       - 分享日记_韩国_22
       - 分享日记_韩国_23
       - 分享日记_韩国_24
-      - 分享日记_俄罗斯_1
-      - 分享日记_立陶宛
-      - 分享日记_美国_16
       - 分享日记_韩国_25
-      - 分享日记_法国_1
-      - 分享日记_法国_2
       - 分享日记_韩国_26
       - 分享日记_韩国_27
       - 分享日记_韩国_28
       - 分享日记_韩国_29
       - 分享日记_韩国_30
-      - 分享日记_英国_2
+      - 分享日记_美国_6
       - 分享日记_韩国_31
       - 分享日记_韩国_32
+      - 分享日记_伊朗_1
       - 分享日记_韩国_33
       - 分享日记_韩国_34
       - 分享日记_韩国_35
-      - 分享日记_未知
       - 分享日记_韩国_36
       - 分享日记_韩国_37
       - 分享日记_韩国_38
@@ -3246,7 +2916,6 @@ proxy-groups:
       - 分享日记_韩国_40
       - 分享日记_韩国_41
       - 分享日记_韩国_42
-      - 分享日记_美国_17
       - 分享日记_韩国_43
       - 分享日记_韩国_44
       - 分享日记_韩国_45
@@ -3259,7 +2928,6 @@ proxy-groups:
       - 分享日记_韩国_52
       - 分享日记_韩国_53
       - 分享日记_韩国_54
-      - 分享日记_美国_18
       - 分享日记_韩国_55
       - 分享日记_韩国_56
       - 分享日记_韩国_57
@@ -3270,8 +2938,8 @@ proxy-groups:
       - 分享日记_韩国_62
       - 分享日记_韩国_63
       - 分享日记_韩国_64
+      - 分享日记_中国_5
       - 分享日记_韩国_65
-      - 分享日记_美国_19
       - 分享日记_韩国_66
       - 分享日记_韩国_67
       - 分享日记_韩国_68
@@ -3286,149 +2954,132 @@ proxy-groups:
       - 分享日记_韩国_77
       - 分享日记_韩国_78
       - 分享日记_韩国_79
-      - 分享日记_中国_4
       - 分享日记_韩国_80
+      - 分享日记_中国_6
       - 分享日记_韩国_81
       - 分享日记_韩国_82
-      - 分享日记_日本_10
+      - 分享日记_美国_7
       - 分享日记_韩国_83
+      - 分享日记_未知
       - 分享日记_韩国_84
       - 分享日记_韩国_85
       - 分享日记_韩国_86
+      - 分享日记_法国_2
       - 分享日记_韩国_87
-      - 分享日记_美国_20
-      - 分享日记_中国_5
-      - 分享日记_中国_6
       - 分享日记_韩国_88
-      - 分享日记_韩国_89
-      - 分享日记_伊朗_2
-      - 分享日记_日本_11
-      - 分享日记_法国_3
-      - 分享日记_韩国_90
+      - 分享日记_美国_8
+      - 分享日记_日本_4
       - 分享日记_俄罗斯_2
+      - 分享日记_美国_9
+      - 分享日记_日本_5
+      - 分享日记_韩国_89
+      - 分享日记_韩国_90
       - 分享日记_韩国_91
       - 分享日记_韩国_92
-      - 分享日记_美国_21
-      - 分享日记_美国_22
-      - 分享日记_日本_12
-      - 分享日记_法国_4
-      - 分享日记_美国_23
-      - 分享日记_英国_3
-      - 分享日记_美国_24
-      - 分享日记_日本_13
       - 分享日记_韩国_93
-      - 分享日记_美国_25
-      - 分享日记_瑞士_2
-      - 分享日记_美国_26
-      - 分享日记_美国_27
+      - 分享日记_美国_10
       - 分享日记_韩国_94
-      - 分享日记_美国_28
-      - 分享日记_新加坡_5
-      - 分享日记_中国_7
-      - 分享日记_美国_29
-      - 分享日记_日本_14
-      - 分享日记_澳大利亚_3
       - 分享日记_韩国_95
-      - 分享日记_俄罗斯_3
+      - 分享日记_美国_11
+      - 分享日记_中国_7
       - 分享日记_韩国_96
-      - 分享日记_瑞典_4
+      - 分享日记_瑞士
       - 分享日记_韩国_97
-      - 分享日记_伊朗_3
+      - 分享日记_英国_2
+      - 分享日记_伊朗_2
+      - 分享日记_英国_3
+      - 分享日记_俄罗斯_3
+      - 分享日记_法国_3
+      - 分享日记_美国_12
+      - 分享日记_美国_13
+      - 分享日记_美国_14
+      - 分享日记_美国_15
+      - 分享日记_美国_16
+      - 分享日记_新加坡_2
+      - 分享日记_法国_4
+      - 分享日记_美国_17
       - 分享日记_英国_4
+      - 分享日记_美国_18
       - 分享日记_韩国_98
-      - 分享日记_美国_30
+      - 分享日记_中国_8
+      - 分享日记_俄罗斯_4
+      - 分享日记_英国_5
+      - 分享日记_法国_5
       - 分享日记_韩国_99
       - 分享日记_韩国_100
-      - 分享日记_美国_31
-      - 分享日记_新加坡_6
-      - 分享日记_美国_32
+      - 分享日记_美国_19
+      - 分享日记_韩国_101
+      - 分享日记_韩国_102
+      - 分享日记_日本_6
+      - 分享日记_新加坡_3
+      - 分享日记_韩国_103
+      - 分享日记_美国_20
+      - 分享日记_韩国_104
+      - 分享日记_英国_6
+      - 分享日记_韩国_105
+      - 分享日记_日本_7
+      - 分享日记_新加坡_4
+      - 分享日记_澳大利亚
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - 分享日记_中国_1
       - 分享日记_美国_1
+      - 分享日记_中国_2
       - 分享日记_日本_1
-      - 分享日记_瑞典_1
-      - 分享日记_韩国_1
       - 分享日记_日本_2
-      - 分享日记_日本_3
       - 分享日记_美国_2
-      - 分享日记_美国_3
       - 分享日记_新加坡_1
       - 分享日记_英国_1
-      - 分享日记_日本_4
-      - 分享日记_美国_4
-      - 分享日记_新加坡_2
-      - 分享日记_日本_5
-      - 分享日记_日本_6
-      - 分享日记_中国_1
-      - 分享日记_日本_7
-      - 分享日记_美国_5
-      - 分享日记_美国_6
+      - 分享日记_日本_3
+      - 分享日记_美国_3
+      - 分享日记_中国_3
+      - 分享日记_韩国_1
       - 分享日记_韩国_2
-      - 分享日记_美国_7
-      - 分享日记_瑞典_2
-      - 分享日记_瑞士_1
-      - 分享日记_瑞典_3
-      - 分享日记_澳大利亚_1
       - 分享日记_韩国_3
-      - 分享日记_中国_2
       - 分享日记_韩国_4
-      - 分享日记_美国_8
       - 分享日记_韩国_5
       - 分享日记_韩国_6
       - 分享日记_韩国_7
-      - 分享日记_日本_8
       - 分享日记_韩国_8
       - 分享日记_韩国_9
       - 分享日记_韩国_10
       - 分享日记_韩国_11
       - 分享日记_韩国_12
-      - 分享日记_新加坡_3
       - 分享日记_韩国_13
-      - 分享日记_美国_9
-      - 分享日记_美国_10
       - 分享日记_韩国_14
       - 分享日记_韩国_15
+      - 分享日记_爱尔兰
       - 分享日记_韩国_16
-      - 分享日记_美国_11
       - 分享日记_荷兰
-      - 分享日记_新加坡_4
-      - 分享日记_中国_3
-      - 分享日记_日本_9
-      - 分享日记_美国_12
+      - 分享日记_俄罗斯_1
       - 分享日记_韩国_17
       - 分享日记_韩国_18
-      - 分享日记_澳大利亚_2
-      - 分享日记_美国_13
-      - 分享日记_伊朗_1
+      - 分享日记_法国_1
+      - 分享日记_美国_4
+      - 分享日记_中国_4
       - 分享日记_韩国_19
       - 分享日记_韩国_20
       - 分享日记_韩国_21
-      - 分享日记_美国_14
-      - 分享日记_美国_15
+      - 分享日记_美国_5
       - 分享日记_韩国_22
       - 分享日记_韩国_23
       - 分享日记_韩国_24
-      - 分享日记_俄罗斯_1
-      - 分享日记_立陶宛
-      - 分享日记_美国_16
       - 分享日记_韩国_25
-      - 分享日记_法国_1
-      - 分享日记_法国_2
       - 分享日记_韩国_26
       - 分享日记_韩国_27
       - 分享日记_韩国_28
       - 分享日记_韩国_29
       - 分享日记_韩国_30
-      - 分享日记_英国_2
+      - 分享日记_美国_6
       - 分享日记_韩国_31
       - 分享日记_韩国_32
+      - 分享日记_伊朗_1
       - 分享日记_韩国_33
       - 分享日记_韩国_34
       - 分享日记_韩国_35
-      - 分享日记_未知
       - 分享日记_韩国_36
       - 分享日记_韩国_37
       - 分享日记_韩国_38
@@ -3436,7 +3087,6 @@ proxy-groups:
       - 分享日记_韩国_40
       - 分享日记_韩国_41
       - 分享日记_韩国_42
-      - 分享日记_美国_17
       - 分享日记_韩国_43
       - 分享日记_韩国_44
       - 分享日记_韩国_45
@@ -3449,7 +3099,6 @@ proxy-groups:
       - 分享日记_韩国_52
       - 分享日记_韩国_53
       - 分享日记_韩国_54
-      - 分享日记_美国_18
       - 分享日记_韩国_55
       - 分享日记_韩国_56
       - 分享日记_韩国_57
@@ -3460,8 +3109,8 @@ proxy-groups:
       - 分享日记_韩国_62
       - 分享日记_韩国_63
       - 分享日记_韩国_64
+      - 分享日记_中国_5
       - 分享日记_韩国_65
-      - 分享日记_美国_19
       - 分享日记_韩国_66
       - 分享日记_韩国_67
       - 分享日记_韩国_68
@@ -3476,149 +3125,132 @@ proxy-groups:
       - 分享日记_韩国_77
       - 分享日记_韩国_78
       - 分享日记_韩国_79
-      - 分享日记_中国_4
       - 分享日记_韩国_80
+      - 分享日记_中国_6
       - 分享日记_韩国_81
       - 分享日记_韩国_82
-      - 分享日记_日本_10
+      - 分享日记_美国_7
       - 分享日记_韩国_83
+      - 分享日记_未知
       - 分享日记_韩国_84
       - 分享日记_韩国_85
       - 分享日记_韩国_86
+      - 分享日记_法国_2
       - 分享日记_韩国_87
-      - 分享日记_美国_20
-      - 分享日记_中国_5
-      - 分享日记_中国_6
       - 分享日记_韩国_88
-      - 分享日记_韩国_89
-      - 分享日记_伊朗_2
-      - 分享日记_日本_11
-      - 分享日记_法国_3
-      - 分享日记_韩国_90
+      - 分享日记_美国_8
+      - 分享日记_日本_4
       - 分享日记_俄罗斯_2
+      - 分享日记_美国_9
+      - 分享日记_日本_5
+      - 分享日记_韩国_89
+      - 分享日记_韩国_90
       - 分享日记_韩国_91
       - 分享日记_韩国_92
-      - 分享日记_美国_21
-      - 分享日记_美国_22
-      - 分享日记_日本_12
-      - 分享日记_法国_4
-      - 分享日记_美国_23
-      - 分享日记_英国_3
-      - 分享日记_美国_24
-      - 分享日记_日本_13
       - 分享日记_韩国_93
-      - 分享日记_美国_25
-      - 分享日记_瑞士_2
-      - 分享日记_美国_26
-      - 分享日记_美国_27
+      - 分享日记_美国_10
       - 分享日记_韩国_94
-      - 分享日记_美国_28
-      - 分享日记_新加坡_5
-      - 分享日记_中国_7
-      - 分享日记_美国_29
-      - 分享日记_日本_14
-      - 分享日记_澳大利亚_3
       - 分享日记_韩国_95
-      - 分享日记_俄罗斯_3
+      - 分享日记_美国_11
+      - 分享日记_中国_7
       - 分享日记_韩国_96
-      - 分享日记_瑞典_4
+      - 分享日记_瑞士
       - 分享日记_韩国_97
-      - 分享日记_伊朗_3
+      - 分享日记_英国_2
+      - 分享日记_伊朗_2
+      - 分享日记_英国_3
+      - 分享日记_俄罗斯_3
+      - 分享日记_法国_3
+      - 分享日记_美国_12
+      - 分享日记_美国_13
+      - 分享日记_美国_14
+      - 分享日记_美国_15
+      - 分享日记_美国_16
+      - 分享日记_新加坡_2
+      - 分享日记_法国_4
+      - 分享日记_美国_17
       - 分享日记_英国_4
+      - 分享日记_美国_18
       - 分享日记_韩国_98
-      - 分享日记_美国_30
+      - 分享日记_中国_8
+      - 分享日记_俄罗斯_4
+      - 分享日记_英国_5
+      - 分享日记_法国_5
       - 分享日记_韩国_99
       - 分享日记_韩国_100
-      - 分享日记_美国_31
-      - 分享日记_新加坡_6
-      - 分享日记_美国_32
+      - 分享日记_美国_19
+      - 分享日记_韩国_101
+      - 分享日记_韩国_102
+      - 分享日记_日本_6
+      - 分享日记_新加坡_3
+      - 分享日记_韩国_103
+      - 分享日记_美国_20
+      - 分享日记_韩国_104
+      - 分享日记_英国_6
+      - 分享日记_韩国_105
+      - 分享日记_日本_7
+      - 分享日记_新加坡_4
+      - 分享日记_澳大利亚
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 分享日记_中国_1
       - 分享日记_美国_1
+      - 分享日记_中国_2
       - 分享日记_日本_1
-      - 分享日记_瑞典_1
-      - 分享日记_韩国_1
       - 分享日记_日本_2
-      - 分享日记_日本_3
       - 分享日记_美国_2
-      - 分享日记_美国_3
       - 分享日记_新加坡_1
       - 分享日记_英国_1
-      - 分享日记_日本_4
-      - 分享日记_美国_4
-      - 分享日记_新加坡_2
-      - 分享日记_日本_5
-      - 分享日记_日本_6
-      - 分享日记_中国_1
-      - 分享日记_日本_7
-      - 分享日记_美国_5
-      - 分享日记_美国_6
+      - 分享日记_日本_3
+      - 分享日记_美国_3
+      - 分享日记_中国_3
+      - 分享日记_韩国_1
       - 分享日记_韩国_2
-      - 分享日记_美国_7
-      - 分享日记_瑞典_2
-      - 分享日记_瑞士_1
-      - 分享日记_瑞典_3
-      - 分享日记_澳大利亚_1
       - 分享日记_韩国_3
-      - 分享日记_中国_2
       - 分享日记_韩国_4
-      - 分享日记_美国_8
       - 分享日记_韩国_5
       - 分享日记_韩国_6
       - 分享日记_韩国_7
-      - 分享日记_日本_8
       - 分享日记_韩国_8
       - 分享日记_韩国_9
       - 分享日记_韩国_10
       - 分享日记_韩国_11
       - 分享日记_韩国_12
-      - 分享日记_新加坡_3
       - 分享日记_韩国_13
-      - 分享日记_美国_9
-      - 分享日记_美国_10
       - 分享日记_韩国_14
       - 分享日记_韩国_15
+      - 分享日记_爱尔兰
       - 分享日记_韩国_16
-      - 分享日记_美国_11
       - 分享日记_荷兰
-      - 分享日记_新加坡_4
-      - 分享日记_中国_3
-      - 分享日记_日本_9
-      - 分享日记_美国_12
+      - 分享日记_俄罗斯_1
       - 分享日记_韩国_17
       - 分享日记_韩国_18
-      - 分享日记_澳大利亚_2
-      - 分享日记_美国_13
-      - 分享日记_伊朗_1
+      - 分享日记_法国_1
+      - 分享日记_美国_4
+      - 分享日记_中国_4
       - 分享日记_韩国_19
       - 分享日记_韩国_20
       - 分享日记_韩国_21
-      - 分享日记_美国_14
-      - 分享日记_美国_15
+      - 分享日记_美国_5
       - 分享日记_韩国_22
       - 分享日记_韩国_23
       - 分享日记_韩国_24
-      - 分享日记_俄罗斯_1
-      - 分享日记_立陶宛
-      - 分享日记_美国_16
       - 分享日记_韩国_25
-      - 分享日记_法国_1
-      - 分享日记_法国_2
       - 分享日记_韩国_26
       - 分享日记_韩国_27
       - 分享日记_韩国_28
       - 分享日记_韩国_29
       - 分享日记_韩国_30
-      - 分享日记_英国_2
+      - 分享日记_美国_6
       - 分享日记_韩国_31
       - 分享日记_韩国_32
+      - 分享日记_伊朗_1
       - 分享日记_韩国_33
       - 分享日记_韩国_34
       - 分享日记_韩国_35
-      - 分享日记_未知
       - 分享日记_韩国_36
       - 分享日记_韩国_37
       - 分享日记_韩国_38
@@ -3626,7 +3258,6 @@ proxy-groups:
       - 分享日记_韩国_40
       - 分享日记_韩国_41
       - 分享日记_韩国_42
-      - 分享日记_美国_17
       - 分享日记_韩国_43
       - 分享日记_韩国_44
       - 分享日记_韩国_45
@@ -3639,7 +3270,6 @@ proxy-groups:
       - 分享日记_韩国_52
       - 分享日记_韩国_53
       - 分享日记_韩国_54
-      - 分享日记_美国_18
       - 分享日记_韩国_55
       - 分享日记_韩国_56
       - 分享日记_韩国_57
@@ -3650,8 +3280,8 @@ proxy-groups:
       - 分享日记_韩国_62
       - 分享日记_韩国_63
       - 分享日记_韩国_64
+      - 分享日记_中国_5
       - 分享日记_韩国_65
-      - 分享日记_美国_19
       - 分享日记_韩国_66
       - 分享日记_韩国_67
       - 分享日记_韩国_68
@@ -3666,62 +3296,72 @@ proxy-groups:
       - 分享日记_韩国_77
       - 分享日记_韩国_78
       - 分享日记_韩国_79
-      - 分享日记_中国_4
       - 分享日记_韩国_80
+      - 分享日记_中国_6
       - 分享日记_韩国_81
       - 分享日记_韩国_82
-      - 分享日记_日本_10
+      - 分享日记_美国_7
       - 分享日记_韩国_83
+      - 分享日记_未知
       - 分享日记_韩国_84
       - 分享日记_韩国_85
       - 分享日记_韩国_86
+      - 分享日记_法国_2
       - 分享日记_韩国_87
-      - 分享日记_美国_20
-      - 分享日记_中国_5
-      - 分享日记_中国_6
       - 分享日记_韩国_88
-      - 分享日记_韩国_89
-      - 分享日记_伊朗_2
-      - 分享日记_日本_11
-      - 分享日记_法国_3
-      - 分享日记_韩国_90
+      - 分享日记_美国_8
+      - 分享日记_日本_4
       - 分享日记_俄罗斯_2
+      - 分享日记_美国_9
+      - 分享日记_日本_5
+      - 分享日记_韩国_89
+      - 分享日记_韩国_90
       - 分享日记_韩国_91
       - 分享日记_韩国_92
-      - 分享日记_美国_21
-      - 分享日记_美国_22
-      - 分享日记_日本_12
-      - 分享日记_法国_4
-      - 分享日记_美国_23
-      - 分享日记_英国_3
-      - 分享日记_美国_24
-      - 分享日记_日本_13
       - 分享日记_韩国_93
-      - 分享日记_美国_25
-      - 分享日记_瑞士_2
-      - 分享日记_美国_26
-      - 分享日记_美国_27
+      - 分享日记_美国_10
       - 分享日记_韩国_94
-      - 分享日记_美国_28
-      - 分享日记_新加坡_5
-      - 分享日记_中国_7
-      - 分享日记_美国_29
-      - 分享日记_日本_14
-      - 分享日记_澳大利亚_3
       - 分享日记_韩国_95
-      - 分享日记_俄罗斯_3
+      - 分享日记_美国_11
+      - 分享日记_中国_7
       - 分享日记_韩国_96
-      - 分享日记_瑞典_4
+      - 分享日记_瑞士
       - 分享日记_韩国_97
-      - 分享日记_伊朗_3
+      - 分享日记_英国_2
+      - 分享日记_伊朗_2
+      - 分享日记_英国_3
+      - 分享日记_俄罗斯_3
+      - 分享日记_法国_3
+      - 分享日记_美国_12
+      - 分享日记_美国_13
+      - 分享日记_美国_14
+      - 分享日记_美国_15
+      - 分享日记_美国_16
+      - 分享日记_新加坡_2
+      - 分享日记_法国_4
+      - 分享日记_美国_17
       - 分享日记_英国_4
+      - 分享日记_美国_18
       - 分享日记_韩国_98
-      - 分享日记_美国_30
+      - 分享日记_中国_8
+      - 分享日记_俄罗斯_4
+      - 分享日记_英国_5
+      - 分享日记_法国_5
       - 分享日记_韩国_99
       - 分享日记_韩国_100
-      - 分享日记_美国_31
-      - 分享日记_新加坡_6
-      - 分享日记_美国_32
+      - 分享日记_美国_19
+      - 分享日记_韩国_101
+      - 分享日记_韩国_102
+      - 分享日记_日本_6
+      - 分享日记_新加坡_3
+      - 分享日记_韩国_103
+      - 分享日记_美国_20
+      - 分享日记_韩国_104
+      - 分享日记_英国_6
+      - 分享日记_韩国_105
+      - 分享日记_日本_7
+      - 分享日记_新加坡_4
+      - 分享日记_澳大利亚
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -3744,88 +3384,61 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 分享日记_中国_1
       - 分享日记_美国_1
+      - 分享日记_中国_2
       - 分享日记_日本_1
-      - 分享日记_瑞典_1
-      - 分享日记_韩国_1
       - 分享日记_日本_2
-      - 分享日记_日本_3
       - 分享日记_美国_2
-      - 分享日记_美国_3
       - 分享日记_新加坡_1
       - 分享日记_英国_1
-      - 分享日记_日本_4
-      - 分享日记_美国_4
-      - 分享日记_新加坡_2
-      - 分享日记_日本_5
-      - 分享日记_日本_6
-      - 分享日记_中国_1
-      - 分享日记_日本_7
-      - 分享日记_美国_5
-      - 分享日记_美国_6
+      - 分享日记_日本_3
+      - 分享日记_美国_3
+      - 分享日记_中国_3
+      - 分享日记_韩国_1
       - 分享日记_韩国_2
-      - 分享日记_美国_7
-      - 分享日记_瑞典_2
-      - 分享日记_瑞士_1
-      - 分享日记_瑞典_3
-      - 分享日记_澳大利亚_1
       - 分享日记_韩国_3
-      - 分享日记_中国_2
       - 分享日记_韩国_4
-      - 分享日记_美国_8
       - 分享日记_韩国_5
       - 分享日记_韩国_6
       - 分享日记_韩国_7
-      - 分享日记_日本_8
       - 分享日记_韩国_8
       - 分享日记_韩国_9
       - 分享日记_韩国_10
       - 分享日记_韩国_11
       - 分享日记_韩国_12
-      - 分享日记_新加坡_3
       - 分享日记_韩国_13
-      - 分享日记_美国_9
-      - 分享日记_美国_10
       - 分享日记_韩国_14
       - 分享日记_韩国_15
+      - 分享日记_爱尔兰
       - 分享日记_韩国_16
-      - 分享日记_美国_11
       - 分享日记_荷兰
-      - 分享日记_新加坡_4
-      - 分享日记_中国_3
-      - 分享日记_日本_9
-      - 分享日记_美国_12
+      - 分享日记_俄罗斯_1
       - 分享日记_韩国_17
       - 分享日记_韩国_18
-      - 分享日记_澳大利亚_2
-      - 分享日记_美国_13
-      - 分享日记_伊朗_1
+      - 分享日记_法国_1
+      - 分享日记_美国_4
+      - 分享日记_中国_4
       - 分享日记_韩国_19
       - 分享日记_韩国_20
       - 分享日记_韩国_21
-      - 分享日记_美国_14
-      - 分享日记_美国_15
+      - 分享日记_美国_5
       - 分享日记_韩国_22
       - 分享日记_韩国_23
       - 分享日记_韩国_24
-      - 分享日记_俄罗斯_1
-      - 分享日记_立陶宛
-      - 分享日记_美国_16
       - 分享日记_韩国_25
-      - 分享日记_法国_1
-      - 分享日记_法国_2
       - 分享日记_韩国_26
       - 分享日记_韩国_27
       - 分享日记_韩国_28
       - 分享日记_韩国_29
       - 分享日记_韩国_30
-      - 分享日记_英国_2
+      - 分享日记_美国_6
       - 分享日记_韩国_31
       - 分享日记_韩国_32
+      - 分享日记_伊朗_1
       - 分享日记_韩国_33
       - 分享日记_韩国_34
       - 分享日记_韩国_35
-      - 分享日记_未知
       - 分享日记_韩国_36
       - 分享日记_韩国_37
       - 分享日记_韩国_38
@@ -3833,7 +3446,6 @@ proxy-groups:
       - 分享日记_韩国_40
       - 分享日记_韩国_41
       - 分享日记_韩国_42
-      - 分享日记_美国_17
       - 分享日记_韩国_43
       - 分享日记_韩国_44
       - 分享日记_韩国_45
@@ -3846,7 +3458,6 @@ proxy-groups:
       - 分享日记_韩国_52
       - 分享日记_韩国_53
       - 分享日记_韩国_54
-      - 分享日记_美国_18
       - 分享日记_韩国_55
       - 分享日记_韩国_56
       - 分享日记_韩国_57
@@ -3857,8 +3468,8 @@ proxy-groups:
       - 分享日记_韩国_62
       - 分享日记_韩国_63
       - 分享日记_韩国_64
+      - 分享日记_中国_5
       - 分享日记_韩国_65
-      - 分享日记_美国_19
       - 分享日记_韩国_66
       - 分享日记_韩国_67
       - 分享日记_韩国_68
@@ -3873,62 +3484,72 @@ proxy-groups:
       - 分享日记_韩国_77
       - 分享日记_韩国_78
       - 分享日记_韩国_79
-      - 分享日记_中国_4
       - 分享日记_韩国_80
+      - 分享日记_中国_6
       - 分享日记_韩国_81
       - 分享日记_韩国_82
-      - 分享日记_日本_10
+      - 分享日记_美国_7
       - 分享日记_韩国_83
+      - 分享日记_未知
       - 分享日记_韩国_84
       - 分享日记_韩国_85
       - 分享日记_韩国_86
+      - 分享日记_法国_2
       - 分享日记_韩国_87
-      - 分享日记_美国_20
-      - 分享日记_中国_5
-      - 分享日记_中国_6
       - 分享日记_韩国_88
-      - 分享日记_韩国_89
-      - 分享日记_伊朗_2
-      - 分享日记_日本_11
-      - 分享日记_法国_3
-      - 分享日记_韩国_90
+      - 分享日记_美国_8
+      - 分享日记_日本_4
       - 分享日记_俄罗斯_2
+      - 分享日记_美国_9
+      - 分享日记_日本_5
+      - 分享日记_韩国_89
+      - 分享日记_韩国_90
       - 分享日记_韩国_91
       - 分享日记_韩国_92
-      - 分享日记_美国_21
-      - 分享日记_美国_22
-      - 分享日记_日本_12
-      - 分享日记_法国_4
-      - 分享日记_美国_23
-      - 分享日记_英国_3
-      - 分享日记_美国_24
-      - 分享日记_日本_13
       - 分享日记_韩国_93
-      - 分享日记_美国_25
-      - 分享日记_瑞士_2
-      - 分享日记_美国_26
-      - 分享日记_美国_27
+      - 分享日记_美国_10
       - 分享日记_韩国_94
-      - 分享日记_美国_28
-      - 分享日记_新加坡_5
-      - 分享日记_中国_7
-      - 分享日记_美国_29
-      - 分享日记_日本_14
-      - 分享日记_澳大利亚_3
       - 分享日记_韩国_95
-      - 分享日记_俄罗斯_3
+      - 分享日记_美国_11
+      - 分享日记_中国_7
       - 分享日记_韩国_96
-      - 分享日记_瑞典_4
+      - 分享日记_瑞士
       - 分享日记_韩国_97
-      - 分享日记_伊朗_3
+      - 分享日记_英国_2
+      - 分享日记_伊朗_2
+      - 分享日记_英国_3
+      - 分享日记_俄罗斯_3
+      - 分享日记_法国_3
+      - 分享日记_美国_12
+      - 分享日记_美国_13
+      - 分享日记_美国_14
+      - 分享日记_美国_15
+      - 分享日记_美国_16
+      - 分享日记_新加坡_2
+      - 分享日记_法国_4
+      - 分享日记_美国_17
       - 分享日记_英国_4
+      - 分享日记_美国_18
       - 分享日记_韩国_98
-      - 分享日记_美国_30
+      - 分享日记_中国_8
+      - 分享日记_俄罗斯_4
+      - 分享日记_英国_5
+      - 分享日记_法国_5
       - 分享日记_韩国_99
       - 分享日记_韩国_100
-      - 分享日记_美国_31
-      - 分享日记_新加坡_6
-      - 分享日记_美国_32
+      - 分享日记_美国_19
+      - 分享日记_韩国_101
+      - 分享日记_韩国_102
+      - 分享日记_日本_6
+      - 分享日记_新加坡_3
+      - 分享日记_韩国_103
+      - 分享日记_美国_20
+      - 分享日记_韩国_104
+      - 分享日记_英国_6
+      - 分享日记_韩国_105
+      - 分享日记_日本_7
+      - 分享日记_新加坡_4
+      - 分享日记_澳大利亚
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
