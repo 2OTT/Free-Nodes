@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2025-10-24 07:46:28
+# 创建时间：2025-10-25 08:08:46
 # 使用模版：V2RaySE 默认模版
-# 节点数量：117
+# 节点数量：108
 ####################################
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
@@ -86,123 +86,114 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"分享日记_1","type":"vless","server":"47.79.90.37","port":49153,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/telegram🇨🇳@wangcai2/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"name":"分享日记_2","type":"vless","server":"211.59.232.85","port":18077,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/telegram🇨🇳@wangcai2/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"name":"分享日记_3","type":"trojan","server":"36.156.102.82","port":401,"udp":true,"password":"BxceQaOe","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"分享日记_4","type":"vless","server":"27.100.189.152","port":50000,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/telegram@freecodes/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"name":"分享日记_5","type":"vless","server":"160.16.203.210","port":443,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/freecodes/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"name":"分享日记_6","type":"vless","server":"188.42.145.253","port":2096,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/telegram🇨🇳@wangcai2/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"name":"分享日记_7","type":"vless","server":"121.85.55.59","port":19842,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/x@节点狂魔/","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"name":"分享日记_8","type":"vless","server":"153.121.45.101","port":443,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/x@节点狂魔/","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"name":"分享日记_9","type":"vless","server":"122.47.74.139","port":50001,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"x@节点狂魔/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"name":"分享日记_10","type":"vmess","server":"47.245.106.193","port":22286,"cipher":"auto","uuid":"8646218f-a600-4b73-8721-aa5d4567819e","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"分享日记_11","type":"vless","server":"222.113.18.207","port":18001,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/telegram @freecodes /?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"name":"分享日记_12","type":"vmess","server":"47.245.106.193","port":22433,"cipher":"auto","uuid":"bfcb103f-2133-4965-8684-6b4c8ef7a774","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"分享日记_13","type":"vless","server":"a.168381.xyz","port":9443,"uuid":"423c990c-bcd4-4f00-9045-0a09c98f7e0b","tls":false,"servername":"icloud.cdn-apple.com","flow":"xtls-rprx-vision","network":"tcp"}
-  - {"name":"分享日记_14","type":"vless","server":"119.65.139.101","port":60001,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/telegram@freecodes/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"name":"分享日记_15","type":"vless","server":"159.112.235.253","port":2096,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/x @节点狂魔 /?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"name":"分享日记_16","type":"vless","server":"59.1.74.97","port":10911,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"freecodes/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"name":"分享日记_17","type":"vless","server":"b.168381.xyz","port":8443,"uuid":"423c990c-bcd4-4f00-9045-0a09c98f7e0b","tls":false,"servername":"icloud.cdn-apple.com","flow":"xtls-rprx-vision","network":"tcp"}
-  - {"name":"分享日记_18","type":"vless","server":"121.154.2.209","port":50000,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/telegram @freecodes /?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"name":"分享日记_19","type":"vless","server":"183.106.76.116","port":29429,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/telegram@freecodes/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"name":"分享日记_20","type":"vless","server":"222.113.18.214","port":12533,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"telegram@节点狂魔/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"name":"分享日记_21","type":"vless","server":"211.219.241.28","port":31337,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"telegram@freecodes/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"name":"分享日记_22","type":"vless","server":"131.186.18.145","port":443,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/telegram🇨🇳@wangcai2/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"name":"分享日记_23","type":"vless","server":"222.113.18.207","port":16030,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"telegram @freecodes /?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"name":"分享日记_24","type":"ss","server":"uk.vpnsparta.pro","port":57456,"password":"c40641c1f89e7acb","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"分享日记_25","type":"vless","server":"58.143.198.82","port":18097,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"telegram@freecodes/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"name":"分享日记_26","type":"vless","server":"175.215.175.175","port":50003,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/x@节点狂魔/","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"name":"分享日记_27","type":"vless","server":"61.85.1.77","port":12389,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"name":"分享日记_28","type":"vless","server":"61.83.202.17","port":10042,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/x@节点狂魔/","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"name":"分享日记_29","type":"vless","server":"202.84.53.85","port":19999,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/telegram@节点狂魔/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"name":"分享日记_30","type":"vless","server":"222.113.18.207","port":10090,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"name":"分享日记_31","type":"vless","server":"222.113.18.206","port":10004,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"x @节点狂魔 /?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"name":"分享日记_32","type":"vless","server":"222.113.18.214","port":10283,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"name":"分享日记_33","type":"trojan","server":"nop-55q.pages.dev","port":2053,"udp":true,"password":"T@_WvT8Ho@LW%w_,","sni":"NOp-55q.pAgEs.dEv","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"分享日记_34","type":"vless","server":"114.34.202.224","port":10004,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/telegram🇨🇳@wangcai2/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"name":"分享日记_35","type":"vless","server":"61.85.1.77","port":12394,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"name":"分享日记_36","type":"vless","server":"125.128.215.162","port":50000,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"x@节点狂魔/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"name":"分享日记_37","type":"vless","server":"222.113.18.211","port":14443,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/x @节点狂魔 /","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"name":"分享日记_38","type":"vless","server":"61.85.1.77","port":12374,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"telegram@freecodes/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"name":"分享日记_39","type":"vless","server":"203.243.63.166","port":27249,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/freecodes/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"name":"分享日记_40","type":"ss","server":"arxfw2b78fi2q9hzylhn.freesocks.work","port":443,"password":"Nk9asglDzHzjktVzTkvhaA","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"分享日记_41","type":"vless","server":"36.50.90.241","port":47790,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/telegram@节点狂魔/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"name":"分享日记_42","type":"vless","server":"61.85.1.77","port":12106,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"name":"分享日记_43","type":"vless","server":"104.21.238.2","port":2096,"uuid":"7937d663-a3bf-4218-9295-edfa224b72c4","tls":true,"servername":"fei.634676.xyz","network":"ws","ws-opts":{"path":"/?ed=2560","headers":{"host":"fei.634676.xyz"}}}
-  - {"name":"分享日记_44","type":"vless","server":"210.6.207.42","port":18622,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/telegram🇨🇳@wangcai2/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"name":"分享日记_45","type":"vmess","server":"47.242.90.210","port":31212,"cipher":"auto","uuid":"3a4271fb-2718-4489-da78-80a8e7701aa5","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"分享日记_46","type":"vless","server":"118.141.64.192","port":36619,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/telegram @freecodes /?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"name":"分享日记_47","type":"vless","server":"222.113.18.206","port":13128,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"x@freecodes/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"name":"分享日记_48","type":"vless","server":"c.168381.xyz","port":4443,"uuid":"423c990c-bcd4-4f00-9045-0a09c98f7e0b","tls":false,"servername":"icloud.cdn-apple.com","flow":"xtls-rprx-vision","network":"tcp"}
-  - {"name":"分享日记_49","type":"vless","server":"121.165.101.69","port":19413,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"name":"分享日记_50","type":"vless","server":"116.93.199.28","port":12136,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"x@节点狂魔/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"name":"分享日记_51","type":"vmess","server":"bestcdn1.868863.xyz","port":443,"cipher":"auto","uuid":"47257d05-216f-4719-b808-94f9d47112fe","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aejynik","headers":{"host":"v-a2.796812.xyz"}}}
-  - {"name":"分享日记_52","type":"vless","server":"167.179.27.92","port":443,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"telegram🇨🇳@wangcai2/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"name":"分享日记_53","type":"vless","server":"27.117.52.110","port":50001,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"telegram @freecodes /?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"name":"分享日记_54","type":"vless","server":"31.192.238.71","port":8443,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"telegram🇨🇳@wangcai2/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"name":"分享日记_55","type":"vless","server":"118.45.150.77","port":50001,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/x@节点狂魔/","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"name":"分享日记_56","type":"vless","server":"59.25.160.141","port":50008,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/telegram🇨🇳@wangcai2/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"name":"分享日记_57","type":"vless","server":"bestcdn1.868863.xyz","port":443,"uuid":"423c990c-bcd4-4f00-9045-0a09c98f7e0b","tls":true,"servername":"fp-b3.pimi.edu.kg","network":"ws","ws-opts":{"path":"/etuiwer","headers":{"host":"fp-b3.pimi.edu.kg"}}}
-  - {"name":"分享日记_58","type":"vless","server":"223.16.138.113","port":12457,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"节点狂魔/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"name":"分享日记_59","type":"trojan","server":"203.198.122.144","port":443,"udp":true,"password":"ea39fa94f1ee00999337ea1fd3318e69","sni":"www.nintendogames.net","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"分享日记_60","type":"vless","server":"220.90.247.28","port":50001,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"x @节点狂魔 /?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"name":"分享日记_61","type":"trojan","server":"bestcdn1.868863.xyz","port":443,"udp":true,"password":"423c990c-bcd4-4f00-9045-0a09c98f7e0b","sni":"t-a3.pimi.edu.kg","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"分享日记_62","type":"vless","server":"139.64.235.253","port":2096,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"name":"分享日记_63","type":"vless","server":"113.37.149.36","port":12553,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"x @节点狂魔 /?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"name":"分享日记_64","type":"vmess","server":"2001:41d0:70e:c100::","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/linkvws","headers":{"host":"serkat.org"}}}
-  - {"name":"分享日记_65","type":"vless","server":"211.59.232.85","port":12140,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"name":"分享日记_66","type":"vless","server":"147.75.225.105","port":443,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/telegram@freecodes/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"name":"分享日记_67","type":"vless","server":"31.192.238.71","port":2053,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/telegram@freecodes/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"name":"分享日记_68","type":"vless","server":"125.130.15.106","port":27879,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"x@节点狂魔/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"name":"分享日记_69","type":"vless","server":"64.49.14.41","port":8443,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/x@节点狂魔/","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"name":"分享日记_70","type":"vless","server":"218.54.55.117","port":12176,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/telegram@freecodes/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"name":"分享日记_71","type":"vless","server":"5.42.220.253","port":8443,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/telegram🇨🇳@wangcai2/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"name":"分享日记_72","type":"vless","server":"202.85.53.74","port":443,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/x@节点狂魔/","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"name":"分享日记_73","type":"vless","server":"111.118.118.177","port":12566,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"telegram@节点狂魔/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"name":"分享日记_74","type":"vless","server":"111.118.118.177","port":36167,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"telegram🇨🇳@wangcai2/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"name":"分享日记_75","type":"vless","server":"222.113.18.214","port":10049,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/freecodes/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"name":"分享日记_76","type":"vless","server":"123.143.9.5","port":14041,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"name":"分享日记_77","type":"vless","server":"47.76.218.163","port":443,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"telegram@freecodes/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"name":"分享日记_78","type":"vless","server":"27.100.229.147","port":50000,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/x @节点狂魔 /","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"name":"分享日记_79","type":"vless","server":"27.100.229.147","port":50001,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"freecodes/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"name":"分享日记_80","type":"vless","server":"218.151.91.131","port":12151,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/x@节点狂魔/","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"name":"分享日记_81","type":"vless","server":"210.61.97.241","port":81,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/freecodes/","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"name":"分享日记_82","type":"vless","server":"112.156.154.95","port":30067,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"name":"分享日记_83","type":"vless","server":"185.18.222.208","port":2053,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/telegram@节点狂魔/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"name":"分享日记_84","type":"vless","server":"45.130.125.253","port":2096,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/telegram @节点狂魔 /?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"name":"分享日记_85","type":"vless","server":"36.50.90.241","port":35951,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"x@节点狂魔/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"name":"分享日记_86","type":"vless","server":"211.196.80.94","port":50001,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"telegram @节点狂魔 /?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"name":"分享日记_87","type":"vless","server":"218.146.200.8","port":50001,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"telegram🇨🇳@wangcai2/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"name":"分享日记_88","type":"vless","server":"118.91.78.76","port":50001,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/freecodes/","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"name":"分享日记_89","type":"vless","server":"211.48.77.114","port":12312,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"x@节点狂魔/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"name":"分享日记_90","type":"vless","server":"60.249.114.181","port":32003,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"name":"分享日记_91","type":"vless","server":"121.145.201.24","port":50004,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/x @节点狂魔 /?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"name":"分享日记_92","type":"vless","server":"222.113.18.207","port":32773,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/telegram@freecodes/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"name":"分享日记_93","type":"vless","server":"77.110.109.72","port":443,"uuid":"045eb821-bdae-43c5-8945-9cb181e65dcb","tls":false,"servername":"ad.mail.ru","flow":"xtls-rprx-vision","network":"tcp"}
-  - {"name":"分享日记_94","type":"vless","server":"222.113.18.206","port":10913,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/x @节点狂魔 /?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"name":"分享日记_95","type":"vless","server":"211.229.77.184","port":27443,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/telegram @节点狂魔 /?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"name":"分享日记_96","type":"vmess","server":"2001:bc8:32d7:302::10","port":44579,"cipher":"auto","uuid":"8e34e170-13ae-4892-9d20-05962acc9f84","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"分享日记_97","type":"vless","server":"211.197.161.123","port":10041,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/x@freecodes/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"name":"分享日记_98","type":"vless","server":"220.80.75.163","port":10026,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"telegram @节点狂魔 /?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"name":"分享日记_99","type":"vless","server":"175.211.35.161","port":50003,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"name":"分享日记_100","type":"vless","server":"111.118.118.177","port":12319,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"x@节点狂魔/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"name":"分享日记_101","type":"vless","server":"217.60.248.66","port":443,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"x@节点狂魔/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"name":"分享日记_102","type":"vless","server":"160.187.111.222","port":443,"uuid":"3e7f67de-648e-4871-b51a-a225214d41ee","tls":false,"servername":"images-na.ssl-images-amazon.com","network":"tcp"}
-  - {"name":"分享日记_103","type":"vless","server":"69.84.182.18","port":443,"uuid":"82ba36ec-dafe-40eb-b9ad-0f8a98101020","tls":true,"servername":"cdn-node-oss-63.paofu.de","network":"ws","ws-opts":{"path":"/profile/sharenode","headers":{"host":"cdn-node-oss-63.paofu.de"}}}
-  - {"name":"分享日记_104","type":"vless","server":"222.114.57.191","port":50001,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"freecodes/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"name":"分享日记_105","type":"vless","server":"116.93.199.28","port":12020,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/telegram @节点狂魔 /","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"name":"分享日记_106","type":"vless","server":"46.8.226.39","port":2053,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"telegram@freecodes/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"name":"分享日记_107","type":"vless","server":"46.8.226.39","port":8443,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"telegram🇨🇳@wangcai2/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"name":"分享日记_108","type":"vless","server":"121.173.93.124","port":12185,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"telegram@freecodes/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"name":"分享日记_109","type":"vless","server":"112.165.52.204","port":50000,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"x @节点狂魔 /?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"name":"分享日记_110","type":"vless","server":"211.177.114.117","port":50001,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"telegram@freecodes/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"name":"分享日记_111","type":"vless","server":"116.93.199.28","port":30012,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"telegram@freecodes/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"name":"分享日记_112","type":"vless","server":"69.84.182.108","port":443,"uuid":"82ba36ec-dafe-40eb-b9ad-0f8a98101020","tls":true,"servername":"cdn-node-oss-63.paofu.de","network":"ws","ws-opts":{"path":"/profile/sharenode","headers":{"host":"cdn-node-oss-63.paofu.de"}}}
-  - {"name":"分享日记_113","type":"vless","server":"14.36.155.120","port":21286,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/telegram🇨🇳@wangcai2/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"name":"分享日记_114","type":"vless","server":"119.201.195.135","port":10001,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/freecodes/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"name":"分享日记_115","type":"vless","server":"222.96.197.31","port":50001,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/x@节点狂魔/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
-  - {"name":"分享日记_116","type":"ss","server":"switcher-nick-croquet.freesocks.work","port":443,"password":"9tqhMdIrTkgQ46PvhyAtMH","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"分享日记_117","type":"vless","server":"220.118.153.222","port":11443,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"telegram @freecodes /?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
+  - {"name":"分享日记_1","type":"trojan","server":"37.202.200.19","port":15013,"udp":true,"password":"898e1dca-14b2-4371-abc8-1b9f839bff6d","sni":"jp02.weyaf9sdoh2h.space","skip-cert-verify":true}
+  - {"name":"分享日记_2","type":"vless","server":"47.79.90.37","port":49153,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/x@freecodes/","headers":{"host":"gaosir.unfeeling.sbs"}}}
+  - {"name":"分享日记_3","type":"trojan","server":"37.202.200.11","port":12412,"udp":true,"password":"898e1dca-14b2-4371-abc8-1b9f839bff6d","sni":"wjp04.weyaf9sdoh2h.space","skip-cert-verify":true}
+  - {"name":"分享日记_4","type":"vless","server":"202.84.53.85","port":19999,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"x@节点狂魔/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
+  - {"name":"分享日记_5","type":"vless","server":"npmjs.com","port":443,"uuid":"ebab6efe-5627-48f6-8b11-22d0a113c1d3","tls":true,"servername":"xzxcxzs.pages.dev","network":"ws","ws-opts":{"path":"/","headers":{"host":"xzxcxzs.pages.dev"}}}
+  - {"name":"分享日记_6","type":"vless","server":"153.121.45.101","port":443,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/freecodes/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
+  - {"name":"分享日记_7","type":"vless","server":"160.16.203.210","port":443,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/x@节点狂魔/","headers":{"host":"gaosir.unfeeling.sbs"}}}
+  - {"name":"分享日记_8","type":"vless","server":"121.85.55.59","port":19842,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/x @节点狂魔 /","headers":{"host":"gaosir.unfeeling.sbs"}}}
+  - {"name":"分享日记_9","type":"vless","server":"202.85.53.74","port":443,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/x@节点狂魔/","headers":{"host":"gaosir.unfeeling.sbs"}}}
+  - {"name":"分享日记_10","type":"vless","server":"27.100.189.152","port":50000,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"telegram@freecodes/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
+  - {"name":"分享日记_11","type":"vmess","server":"140.238.2.250","port":443,"cipher":"auto","uuid":"41a7089a-040b-4538-8b8d-010902405bde","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"分享日记_12","type":"vless","server":"104.21.238.2","port":2096,"uuid":"7937d663-a3bf-4218-9295-edfa224b72c4","tls":true,"servername":"fei.634676.xyz","network":"ws","ws-opts":{"path":"/?ed=2560","headers":{"host":"fei.634676.xyz"}}}
+  - {"name":"分享日记_13","type":"vless","server":"5.182.85.253","port":2096,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/telegram @节点狂魔 /","headers":{"host":"gaosir.unfeeling.sbs"}}}
+  - {"name":"分享日记_14","type":"trojan","server":"nop-55q.pages.dev","port":2053,"udp":true,"password":"T@_WvT8Ho@LW%w_,","sni":"NOp-55q.pAgEs.dEv","skip-cert-verify":true}
+  - {"name":"分享日记_15","type":"vmess","server":"47.245.106.193","port":22433,"cipher":"auto","uuid":"bfcb103f-2133-4965-8684-6b4c8ef7a774","alterId":0,"tls":false,"skip-cert-verify":true,"network":"http","http-opts":{"path":["/"]}}
+  - {"name":"分享日记_16","type":"vless","server":"139.64.235.253","port":2096,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/","headers":{"host":"gaosir.unfeeling.sbs"}}}
+  - {"name":"分享日记_17","type":"vless","server":"123.143.9.5","port":14041,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"x@节点狂魔/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
+  - {"name":"分享日记_18","type":"vless","server":"express-a.868863.xyz","port":9443,"uuid":"f6eacf4f-1c3b-4423-be54-ff0e66a11bf1","tls":false,"servername":"icloud.cdn-apple.com","flow":"xtls-rprx-vision","network":"tcp"}
+  - {"name":"分享日记_19","type":"vless","server":"222.113.18.207","port":18001,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"freecodes/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
+  - {"name":"分享日记_20","type":"vless","server":"183.106.76.116","port":10001,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/x @节点狂魔 /?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
+  - {"name":"分享日记_21","type":"vless","server":"183.106.76.116","port":10030,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"telegram @节点狂魔 /?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
+  - {"name":"分享日记_22","type":"vless","server":"183.106.76.116","port":34599,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/x@节点狂魔/","headers":{"host":"gaosir.unfeeling.sbs"}}}
+  - {"name":"分享日记_23","type":"vless","server":"77.110.109.72","port":443,"uuid":"045eb821-bdae-43c5-8945-9cb181e65dcb","tls":false,"servername":"ad.mail.ru","flow":"xtls-rprx-vision","network":"tcp"}
+  - {"name":"分享日记_24","type":"vless","server":"222.113.18.214","port":12158,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"telegram@freecodes/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
+  - {"name":"分享日记_25","type":"vmess","server":"163.223.52.61","port":44829,"cipher":"auto","uuid":"05452c63-4e27-4af6-e0e6-92ceff88cba7","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"分享日记_26","type":"vless","server":"183.106.76.116","port":29429,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/telegram@freecodes/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
+  - {"name":"分享日记_27","type":"vless","server":"183.106.76.116","port":20332,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/x@节点狂魔/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
+  - {"name":"分享日记_28","type":"vless","server":"express-b.868863.xyz","port":8443,"uuid":"f6eacf4f-1c3b-4423-be54-ff0e66a11bf1","tls":false,"servername":"icloud.cdn-apple.com","flow":"xtls-rprx-vision","network":"tcp"}
+  - {"name":"分享日记_29","type":"vless","server":"183.106.76.116","port":12112,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/telegram @节点狂魔 /?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
+  - {"name":"分享日记_30","type":"vless","server":"175.211.35.161","port":50003,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/","headers":{"host":"gaosir.unfeeling.sbs"}}}
+  - {"name":"分享日记_31","type":"vless","server":"222.113.18.207","port":10090,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/x @节点狂魔 /","headers":{"host":"gaosir.unfeeling.sbs"}}}
+  - {"name":"分享日记_32","type":"vless","server":"119.65.139.101","port":60001,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/telegram@freecodes/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
+  - {"name":"分享日记_33","type":"vless","server":"121.145.201.24","port":50004,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/x@节点狂魔/","headers":{"host":"gaosir.unfeeling.sbs"}}}
+  - {"name":"分享日记_34","type":"vless","server":"203.243.63.166","port":27249,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/freecodes/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
+  - {"name":"分享日记_35","type":"vless","server":"172.66.44.179","port":443,"uuid":"ebab6efe-5627-48f6-8b11-22d0a113c1d3","tls":true,"servername":"xzxcxzs.pages.dev","network":"ws","ws-opts":{"path":"/","headers":{"host":"xzxcxzs.pages.dev"}}}
+  - {"name":"分享日记_36","type":"vless","server":"81.19.140.131","port":443,"uuid":"677615f7-87d5-5019-a44d-4fc3ff8d59d7","tls":false,"servername":"vk.cc","flow":"xtls-rprx-vision","network":"tcp"}
+  - {"name":"分享日记_37","type":"vless","server":"113.37.149.36","port":12553,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"telegram@freecodes/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
+  - {"name":"分享日记_38","type":"vless","server":"112.156.154.95","port":30067,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"x@节点狂魔/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
+  - {"name":"分享日记_39","type":"vless","server":"bestcdn1.868863.xyz","port":443,"uuid":"423c990c-bcd4-4f00-9045-0a09c98f7e0b","tls":true,"servername":"fp-b3.pimi.edu.kg","network":"ws","ws-opts":{"path":"/etuiwer","headers":{"host":"fp-b3.pimi.edu.kg"}}}
+  - {"name":"分享日记_40","type":"vless","server":"222.113.18.214","port":10049,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/freecodes/","headers":{"host":"gaosir.unfeeling.sbs"}}}
+  - {"name":"分享日记_41","type":"vless","server":"61.85.1.77","port":17001,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/telegram@节点狂魔/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
+  - {"name":"分享日记_42","type":"vless","server":"147.75.225.105","port":443,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/telegram@freecodes/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
+  - {"name":"分享日记_43","type":"vless","server":"121.173.93.124","port":12185,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"x@节点狂魔/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
+  - {"name":"分享日记_44","type":"vless","server":"118.141.64.192","port":36619,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/telegram @freecodes /?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
+  - {"name":"分享日记_45","type":"vless","server":"5.42.220.253","port":8443,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/telegram🇨🇳@wangcai2/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
+  - {"name":"分享日记_46","type":"vless","server":"195.13.45.253","port":2096,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/x@节点狂魔/","headers":{"host":"gaosir.unfeeling.sbs"}}}
+  - {"name":"分享日记_47","type":"vless","server":"223.16.138.113","port":10002,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/x @节点狂魔 /","headers":{"host":"gaosir.unfeeling.sbs"}}}
+  - {"name":"分享日记_48","type":"vless","server":"116.93.199.28","port":12020,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/telegram🇨🇳@wangcai2/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
+  - {"name":"分享日记_49","type":"vless","server":"27.100.229.147","port":50001,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"x@节点狂魔/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
+  - {"name":"分享日记_50","type":"vless","server":"188.42.145.253","port":2096,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/telegram @节点狂魔 /","headers":{"host":"gaosir.unfeeling.sbs"}}}
+  - {"name":"分享日记_51","type":"vless","server":"223.16.138.113","port":12457,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"节点狂魔/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
+  - {"name":"分享日记_52","type":"vless","server":"27.100.229.147","port":50000,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/telegram@freecodes/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
+  - {"name":"分享日记_53","type":"vless","server":"160.187.111.222","port":443,"uuid":"3e7f67de-648e-4871-b51a-a225214d41ee","tls":false,"servername":"images-na.ssl-images-amazon.com","network":"tcp"}
+  - {"name":"分享日记_54","type":"vless","server":"45.130.125.253","port":2096,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/telegram @freecodes /?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
+  - {"name":"分享日记_55","type":"vless","server":"220.90.247.28","port":50001,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"telegram @freecodes /?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
+  - {"name":"分享日记_56","type":"vless","server":"218.151.91.131","port":12151,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"x@节点狂魔/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
+  - {"name":"分享日记_57","type":"vless","server":"210.6.207.42","port":18622,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"telegram🇨🇳@wangcai2/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
+  - {"name":"分享日记_58","type":"vless","server":"222.96.197.31","port":50001,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/x@节点狂魔/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
+  - {"name":"分享日记_59","type":"vless","server":"111.118.118.177","port":12319,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"freecodes/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
+  - {"name":"分享日记_60","type":"vless","server":"64.49.14.41","port":2053,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/","headers":{"host":"gaosir.unfeeling.sbs"}}}
+  - {"name":"分享日记_61","type":"vless","server":"222.113.18.206","port":13128,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"x @节点狂魔 /?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
+  - {"name":"分享日记_62","type":"vless","server":"210.61.97.241","port":81,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/telegram @节点狂魔 /?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
+  - {"name":"分享日记_63","type":"vless","server":"159.112.235.253","port":2096,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/","headers":{"host":"gaosir.unfeeling.sbs"}}}
+  - {"name":"分享日记_64","type":"vless","server":"104.19.50.238","port":2096,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/telegram@节点狂魔/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
+  - {"name":"分享日记_65","type":"vless","server":"114.34.202.224","port":10004,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/x @节点狂魔 /?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
+  - {"name":"分享日记_66","type":"vless","server":"111.118.118.177","port":36167,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"telegram🇨🇳@wangcai2/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
+  - {"name":"分享日记_67","type":"vless","server":"211.48.77.114","port":12312,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/telegram@freecodes/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
+  - {"name":"分享日记_68","type":"vless","server":"64.49.14.41","port":8443,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/x@节点狂魔/","headers":{"host":"gaosir.unfeeling.sbs"}}}
+  - {"name":"分享日记_69","type":"vmess","server":"bestcdn1.868863.xyz","port":80,"cipher":"auto","uuid":"f6eacf4f-1c3b-4423-be54-ff0e66a11bf1","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/htehehehn","headers":{"host":"vn-c5.no.168382.xyz"}}}
+  - {"name":"分享日记_70","type":"vless","server":"175.208.202.41","port":20583,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/x@节点狂魔/","headers":{"host":"gaosir.unfeeling.sbs"}}}
+  - {"name":"分享日记_71","type":"vless","server":"31.192.238.71","port":2053,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/x@节点狂魔/","headers":{"host":"gaosir.unfeeling.sbs"}}}
+  - {"name":"分享日记_72","type":"vless","server":"183.106.76.116","port":10007,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/x@节点狂魔/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
+  - {"name":"分享日记_73","type":"vless","server":"125.130.15.106","port":27879,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"x@节点狂魔/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
+  - {"name":"分享日记_74","type":"vless","server":"59.25.160.141","port":50008,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/telegram@freecodes/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
+  - {"name":"分享日记_75","type":"vless","server":"218.146.200.8","port":50001,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"telegram🇨🇳@wangcai2/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
+  - {"name":"分享日记_76","type":"vless","server":"112.165.52.204","port":50000,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"x @节点狂魔 /?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
+  - {"name":"分享日记_77","type":"vless","server":"175.215.175.175","port":50003,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/freecodes/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
+  - {"name":"分享日记_78","type":"vless","server":"31.192.238.71","port":8443,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"节点狂魔/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
+  - {"name":"分享日记_79","type":"vless","server":"46.8.226.39","port":2053,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/telegram🇨🇳@wangcai2/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
+  - {"name":"分享日记_80","type":"vless","server":"61.83.202.17","port":10042,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"x@节点狂魔/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
+  - {"name":"分享日记_81","type":"vmess","server":"47.242.90.210","port":31212,"cipher":"auto","uuid":"3a4271fb-2718-4489-da78-80a8e7701aa5","alterId":0,"tls":false,"skip-cert-verify":true,"network":"http","http-opts":{"path":["/"]}}
+  - {"name":"分享日记_82","type":"vless","server":"122.47.74.139","port":50001,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"x@节点狂魔/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
+  - {"name":"分享日记_83","type":"vless","server":"222.113.18.207","port":16030,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"telegram @freecodes /?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
+  - {"name":"分享日记_84","type":"vless","server":"121.165.101.69","port":19413,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"telegram🇨🇳@wangcai2/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
+  - {"name":"分享日记_85","type":"trojan","server":"bestcdn1.868863.xyz","port":443,"udp":true,"password":"f6eacf4f-1c3b-4423-be54-ff0e66a11bf1","sni":"t-c5.206356.xyz","skip-cert-verify":true}
+  - {"name":"分享日记_86","type":"vless","server":"222.113.18.214","port":10283,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"telegram @freecodes /?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
+  - {"name":"分享日记_87","type":"vless","server":"116.93.199.28","port":12136,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"x@节点狂魔/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
+  - {"name":"分享日记_88","type":"vless","server":"211.219.241.28","port":31337,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"x@节点狂魔/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
+  - {"name":"分享日记_89","type":"vless","server":"222.113.18.207","port":32773,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/x @节点狂魔 /","headers":{"host":"gaosir.unfeeling.sbs"}}}
+  - {"name":"分享日记_90","type":"vless","server":"222.113.18.214","port":12533,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"telegram @节点狂魔 /?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
+  - {"name":"分享日记_91","type":"vless","server":"express-c.868863.xyz","port":4443,"uuid":"f6eacf4f-1c3b-4423-be54-ff0e66a11bf1","tls":false,"servername":"icloud.cdn-apple.com","flow":"xtls-rprx-vision","network":"tcp"}
+  - {"name":"分享日记_92","type":"vless","server":"218.54.55.117","port":12176,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"x@节点狂魔/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
+  - {"name":"分享日记_93","type":"vless","server":"69.84.182.108","port":443,"uuid":"82ba36ec-dafe-40eb-b9ad-0f8a98101020","tls":true,"servername":"cdn-node-oss-63.paofu.de","network":"ws","ws-opts":{"path":"/profile/sharenode","headers":{"host":"cdn-node-oss-63.paofu.de"}}}
+  - {"name":"分享日记_94","type":"vless","server":"220.80.75.163","port":10026,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"telegram @节点狂魔 /?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
+  - {"name":"分享日记_95","type":"vless","server":"46.8.226.39","port":8443,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"x@节点狂魔/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
+  - {"name":"分享日记_96","type":"vless","server":"222.114.57.191","port":50001,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"telegram @节点狂魔 /?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
+  - {"name":"分享日记_97","type":"vless","server":"222.113.18.206","port":10004,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"x@节点狂魔/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
+  - {"name":"分享日记_98","type":"vless","server":"69.84.182.18","port":443,"uuid":"82ba36ec-dafe-40eb-b9ad-0f8a98101020","tls":true,"servername":"cdn-node-oss-63.paofu.de","network":"ws","ws-opts":{"path":"/profile/sharenode","headers":{"host":"cdn-node-oss-63.paofu.de"}}}
+  - {"name":"分享日记_99","type":"vmess","server":"2001:bc8:32d7:302::10","port":44579,"cipher":"auto","uuid":"8e34e170-13ae-4892-9d20-05962acc9f84","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"分享日记_100","type":"vless","server":"36.50.90.241","port":47790,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/telegram@freecodes/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
+  - {"name":"分享日记_101","type":"vless","server":"211.177.114.117","port":50001,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"telegram@freecodes/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
+  - {"name":"分享日记_102","type":"vless","server":"211.197.161.123","port":10041,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/x@freecodes/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
+  - {"name":"分享日记_103","type":"vless","server":"14.36.155.120","port":21286,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/telegram @freecodes /?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
+  - {"name":"分享日记_104","type":"vless","server":"111.118.118.177","port":12566,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/freecodes/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
+  - {"name":"分享日记_105","type":"vless","server":"222.113.18.211","port":14443,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"x@节点狂魔/?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
+  - {"name":"分享日记_106","type":"vless","server":"185.18.222.208","port":2053,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/telegram @freecodes /?ed=2560","headers":{"host":"gaosir.unfeeling.sbs"}}}
+  - {"name":"分享日记_107","type":"vless","server":"36.50.90.241","port":35951,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/freecodes/","headers":{"host":"gaosir.unfeeling.sbs"}}}
+  - {"name":"分享日记_108","type":"vless","server":"222.113.18.206","port":10913,"uuid":"f61a4285-7264-4d07-9408-7b9ba1922c26","tls":true,"servername":"gaosir.unfeeling.sbs","network":"ws","ws-opts":{"path":"/x @节点狂魔 /","headers":{"host":"gaosir.unfeeling.sbs"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -317,15 +308,6 @@ proxy-groups:
       - 分享日记_106
       - 分享日记_107
       - 分享日记_108
-      - 分享日记_109
-      - 分享日记_110
-      - 分享日记_111
-      - 分享日记_112
-      - 分享日记_113
-      - 分享日记_114
-      - 分享日记_115
-      - 分享日记_116
-      - 分享日记_117
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -440,15 +422,6 @@ proxy-groups:
       - 分享日记_106
       - 分享日记_107
       - 分享日记_108
-      - 分享日记_109
-      - 分享日记_110
-      - 分享日记_111
-      - 分享日记_112
-      - 分享日记_113
-      - 分享日记_114
-      - 分享日记_115
-      - 分享日记_116
-      - 分享日记_117
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -563,15 +536,6 @@ proxy-groups:
       - 分享日记_106
       - 分享日记_107
       - 分享日记_108
-      - 分享日记_109
-      - 分享日记_110
-      - 分享日记_111
-      - 分享日记_112
-      - 分享日记_113
-      - 分享日记_114
-      - 分享日记_115
-      - 分享日记_116
-      - 分享日记_117
   - name: 📲 电报信息
     type: select
     proxies:
@@ -685,15 +649,6 @@ proxy-groups:
       - 分享日记_106
       - 分享日记_107
       - 分享日记_108
-      - 分享日记_109
-      - 分享日记_110
-      - 分享日记_111
-      - 分享日记_112
-      - 分享日记_113
-      - 分享日记_114
-      - 分享日记_115
-      - 分享日记_116
-      - 分享日记_117
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -807,15 +762,6 @@ proxy-groups:
       - 分享日记_106
       - 分享日记_107
       - 分享日记_108
-      - 分享日记_109
-      - 分享日记_110
-      - 分享日记_111
-      - 分享日记_112
-      - 分享日记_113
-      - 分享日记_114
-      - 分享日记_115
-      - 分享日记_116
-      - 分享日记_117
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -929,15 +875,6 @@ proxy-groups:
       - 分享日记_106
       - 分享日记_107
       - 分享日记_108
-      - 分享日记_109
-      - 分享日记_110
-      - 分享日记_111
-      - 分享日记_112
-      - 分享日记_113
-      - 分享日记_114
-      - 分享日记_115
-      - 分享日记_116
-      - 分享日记_117
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1068,15 +1005,6 @@ proxy-groups:
       - 分享日记_106
       - 分享日记_107
       - 分享日记_108
-      - 分享日记_109
-      - 分享日记_110
-      - 分享日记_111
-      - 分享日记_112
-      - 分享日记_113
-      - 分享日记_114
-      - 分享日记_115
-      - 分享日记_116
-      - 分享日记_117
 
 rules:
 # 本地/局域网地址
