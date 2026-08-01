@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2026-07-29 07:10:33
+# 创建时间：2026-08-01 06:50:37
 # 使用模版：V2RaySE 默认模版
-# 节点数量：168
+# 节点数量：137
 ####################################
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
@@ -86,174 +86,143 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"分享日记_1","type":"vmess","server":"140.238.2.250","port":443,"cipher":"auto","uuid":"41a7089a-040b-4538-8b8d-010902405bde","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"分享日记_2","type":"vmess","server":"165.140.216.142","port":443,"cipher":"auto","uuid":"b65a2d69-5634-42a2-e4be-54e8a6176900","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"分享日记_3","type":"vmess","server":"47.253.229.174","port":50219,"cipher":"auto","uuid":"2a13e0a4-04a5-4be5-90c9-a18b6da4664e","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"分享日记_4","type":"vmess","server":"8.210.108.58","port":443,"cipher":"auto","uuid":"f23bb427c1f94373876c2f43e9f790f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ws-vmess","headers":{"host":"U2FRxj0G13vDI0Wo.v.3dns.vip"}}}
-  - {"name":"分享日记_5","type":"vmess","server":"cindy50.ceoiii.com","port":36801,"cipher":"auto","uuid":"a6ab6513-6ec3-327f-a068-b89fe72954b8","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"ajax.microsoft.com"}}}
-  - {"name":"分享日记_6","type":"vmess","server":"47.83.198.38","port":443,"cipher":"auto","uuid":"f23bb427c1f94373876c2f43e9f790f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ws-vmess","headers":{"host":"wwafj5LHl6bI8aU9.v.3dns.vip"}}}
-  - {"name":"分享日记_7","type":"vmess","server":"104.21.57.84","port":8443,"cipher":"auto","uuid":"60441548-b68e-43b2-8191-e3b884be4b3c","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/lMnsZUN4/","headers":{"host":"v2ray1.dozapp.xyz"}}}
-  - {"name":"分享日记_8","type":"vmess","server":"8.210.189.158","port":443,"cipher":"auto","uuid":"f23bb427c1f94373876c2f43e9f790f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ws-vmess","headers":{"host":"2b9hwY8oCx7Q74NM.v.3dns.vip"}}}
-  - {"name":"分享日记_9","type":"vless","server":"digi14.ez0535.com","port":2083,"uuid":"7e733218-d0ff-4466-8159-fac7ef8aba30","tls":false,"servername":"nobitex.ir","network":"tcp"}
-  - {"name":"分享日记_10","type":"vless","server":"170.114.45.6","port":443,"uuid":"4d10c997-4781-4cd9-82c3-15453523e12c","tls":true,"servername":"support.zoom.us.yxls.eu.cc","network":"ws","ws-opts":{"path":"/sg-melbi"}}
-  - {"name":"分享日记_11","type":"vless","server":"162.159.45.24","port":8443,"uuid":"29ca503d-e6b8-4509-b666-48133f450857","tls":true,"servername":"learn00.evany.de5.net","network":"ws","ws-opts":{"path":"/"},"client-fingerprint":"random"}
-  - {"name":"分享日记_12","type":"vless","server":"103.112.69.234","port":443,"udp":true,"uuid":"69a2af58-d74a-44ca-864a-e09b493f4274","tls":true,"servername":"api-maps.yandex.ru","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"egwErhlyJ9EW_XDHj4WlPZux80d6Qc6E4vZHYf4QMC8","short-id":"1f1fe6"},"client-fingerprint":"chrome"}
-  - {"name":"分享日记_13","type":"vless","server":"5.181.2.3","port":443,"uuid":"7db834ec-1847-4f0c-9e24-d7f12fd43187","tls":true,"servername":"k1.allservers.org","network":"ws","ws-opts":{"path":"/11790/staticvpn"},"client-fingerprint":"random"}
-  - {"name":"分享日记_14","type":"vless","server":"37.49.230.97","port":443,"udp":true,"uuid":"7dd36ce4-97ad-41cf-a349-53bcccd8f17d","tls":true,"servername":"s3.tehno.store","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"Cbu6fkQiURQES7hfw916CFcfZYvRXMMgVmxnpK6CgSQ"},"client-fingerprint":"chrome"}
-  - {"name":"分享日记_15","type":"vless","server":"162.159.44.113","port":8443,"uuid":"29ca503d-e6b8-4509-b666-48133f450857","tls":true,"servername":"learn00.evany.de5.net","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"分享日记_16","type":"vless","server":"104.16.60.8","port":8443,"uuid":"7e1e384d-8b39-4d1f-afa3-5ac487e6d99c","tls":false,"network":"grpc"}
-  - {"name":"分享日记_17","type":"vless","server":"172.67.141.140","port":443,"uuid":"7e948e09-fa6f-4b8e-8c5d-181fa15fbec5","tls":true,"servername":"8izcpzflhzz4bvc0fw15f5o126r-wgpg.hekop71365.workers.dev","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"分享日记_18","type":"vless","server":"45.131.6.243","port":80,"uuid":"7f037831-591d-4067-9c8c-39f07d12858a","tls":false,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"分享日记_19","type":"vless","server":"173.245.59.100","port":2082,"uuid":"7e8bd14f-56ac-4b3f-bc5e-17ea58e1e2da","tls":false,"servername":"alman.asraschool.ir","network":"httpupgrade"}
-  - {"name":"分享日记_20","type":"vless","server":"104.16.2.189","port":443,"uuid":"29ca503d-e6b8-4509-b666-48133f450857","tls":true,"servername":"learn00.evany.de5.net","network":"ws","ws-opts":{"path":"/"},"client-fingerprint":"random"}
-  - {"name":"分享日记_21","type":"vless","server":"cu.877774.xyz","port":443,"uuid":"29ca503d-e6b8-4509-b666-48133f450857","tls":true,"servername":"learn00.evany.de5.net","network":"ws","ws-opts":{"path":"/"},"client-fingerprint":"random"}
-  - {"name":"分享日记_22","type":"vless","server":"104.21.54.198","port":8880,"uuid":"7e948e09-fa6f-4b8e-8c5d-181fa15fbec5","tls":false,"servername":"v2ngsupply2.ip-ddns.com","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"分享日记_23","type":"vless","server":"104.16.6.189","port":443,"uuid":"29ca503d-e6b8-4509-b666-48133f450857","tls":true,"servername":"learn00.evany.de5.net","network":"ws","ws-opts":{"path":"/"},"client-fingerprint":"random"}
-  - {"name":"分享日记_24","type":"vless","server":"ip.hamrahto.com","port":443,"uuid":"160909d1-9d69-4bc2-b15a-33ff13c9b150","tls":true,"servername":"craftedrpg.ir","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"分享日记_25","type":"vless","server":"43.255.156.59","port":40118,"udp":true,"uuid":"57beeeb0-03fc-4fc9-94da-7604488a7134","tls":true,"servername":"www.lamer.com.sg","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"x1nqrSzJzU5Hq7fr36PEmtBfOf98A2XiFuRzIsdcz20","short-id":"5895914d"},"client-fingerprint":"chrome"}
-  - {"name":"分享日记_26","type":"vless","server":"104.16.5.189","port":443,"uuid":"29ca503d-e6b8-4509-b666-48133f450857","tls":true,"servername":"learn00.evany.de5.net","network":"ws","ws-opts":{"path":"/"},"client-fingerprint":"random"}
-  - {"name":"分享日记_27","type":"vless","server":"104.18.1.1","port":443,"uuid":"7968c546-02dc-4f8c-b791-934591a94cb2","tls":true,"servername":"hhvl.hhapp.kdns.fr","network":"ws","ws-opts":{"path":"/cbasur"},"client-fingerprint":"ios"}
-  - {"name":"分享日记_28","type":"vless","server":"185.176.26.1","port":8443,"uuid":"7e29f2e2-e0ec-47c5-94ec-38ef90f7a106","tls":true,"servername":"guq22.oXNETwORKs.lInk","network":"ws","ws-opts":{"path":"/"},"client-fingerprint":"safari"}
-  - {"name":"分享日记_29","type":"vless","server":"140.248.149.43","port":80,"uuid":"7e33cdde-257f-43cf-b02f-5970fabf8a61","tls":false,"servername":"JoinBede--Eliv2-Ray.iR","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"分享日记_30","type":"vless","server":"104.19.221.116","port":8080,"uuid":"7e8fe954-112e-5f71-b414-c53d8cf1ecc9","tls":false,"servername":"Ch2.vless.site.","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"分享日记_31","type":"vless","server":"104.16.61.8","port":8443,"uuid":"7e1e384d-8b39-4d1f-afa3-5ac487e6d99c","tls":false,"network":"grpc"}
-  - {"name":"分享日记_32","type":"vless","server":"23.227.60.130","port":2087,"uuid":"7e39754c-9924-498c-a4cf-5f13badf16a7","tls":true,"servername":"lan.moienmusic.space","network":"grpc"}
-  - {"name":"分享日记_33","type":"vless","server":"104.19.34.120","port":2087,"uuid":"7e29f2e2-e0ec-47c5-94ec-38ef90f7a106","tls":true,"servername":"guq22.oxNEtwoRkS.LiNk","network":"ws","ws-opts":{"path":"/"},"client-fingerprint":"chrome"}
-  - {"name":"分享日记_34","type":"vless","server":"172.67.204.39","port":443,"uuid":"7f3b2f37-819e-49ee-9f5c-215467bfde61","tls":true,"servername":"turkmenistan.armanibash.Shop.","network":"ws","ws-opts":{"path":"/"},"client-fingerprint":"chrome"}
-  - {"name":"分享日记_35","type":"vless","server":"185.146.173.39","port":2052,"uuid":"7e794f8d-3438-4277-a77a-ffdfd1374ca4","tls":false,"servername":"Fn.lemoex.ir.","network":"ws","ws-opts":{"path":"/wsmmad"}}
-  - {"name":"分享日记_36","type":"vless","server":"31.76.122.42","port":2053,"udp":true,"uuid":"10eabb0e-25cc-4210-82c9-f05d964572d8","tls":true,"servername":"play.overcloud.cloud","flow":"xtls-rprx-vision","network":"grpc","reality-opts":{"public-key":"ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk","short-id":"5c766813929a1fdd"},"client-fingerprint":"chrome"}
-  - {"name":"分享日记_37","type":"vless","server":"69.46.46.1","port":443,"uuid":"085350bf-3af2-a06b-3006-9d7ea314475e","tls":true,"servername":"rvg-production-2066.up.railway.app","network":"ws","ws-opts":{"path":"/ws/085350bf-3af2-a06b-3006-9d7ea314475e"},"client-fingerprint":"chrome"}
-  - {"name":"分享日记_38","type":"vless","server":"170.114.46.6","port":8080,"uuid":"2d056ea3-52bf-472e-c9cb-abe48d6f0048","tls":false,"servername":"tmvh.co.mvip5.mvpn5g.com","network":"ws","ws-opts":{"path":"/movpn"}}
-  - {"name":"分享日记_39","type":"vless","server":"104.24.0.11","port":2083,"uuid":"7e29f2e2-e0ec-47c5-94ec-38ef90f7a106","tls":true,"servername":"guq22.oXNETWoRks.liNK","network":"ws","ws-opts":{"path":"vless-ws/?ed"}}
-  - {"name":"分享日记_40","type":"vless","server":"144.31.4.127","port":443,"uuid":"7e0a9f75-b424-493b-b7e6-cebd7ea8642d","tls":true,"servername":"plcdn14.melodramaonline.net","network":"tcp"}
-  - {"name":"分享日记_41","type":"vless","server":"66.33.22.1","port":443,"uuid":"fe7140d4-c9f8-5008-89c7-b8b72470ef2e","tls":true,"servername":"paktloss-production-c414.up.railway.app","network":"ws","ws-opts":{"path":"/ws/fe7140d4-c9f8-5008-89c7-b8b72470ef2e"},"client-fingerprint":"chrome"}
-  - {"name":"分享日记_42","type":"vless","server":"api.dark-coffe.com","port":8443,"uuid":"7e58699f-1d5d-4f6b-b181-cb74f0ad9509","tls":true,"servername":"OeSm02O7eJ.sMaRtTeChZaAl.InFo","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"分享日记_43","type":"vless","server":"2.26.160.121","port":55256,"udp":true,"uuid":"334a7b29-8289-4d92-978b-73597062c9cb","tls":true,"servername":"www.amd.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"fskGEVlsRytBg5WBgJtJb7NWR1LUzf9sFIz5-m1u9DY","short-id":"c689fb969b"},"client-fingerprint":"chrome"}
-  - {"name":"分享日记_44","type":"vless","server":"31.59.120.124","port":2053,"uuid":"c7e9c591-2764-423a-afca-efbd010fd396","tls":true,"servername":"forfreeuse.sub-flow.online","network":"ws","ws-opts":{"path":"/"},"client-fingerprint":"chrome"}
-  - {"name":"分享日记_45","type":"vless","server":"188.241.241.32","port":2053,"uuid":"c7e9c591-2764-423a-afca-efbd010fd396","tls":true,"servername":"forfreeuse.sub-flow.online","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"分享日记_46","type":"vless","server":"wasmer-earth.jzy88.top","port":443,"uuid":"60156344-dbc3-4614-8177-fd337539a473","tls":true,"servername":"wasmer-earth.jzy88.top","network":"ws","ws-opts":{"path":"/60156344"},"client-fingerprint":"chrome"}
-  - {"name":"分享日记_47","type":"vless","server":"13.75.34.176","port":443,"uuid":"6f995056-7802-4a1d-bff7-61678e626c3f","tls":true,"servername":"hkklo.azurewebsites.net","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"分享日记_48","type":"vless","server":"72.56.38.194","port":9892,"udp":true,"uuid":"884d811f-577b-421e-aabb-608660b0ecfa","tls":true,"servername":"dl.google.com","flow":"xtls-rprx-vision","network":"grpc","reality-opts":{"public-key":"bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU"},"client-fingerprint":"chrome"}
-  - {"name":"分享日记_49","type":"vless","server":"35.181.156.38","port":22222,"uuid":"e4514801-0d5a-42ba-869f-39bd605aef9e","tls":false,"network":"tcp"}
-  - {"name":"分享日记_50","type":"vless","server":"172.64.145.250","port":443,"uuid":"8a30cf48-9fa2-46c5-8815-2822b12852e0","tls":true,"servername":"xqkxw.ccwu.cc","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"分享日记_51","type":"vless","server":"out.metalinken.shop","port":1080,"udp":true,"uuid":"677ecfdc-3e25-4abc-89d2-5f7f3b92c680","tls":true,"servername":"www.samsung.com:443","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"kSR18CNj6e3pYOGXrUJWYHyYHyrc9imttzMwYus0PkU","short-id":"020ec8fa5086ffc4"},"client-fingerprint":"chrome"}
-  - {"name":"分享日记_52","type":"vless","server":"51.89.23.94","port":2053,"uuid":"c7e9c591-2764-423a-afca-efbd010fd396","tls":true,"servername":"forfreeuse.sub-flow.online","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"分享日记_53","type":"vless","server":"cdn2.portalcode.ir","port":2082,"uuid":"15f15332-b3a6-424c-a7de-0452ca8c80e8","tls":false,"servername":"fna.worldcups.mom","network":"httpupgrade"}
-  - {"name":"分享日记_54","type":"vless","server":"172.66.150.129","port":80,"uuid":"6f690965-3be3-43bb-9331-3ead6efb20aa","tls":false,"servername":"sib.sibzamini.dpdns.org","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"分享日记_55","type":"vless","server":"104.18.152.233","port":2052,"uuid":"1641a422-2dff-45a5-846f-75ff8422b1dd","tls":false,"servername":"erfan5.mmd8563.ir","network":"xhttp"}
-  - {"name":"分享日记_56","type":"vless","server":"190.93.247.93","port":2087,"uuid":"6babb657-1524-43bb-b421-11bda27bc9de","tls":true,"servername":"smart.titimoji-f6.fun","network":"grpc"}
-  - {"name":"分享日记_57","type":"vless","server":"104.19.238.22","port":80,"uuid":"69d38faa-21a1-4d18-82cb-796a942c181b","tls":false,"servername":"sfsl.ardomains1.dpdns.org","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"分享日记_58","type":"vless","server":"31.57.62.224","port":2090,"uuid":"eab915bc-d2df-73d1-47d0-6eb240497055","tls":false,"network":"tcp"}
-  - {"name":"分享日记_59","type":"vless","server":"152.228.134.105","port":2053,"uuid":"c7e9c591-2764-423a-afca-efbd010fd396","tls":true,"servername":"forfreeuse.sub-flow.online","network":"ws","ws-opts":{"path":"/"},"client-fingerprint":"chrome"}
-  - {"name":"分享日记_60","type":"vless","server":"172.67.207.218","port":2052,"uuid":"7e560ea4-df1b-4119-b904-aa87cc14457d","tls":false,"servername":"sm.zula.ir.g.varzeshi3.ir.fgil.hm.deba.ka.maxsskllppae.plakrovel.melocvo.zmaxer.napovafoodka.com.fi1.v2vless.sitespeedtest.net","network":"ws","ws-opts":{"path":"/vless"}}
-  - {"name":"分享日记_61","type":"vless","server":"141.133.172.222","port":20342,"uuid":"5eecb34f-c905-4c77-b7fb-d830b451cd11","tls":false,"network":"tcp"}
-  - {"name":"分享日记_62","type":"vless","server":"45.134.21.8","port":2053,"uuid":"c7e9c591-2764-423a-afca-efbd010fd396","tls":true,"servername":"forfreeuse.sub-flow.online","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"分享日记_63","type":"vless","server":"usausa.crackerbinam.com","port":38001,"uuid":"d38fb586-bec2-4892-f774-7789068e32d5","tls":false,"servername":"varzesh3.com","network":"tcp"}
-  - {"name":"分享日记_64","type":"vless","server":"162.159.195.149","port":443,"uuid":"6c0ed3fb-f0b0-5b53-a762-f8f8d832bdba","tls":true,"servername":"vfarid.xcdi.WoRkErS.DEV","network":"ws","ws-opts":{"path":"/"},"client-fingerprint":"randomized"}
-  - {"name":"分享日记_65","type":"vless","server":"150.230.146.170","port":2053,"uuid":"c7e9c591-2764-423a-afca-efbd010fd396","tls":true,"servername":"forfreeuse.sub-flow.online","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"分享日记_66","type":"vless","server":"91.108.189.5","port":2090,"uuid":"eab915bc-d2df-73d1-47d0-6eb240497055","tls":false,"network":"tcp","client-fingerprint":"chrome"}
-  - {"name":"分享日记_67","type":"vless","server":"78.159.240.31","port":26443,"udp":true,"uuid":"a2738d8d-ed26-4b13-a4a2-b89c7238cd10","tls":true,"servername":"shopping-api-gateway.cdek.shopping","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"jOBo4R259-p0H2EcHMPO_R1uPZ8hyM_Yj1K5Nejch2U","short-id":"d681ac08"},"client-fingerprint":"firefox"}
-  - {"name":"分享日记_68","type":"vless","server":"212.183.88.21","port":443,"uuid":"71ed6628-5870-4d19-8a52-f2a3ba3d4898","tls":true,"servername":"kb.lii2010.us.kg","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"分享日记_69","type":"vless","server":"149.202.58.99","port":443,"uuid":"b585dc5e-55bf-4a8b-913a-27c9ccac05c3","tls":true,"servername":"bab-6.site","network":"ws","ws-opts":{"path":"/vws/"},"client-fingerprint":"chrome"}
-  - {"name":"分享日记_70","type":"vless","server":"45.149.12.19","port":443,"uuid":"6b880b07-e952-4c0b-b4a3-6c9ac4cf9d3f","tls":true,"servername":"hdfy1c4.sassanidempire.com","network":"grpc"}
-  - {"name":"分享日记_71","type":"vless","server":"138.16.181.6","port":8444,"udp":true,"uuid":"5bb7df8d-ad02-41fa-a8e6-8a8a4650d2c4","tls":true,"servername":"storage.yandex.net","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"XZa7f7bABj7lY4HuLopVCBBBYTu-RB7QyIZ96njvYwo","short-id":"7bcfc0bc"},"client-fingerprint":"firefox"}
-  - {"name":"分享日记_72","type":"vless","server":"api.dark-coffe.com","port":2087,"uuid":"7e58699f-1d5d-4f6b-b181-cb74f0ad9509","tls":true,"servername":"5JxGp6VrFh.SmArTtEcHzAaL.iNfO","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"分享日记_73","type":"vless","server":"104.24.218.13","port":80,"uuid":"7ee0cedb-1f06-4be9-8444-51f289a4bf12","tls":false,"servername":"morning-sound-6fa2-ppal03.tinemo7285.workers.dev","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"分享日记_74","type":"vless","server":"116.206.92.167","port":443,"udp":true,"uuid":"6c8a1ad4-0c04-460d-87e2-507a952ba902","tls":true,"servername":"www.apple.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"LP_JNPrfHbQnMK5dYoKr4D6Q8I8yKHK5ygHffJb1hzw","short-id":"dfde4e821472fb98"},"client-fingerprint":"safari"}
-  - {"name":"分享日记_75","type":"vless","server":"88.218.44.4","port":443,"udp":true,"uuid":"7c74b0e4-f132-5583-4692-622a7d6b71a4","tls":true,"servername":"dl.google.com","flow":"xtls-rprx-vision","network":"xhttp","reality-opts":{"public-key":"Rt2wltCWOxIroFggNWMudZDBJXls8DsF4icaWqxKDk8"},"client-fingerprint":"chrome"}
-  - {"name":"分享日记_76","type":"vless","server":"159.195.22.155","port":443,"udp":true,"uuid":"859a537b-09cf-4bce-8da4-ecbb72950e3a","tls":true,"servername":"2.oncloudnineservicestreang.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"Mg3ZxHNUFbX96q1HpS3WReeM7rnhEsXXtlEzxALeTDc","short-id":"d8d3dc6c3ca45dd4"},"client-fingerprint":"chrome"}
-  - {"name":"分享日记_77","type":"vless","server":"147.45.145.127","port":443,"udp":true,"uuid":"534cbbe2-cc36-4f2d-8fb0-90410e7148c9","tls":true,"servername":"yahoo.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"tWRR3W8jBAQKBUujLzL7Xri3WXy3F08OxHYrkSOnlAc","short-id":"52a6"},"client-fingerprint":"chrome"}
-  - {"name":"分享日记_78","type":"vless","server":"199.181.197.1","port":8443,"uuid":"71153df0-eccd-4476-853d-4f4240491f2b","tls":true,"servername":"panel.arvan.kdns.fr","network":"xhttp","client-fingerprint":"chrome"}
-  - {"name":"分享日记_79","type":"vless","server":"194.87.39.53","port":443,"udp":true,"uuid":"7ec8bf5e-f30c-4c29-9197-6d96661cd36f","tls":true,"servername":"tunono.bper2026.top","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"wD3mGaue6USh9ZFTCRA2e-TH3dMtTZLoaeRKIw1vM24","short-id":"aab90bf2704a7f"},"client-fingerprint":"safari"}
-  - {"name":"分享日记_80","type":"vless","server":"45.196.201.214","port":443,"udp":true,"uuid":"f75814f6-8f81-4847-b792-168c41f2dc85","tls":true,"servername":"storage.yandex.net","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04","short-id":"c6ef72e4635d15a5"},"client-fingerprint":"firefox"}
-  - {"name":"分享日记_81","type":"vless","server":"162.159.153.50","port":443,"uuid":"71ed6628-5870-4d19-8a52-f2a3ba3d4898","tls":true,"servername":"aaa.zhuk.us.kg","network":"ws","ws-opts":{"path":"/youlingkaishi"}}
-  - {"name":"分享日记_82","type":"vless","server":"104.17.149.233","port":443,"uuid":"4d10c997-4781-4cd9-82c3-15453523e12c","tls":true,"servername":"support.zoom.us.yxls.eu.cc","network":"ws","ws-opts":{"path":"/sg-melbi"},"client-fingerprint":"chrome"}
-  - {"name":"分享日记_83","type":"vless","server":"144.31.135.38","port":9444,"uuid":"01c96414-9fcd-4f79-9274-2c8d8045e48d","tls":true,"servername":"9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev","network":"ws","ws-opts":{"path":"/@Marisa_kristi"},"client-fingerprint":"chrome"}
-  - {"name":"分享日记_84","type":"vless","server":"45.196.201.133","port":443,"udp":true,"uuid":"f75814f6-8f81-4847-b792-168c41f2dc85","tls":true,"servername":"storage.yandex.net","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04","short-id":"c6ef72e4635d15a5"},"client-fingerprint":"chrome"}
-  - {"name":"分享日记_85","type":"vless","server":"194.53.53.156","port":8880,"uuid":"fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf","tls":false,"servername":"kjgx.laoyoutiao.link","network":"ws","ws-opts":{"path":"/TelegramU0001F1E8U0001F1F3"}}
-  - {"name":"分享日记_86","type":"vless","server":"45.196.201.4","port":443,"udp":true,"uuid":"f75814f6-8f81-4847-b792-168c41f2dc85","tls":true,"servername":"storage.yandex.net","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04","short-id":"c6ef72e4635d15a5"},"client-fingerprint":"chrome"}
-  - {"name":"分享日记_87","type":"vless","server":"57.128.219.105","port":443,"uuid":"7e7c6751-0e11-4acd-af06-2d82e6e9f14a","tls":true,"servername":"57.128.219.105","network":"ws","ws-opts":{"path":"/ws"},"client-fingerprint":"chrome"}
-  - {"name":"分享日记_88","type":"vless","server":"45.155.52.231","port":443,"udp":true,"uuid":"219f9fec-8983-4f6f-af8c-31bd0c6dbf19","tls":true,"servername":"ru2.skydrgn-online.online","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"6p0aVCkOgd-xaxqSMANYABL6O4Tdbftnxjiy5qcmISQ","short-id":"0b"},"client-fingerprint":"chrome"}
-  - {"name":"分享日记_89","type":"vless","server":"45.196.201.190","port":443,"udp":true,"uuid":"f75814f6-8f81-4847-b792-168c41f2dc85","tls":true,"servername":"storage.yandex.net","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04","short-id":"c6ef72e4635d15a5"},"client-fingerprint":"chrome"}
-  - {"name":"分享日记_90","type":"vless","server":"65.21.107.227","port":443,"udp":true,"uuid":"017f481c-9450-47ca-9b89-f15ce14add6f","tls":true,"servername":"greenpepper.ir","flow":"xtls-rprx-vision","network":"grpc","reality-opts":{"public-key":"2fJN4_f9_IskR4WqMK1KD4sfrGic-DuJIdzlBSX2wD4","short-id":"174e30c7"},"client-fingerprint":"firefox"}
-  - {"name":"分享日记_91","type":"vless","server":"130.49.185.196","port":443,"udp":true,"uuid":"e3c56988-5261-400f-b21b-6af5fa6efae1","tls":true,"servername":"/?","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"4ndg8TcyXMWmnEvthjh9mIWJ9mc85jzy_G9D4D5xGxM","short-id":"808a7e8a2e32c697"},"client-fingerprint":"chrome"}
-  - {"name":"分享日记_92","type":"vless","server":"77.110.113.103","port":443,"udp":true,"uuid":"22573991-de57-4a31-b6ec-56b1bab4112c","tls":true,"servername":"vk.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"YbSMmjuRFkilXmQH_RZ9uDFwA17yDulRSTBHRVilzXs","short-id":"a3dbdfb829"},"client-fingerprint":"firefox"}
-  - {"name":"分享日记_93","type":"vless","server":"try.north-1winter.cv","port":443,"udp":true,"uuid":"acc50200-7f21-4f90-9cca-0057efcbf042","tls":true,"servername":"www.ya.ru","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"rNBFVzV18kAj_ei4AqsgZywzmvD36WK9hcRdVnpHPAM","short-id":"c0573c8280a0c019"},"client-fingerprint":"chrome"}
-  - {"name":"分享日记_94","type":"vless","server":"104.24.196.20","port":443,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"servername":"bPB-V.paGEs.dEV","network":"ws","ws-opts":{"path":"/jdMMEgBE5RGsuynR/MTI5LjE1OS4yNDEuMTcy"}}
-  - {"name":"分享日记_95","type":"vless","server":"180.178.60.252","port":10000,"uuid":"431fe973-a43a-4fac-bf83-2a772e0d0625","tls":false,"network":"tcp"}
-  - {"name":"分享日记_96","type":"vless","server":"185.39.204.155","port":8443,"uuid":"1f29762d-3f23-4207-9e39-f774de5d49ba","tls":false,"network":"grpc"}
-  - {"name":"分享日记_97","type":"vless","server":"ad-010.limaklhc6.info","port":8443,"uuid":"9047efd2-5aa4-4c9c-a58f-a5791b06c79e","tls":true,"servername":"ad-010.limaklhc6.info","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"分享日记_98","type":"vless","server":"5.42.106.202","port":9878,"udp":true,"uuid":"884d811f-577b-421e-aabb-608660b0ecfa","tls":true,"servername":"dl.google.com","flow":"xtls-rprx-vision","network":"grpc","reality-opts":{"public-key":"bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU","short-id":"aabbccdd"},"client-fingerprint":"chrome"}
-  - {"name":"分享日记_99","type":"vless","server":"162.159.15.151","port":2087,"uuid":"6babb657-1524-43bb-b421-11bda27bc9de","tls":true,"servername":"smart.titimoji-f6.fun","network":"grpc"}
-  - {"name":"分享日记_100","type":"vless","server":"191.101.130.131","port":38001,"uuid":"d38fb586-bec2-4892-f774-7789068e32d5","tls":false,"servername":"varzesh3.com","network":"tcp"}
-  - {"name":"分享日记_101","type":"vless","server":"162.159.38.119","port":443,"uuid":"8ad6f598-cd8d-4fca-848e-05fc9be15ff3","tls":true,"servername":"xqexv.greenwolf-ili.sbs","network":"ws","ws-opts":{"path":"/sea"},"client-fingerprint":"chrome"}
-  - {"name":"分享日记_102","type":"vless","server":"162.159.152.210","port":2096,"uuid":"8a30cf48-9fa2-46c5-8815-2822b12852e0","tls":true,"servername":"xqkxw.ccwu.cc","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"分享日记_103","type":"vless","server":"id1.v2vless.xyz","port":80,"uuid":"7f52be8f-b44d-409f-aa2b-381ca780b71a","tls":false,"network":"ws","ws-opts":{"path":"/vless"}}
-  - {"name":"分享日记_104","type":"vless","server":"zeus-panel-axmii0.zeus-14c2mr.workers.dev","port":2053,"uuid":"7ec9ddc4-6b77-499d-99a3-4fa8a94cd1ed","tls":true,"servername":"zeus-panel-axmii0.zeus-14c2mr.workers.dev","network":"ws","ws-opts":{"path":"/ZEUS_PANEL_BOT"},"client-fingerprint":"android"}
-  - {"name":"分享日记_105","type":"vless","server":"69.46.46.146","port":443,"uuid":"7f11eed9-a46d-f2bc-1912-3b0922d71776","tls":true,"servername":"x4g-production-2ff4c.up.railway.app","network":"ws","ws-opts":{"path":"/ws/7f11eed9-a46d-f2bc-1912-3b0922d71776"},"client-fingerprint":"chrome"}
-  - {"name":"分享日记_106","type":"vless","server":"162.159.33.151","port":2087,"uuid":"8a30cf48-9fa2-46c5-8815-2822b12852e0","tls":true,"servername":"xqkxw.ccwu.cc","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"分享日记_107","type":"vless","server":"162.159.152.151","port":2096,"uuid":"8a30cf48-9fa2-46c5-8815-2822b12852e0","tls":true,"servername":"xqkxw.ccwu.cc","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"分享日记_108","type":"vless","server":"45.131.210.230","port":80,"uuid":"7f037831-591d-4067-9c8c-39f07d12858a","tls":true,"servername":"yuming.kkllllkkkk95.workers.dev","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"分享日记_109","type":"vless","server":"104.16.72.2","port":2082,"uuid":"1641a422-2dff-45a5-846f-75ff8422b1dd","tls":false,"servername":"erfan6.mmd8563.ir","network":"xhttp"}
-  - {"name":"分享日记_110","type":"vless","server":"172.64.229.214","port":443,"uuid":"8a30cf48-9fa2-46c5-8815-2822b12852e0","tls":true,"servername":"xqkxw.ccwu.cc","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"分享日记_111","type":"vless","server":"104.21.20.68","port":80,"uuid":"7f1548ae-3c31-45a4-9150-727e5d08e068","tls":false,"servername":"Fi3.vless.site.","network":"ws","ws-opts":{"path":"/vless"}}
-  - {"name":"分享日记_112","type":"vless","server":"176.124.222.180","port":46163,"udp":true,"uuid":"714443cb-5216-43ca-8d52-1044e9ad02da","tls":true,"servername":"www.intel.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"9wmuhvW_EtLAavWVenCWCefkktqnIriih1uToOp09F0","short-id":"d6c0"},"client-fingerprint":"chrome"}
-  - {"name":"分享日记_113","type":"vless","server":"51.75.92.34","port":2087,"uuid":"V2RayyNGvpn","tls":false,"network":"kcp"}
-  - {"name":"分享日记_114","type":"vless","server":"199.232.170.110","port":80,"uuid":"cfde0aba-0985-4034-ab92-50b1534b126c","tls":false,"servername":"BankMelat.glObal.ssl.faStly.nEt","network":"ws","ws-opts":{"path":"/?Telegram-WangCai2🇨🇳"}}
-  - {"name":"分享日记_115","type":"vless","server":"198.41.223.61","port":443,"uuid":"7f3faff8-41db-403d-8329-6b9072aaabe2","tls":true,"servername":"edgetunnell-1dc.pages.dev","network":"ws","ws-opts":{"path":"/"},"client-fingerprint":"chrome"}
-  - {"name":"分享日记_116","type":"vless","server":"172.64.86.167","port":80,"uuid":"7ee0cedb-1f06-4be9-8444-51f289a4bf12","tls":false,"servername":"morning-sound-6fa2-ppal03.tinemo7285.workers.dev","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"分享日记_117","type":"vless","server":"188.241.241.29","port":2053,"uuid":"c7e9c591-2764-423a-afca-efbd010fd396","tls":true,"servername":"forfreeuse.sub-flow.online","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"分享日记_118","type":"vless","server":"ad-020.limaklhc6.info","port":8443,"uuid":"1ad37675-b4cf-42fa-9dc5-83fd35cd63cb","tls":true,"servername":"ad-020.limaklhc6.info","network":"ws","ws-opts":{"path":"/"},"client-fingerprint":"chrome"}
-  - {"name":"分享日记_119","type":"vless","server":"dey.lnmarketplace.net","port":443,"uuid":"3536e1fa-0850-44d1-b123-925ce12476cf","tls":true,"servername":"dey.lnmarketplace.net","network":"xhttp"}
-  - {"name":"分享日记_120","type":"vless","server":"ray1.gogoli.xyz","port":31911,"udp":true,"uuid":"9e1eaf7f-97e8-4465-9de6-0cc55e106c3e","tls":true,"servername":"www.yahoo.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"p1V7w_ax6Zq_Hd8eQnYisYSvfffmxu-t4KVDy6tVFGE","short-id":"ec"},"client-fingerprint":"chrome"}
-  - {"name":"分享日记_121","type":"vless","server":"104.26.5.134","port":2096,"uuid":"7f50ec42-4673-41e2-94be-ae6253909def","tls":false,"servername":"joey.freen1.de5.net","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"分享日记_122","type":"vless","server":"108.162.194.119","port":443,"uuid":"8ad6f598-cd8d-4fca-848e-05fc9be15ff3","tls":true,"servername":"xqexv.greenwolf-ili.sbs","network":"ws","ws-opts":{"path":"/sea"},"client-fingerprint":"chrome"}
-  - {"name":"分享日记_123","type":"vless","server":"89.116.250.135","port":443,"uuid":"14b59caf-a196-4ec2-8c70-c7b388062f5b","tls":true,"servername":"vangoghhh.info","network":"ws","ws-opts":{"path":"/rdfgtws"}}
-  - {"name":"分享日记_124","type":"vless","server":"ru.rush-server.com","port":443,"udp":true,"uuid":"aa91b870-8658-4dcb-a53a-423df017e35b","tls":true,"servername":"findmypackets.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0","short-id":"93ae75024604f796"},"client-fingerprint":"chrome"}
-  - {"name":"分享日记_125","type":"vless","server":"asbs-osds.global.ssl.fastly.net","port":443,"uuid":"6a2cb1ed-83fa-4f31-999c-d51a6628ef69","tls":true,"servername":"asbs-osds.global.ssl.fastly.net","network":"ws","ws-opts":{"path":"/site"},"client-fingerprint":"firefox"}
-  - {"name":"分享日记_126","type":"vless","server":"vip.persiadesign.tr","port":17462,"udp":true,"uuid":"0b5fc7a9-8316-444f-b715-54a4250c6177","tls":true,"servername":"www.yahoo.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"Yl6ip7DyV1H-HWAg5mAGcHHq1cX6yEqC_Avf7B0txXc","short-id":"e97a9e58192b0f"},"client-fingerprint":"chrome"}
-  - {"name":"分享日记_127","type":"vless","server":"45.85.118.71","port":2086,"uuid":"7de5bee0-4b8f-40dc-86d1-46117101a06b","tls":false,"servername":"sjcahbjhdbfvksfhkvbhskkskhvbhfhkvbshksfbfvkhfbkhfbvkfskbvfr.certhost.ir","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"分享日记_128","type":"vless","server":"15.204.133.112","port":80,"uuid":"7edca199-8348-422a-99dc-ca1e5219e95b","tls":false,"servername":"WWW.SPeeDteST.NeT","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"分享日记_129","type":"vless","server":"45.131.212.22","port":443,"udp":true,"uuid":"1ee6dbe4-b7bd-47bd-b6e5-23deb076f95b","tls":true,"servername":"sellflow.org","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"},"client-fingerprint":"chrome"}
-  - {"name":"分享日记_130","type":"vless","server":"pol.mrsolo5323.ir","port":24037,"uuid":"7dfde654-fc5e-4ceb-aeb9-32da0076a48b","tls":true,"network":"httpupgrade","client-fingerprint":"chrome"}
-  - {"name":"分享日记_131","type":"trojan","server":"oplosgru-c.catcat321.com","port":20068,"udp":true,"password":"ba07a8af-5544-48ac-ab62-3b6c00a44fa6","sni":"hk.catxstar.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"分享日记_132","type":"trojan","server":"104.18.1.1","port":443,"udp":true,"password":"c206d543-023d-46cc-9d5a-1f0f2fc16323","sni":"space.byu.id.yxls.eu.cc","skip-cert-verify":false,"network":"ws","ws-opts":{"path":"/in-pdr","headers":{"host":"space.byu.id.yxls.eu.cch3,h2,http/1.1"}}}
-  - {"name":"分享日记_133","type":"trojan","server":"104.24.163.206","port":443,"udp":true,"password":"bd85f5fe32d9446a8b1f59e4f710455b","sni":"BpB-PAnEL-62c3.mlM-eE9A3b83.wOrKErS.dev","skip-cert-verify":false,"network":"ws","ws-opts":{"path":"/eyJqdW5rIjoibkN2cER2SDZIUTkiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6IiIsInBhbmVsSVBzIjoiWzJhMDI6ODk4OjE0Njo2NDo6XSJ9","headers":{"host":"bpb-panel-62c3.mlm-ee9a3b83.workers.devhttp/1.1"}}}
-  - {"name":"分享日记_134","type":"trojan","server":"185.135.9.27","port":443,"udp":true,"password":"521314","sni":"hhtj.hhllfly.kdns.fr","skip-cert-verify":false,"network":"ws","ws-opts":{"path":"/","headers":{"host":"hhtj.hhllfly.kdns.fr"}}}
-  - {"name":"分享日记_135","type":"trojan","server":"166.62.110.27","port":443,"udp":true,"password":"521314","sni":"hhtj.hhllfly.kdns.fr","skip-cert-verify":false,"network":"ws","ws-opts":{"path":"/","headers":{"host":"hhtj.hhllfly.kdns.fr"}}}
-  - {"name":"分享日记_136","type":"trojan","server":"oplosgru-c.catcat321.com","port":20056,"udp":true,"password":"ba07a8af-5544-48ac-ab62-3b6c00a44fa6","sni":"oplosgru-c.catcat321.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"分享日记_137","type":"trojan","server":"hkdcrtc-e.catcat321.com","port":20129,"udp":true,"password":"ba07a8af-5544-48ac-ab62-3b6c00a44fa6","sni":"hk.catxstar.com","skip-cert-verify":false,"network":"tcp"}
-  - {"name":"分享日记_138","type":"trojan","server":"oplosgru-c.catcat321.com","port":20004,"udp":true,"password":"ba07a8af-5544-48ac-ab62-3b6c00a44fa6","sni":"hk.catxstar.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"分享日记_139","type":"trojan","server":"176.124.222.180","port":13602,"udp":true,"password":"ABu1GpNzLe","sni":"www.tesla.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"分享日记_140","type":"trojan","server":"MiTiVPN@104.18.6.178:2087?security=tls&sni=g-o-MiTiVPN---MiTiVPNj.kingnetwork.ir&insecure=1&allowInsecure=1&type=ws&host=g-o-MiTiVPN---MiTiVPNj.kingnetwork.ir&path=/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/nl","port":2087,"udp":true,"password":"MiTiVPN@104.18.6.178:2087?security=tls&sni=g-o-MiTiVPN---MiTiVPNj.kingnetwork.ir&insecure=1&allowInsecure=1&type=ws&host=g-o-MiTiVPN---MiTiVPNj.kingnetwork.ir&path=/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---","sni":"g-o-MiTiVPN---MiTiVPNj.kingnetwork.ir","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/nl","headers":{"host":"g-o-MiTiVPN---MiTiVPNj.kingnetwork.ir"}}}
-  - {"name":"分享日记_141","type":"trojan","server":"MITIVPN@104.17.147.22:2053?security=tls&sni=ikk---7-MiTiVPN----o.kingnetwork.ir&insecure=1&allowInsecure=1&type=ws&host=ikk---7-MiTiVPN----o.kingnetwork.ir&path=/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/de","port":2053,"udp":true,"password":"MITIVPN@104.17.147.22:2053?security=tls&sni=ikk---7-MiTiVPN----o.kingnetwork.ir&insecure=1&allowInsecure=1&type=ws&host=ikk---7-MiTiVPN----o.kingnetwork.ir&path=/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---","sni":"ikk---7-MiTiVPN----o.kingnetwork.ir","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/de","headers":{"host":"ikk---7-MiTiVPN----o.kingnetwork.ir"}}}
-  - {"name":"分享日记_142","type":"trojan","server":"rr2.tube-cat.com","port":9450,"udp":true,"password":"ba07a8af-5544-48ac-ab62-3b6c00a44fa6","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"分享日记_143","type":"trojan","server":"185.143.233.235","port":8080,"udp":true,"password":"wGXrCAVQoP","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/serval","headers":{"host":"serval.jpax.ir"}}}
-  - {"name":"分享日记_144","type":"trojan","server":"82.117.226.41","port":443,"udp":true,"password":"FC60532879","sni":"darling-emu.rooster465.autos","skip-cert-verify":false,"network":"tcp"}
-  - {"name":"分享日记_145","type":"trojan","server":"MiTiVPN@104.18.6.178:2087?security=tls&sni=g-o-MiTiVPN---MiTiVPNj.kingnetwork.ir&fp=chrome&alpn=http/1.1&insecure=1&allowInsecure=1&type=ws&host=op-mitivpn--MiTiVPN---MiTiVPN-o.kingnetwork.ir&path=/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/nl","port":2087,"udp":true,"password":"MiTiVPN@104.18.6.178:2087?security=tls&sni=g-o-MiTiVPN---MiTiVPNj.kingnetwork.ir&fp=chrome&alpn=http/1.1&insecure=1&allowInsecure=1&type=ws&host=op-mitivpn--MiTiVPN---MiTiVPN-o.kingnetwork.ir&path=/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---","sni":"g-o-MiTiVPN---MiTiVPNj.kingnetwork.ir","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/nl","headers":{"host":"op-mitivpn--MiTiVPN---MiTiVPN-o.kingnetwork.ir"}},"alpn":["http/1.1"]}
-  - {"name":"分享日记_146","type":"trojan","server":"116.251.217.65","port":443,"udp":true,"password":"521314","sni":"tjplay.lxdxo.kdns.fr","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tjplay.lxdxo.kdns.fr"}}}
-  - {"name":"分享日记_147","type":"trojan","server":"oplosgru-c.catcat321.com","port":20066,"udp":true,"password":"ba07a8af-5544-48ac-ab62-3b6c00a44fa6","sni":"hk.catxstar.com","skip-cert-verify":false,"network":"tcp"}
-  - {"name":"分享日记_148","type":"trojan","server":"66.225.252.27","port":443,"udp":true,"password":"521314","sni":"hhtj.hhllfly.kdns.fr","skip-cert-verify":false,"network":"ws","ws-opts":{"path":"/","headers":{"host":"hhtj.hhllfly.kdns.fr"}}}
-  - {"name":"分享日记_149","type":"trojan","server":"190.93.244.66","port":443,"udp":true,"password":"bpb-trojan","sni":"zeming13.us.kg","skip-cert-verify":false,"network":"tcp"}
-  - {"name":"分享日记_150","type":"trojan","server":"188.114.98.89","port":443,"udp":true,"password":"bpb-trojan","sni":"bpB-woRker-PanEL-AY6.pagEs.dev","skip-cert-verify":false,"network":"tcp"}
-  - {"name":"分享日记_151","type":"trojan","server":"172.64.147.227","port":443,"udp":true,"password":"humanity","sni":"www.gossipglove.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/assignment","headers":{"host":"www.gossipglove.com"}}}
-  - {"name":"分享日记_152","type":"trojan","server":"87.121.33.56","port":443,"udp":true,"password":"FC60532879","sni":"neat-whale.rooster465.autos","skip-cert-verify":false,"network":"tcp"}
-  - {"name":"分享日记_153","type":"trojan","server":"hkdcrtc-e.catcat321.com","port":20041,"udp":true,"password":"ba07a8af-5544-48ac-ab62-3b6c00a44fa6","sni":"de.catxstar.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"分享日记_154","type":"trojan","server":"185.18.250.252","port":443,"udp":true,"password":"humanity","sni":"www.calmlunch.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/assignment","headers":{"host":"www.calmlunch.com"}}}
-  - {"name":"分享日记_155","type":"trojan","server":"202.37.33.80","port":443,"udp":true,"password":"humanity","sni":"www.creationlong.org","skip-cert-verify":false,"network":"ws","ws-opts":{"path":"/assignment","headers":{"host":"www.creationlong.org"}}}
-  - {"name":"分享日记_156","type":"trojan","server":"87.121.33.164","port":443,"udp":true,"password":"FC60532879","sni":"evident-gnat.rooster465.autos","skip-cert-verify":false,"network":"tcp"}
-  - {"name":"分享日记_157","type":"trojan","server":"190.93.245.74","port":443,"udp":true,"password":"bpb-trojan","sni":"fcspring.ggff.net","skip-cert-verify":false,"network":"ws","ws-opts":{"path":"/tr","headers":{"host":"fcspring.ggff.net"}}}
-  - {"name":"分享日记_158","type":"trojan","server":"45.130.125.2","port":443,"udp":true,"password":"humanity","sni":"Www.cReaTIOnLONG.OrG","skip-cert-verify":false,"network":"ws","ws-opts":{"path":"/assignment","headers":{"host":"Www.cReaTIOnLONG.OrG"}}}
-  - {"name":"分享日记_159","type":"trojan","server":"188.114.96.3","port":443,"udp":true,"password":"humanity","sni":"www.multiplydose.com","skip-cert-verify":false,"network":"ws","ws-opts":{"path":"/assignment","headers":{"host":"www.multiplydose.com"}}}
-  - {"name":"分享日记_160","type":"trojan","server":"82.117.226.47","port":443,"udp":true,"password":"FC60532879","sni":"growing-tuna.rooster465.autos","skip-cert-verify":false,"network":"tcp"}
-  - {"name":"分享日记_161","type":"trojan","server":"165.215.250.14","port":443,"udp":true,"password":"humanity","sni":"www.ignitelimit.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/assignment","headers":{"host":"www.ignitelimit.com"}}}
-  - {"name":"分享日记_162","type":"trojan","server":"198.62.62.23","port":443,"udp":true,"password":"humanity","sni":"www.calmlunch.com","skip-cert-verify":false,"network":"ws","ws-opts":{"path":"//assignment","headers":{"host":"www.calmlunch.com"}}}
-  - {"name":"分享日记_163","type":"trojan","server":"188.114.97.7","port":443,"udp":true,"password":"humanity","sni":"www.ignitelimit.com","skip-cert-verify":false,"network":"ws","ws-opts":{"path":"/assignment"}}
-  - {"name":"分享日记_164","type":"trojan","server":"104.18.152.97","port":443,"udp":true,"password":"humanity","sni":"www.ignitelimit.com","skip-cert-verify":false,"network":"ws","ws-opts":{"path":"/assignment","headers":{"host":"www.ignitelimit.com"}}}
-  - {"name":"分享日记_165","type":"hysteria2","server":"de1-hy2.veilvpn.life","port":8433,"password":"d2e3768f-cb23-4cfc-a884-dbd6813cb70b","sni":"de1-hy2.veilvpn.life","skip-cert-verify":true}
-  - {"name":"分享日记_166","type":"hysteria2","server":"musicclips.videolinks.ru","port":8443,"password":"o3774es6cfv74kaf","sni":"musicclips.videolinks.ru","skip-cert-verify":true,"obfs-password":"8zzng75tz4tf82pj"}
-  - {"name":"分享日记_167","type":"hysteria2","server":"155.248.209.237","port":33333,"password":"bce6c821-200d-421f-bf3d-7159e5246ea0","sni":"hy2.123266.xyz","skip-cert-verify":true}
-  - {"name":"分享日记_168","type":"hysteria2","server":"159.65.79.184","port":20000,"password":"28d38ce6-7c79-4e9d-9175-2186da5be395","sni":"addons.mozilla.org","skip-cert-verify":true}
+  - {"name":"分享日记_1","type":"vmess","server":"wwafj5lhl6bi8au9.v.3dns.vip","port":443,"cipher":"auto","uuid":"f23bb427c1f94373876c2f43e9f790f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ws-vmess","headers":{"host":"wwafj5LHl6bI8aU9.v.3dns.vip"}}}
+  - {"name":"分享日记_2","type":"vmess","server":"mtckundigepwu3up.v.3dns.vip","port":443,"cipher":"auto","uuid":"f23bb427c1f94373876c2f43e9f790f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ws-vmess"}}
+  - {"name":"分享日记_3","type":"vmess","server":"47.83.198.38","port":443,"cipher":"auto","uuid":"f23bb427c1f94373876c2f43e9f790f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ws-vmess","headers":{"host":"wwafj5LHl6bI8aU9.v.3dns.vip"}}}
+  - {"name":"分享日记_4","type":"vmess","server":"zudssgtmrqg9lpvi.v.3dns.vip","port":443,"cipher":"auto","uuid":"f23bb427c1f94373876c2f43e9f790f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ws-vmess","headers":{"host":"zUDssgTMRqg9LpvI.v.3dns.vip"}}}
+  - {"name":"分享日记_5","type":"vmess","server":"drbkg16egf3fzlm3.v.3dns.vip","port":443,"cipher":"auto","uuid":"f23bb427c1f94373876c2f43e9f790f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ws-vmess","headers":{"host":"DrBKg16eGf3FZlM3.v.3dns.vip"}}}
+  - {"name":"分享日记_6","type":"vmess","server":"lcv8v9l7oyamxxfz.v.3dns.vip","port":443,"cipher":"auto","uuid":"f23bb427c1f94373876c2f43e9f790f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ws-vmess","headers":{"host":"lcv8v9l7OyamxxfZ.v.3dns.vip"}}}
+  - {"name":"分享日记_7","type":"vmess","server":"152.67.8.205","port":80,"cipher":"auto","uuid":"9db4c708-aef8-4359-821b-38e47990be0d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"分享日记_8","type":"vmess","server":"panel.safeconfigmasoud.com","port":443,"cipher":"auto","uuid":"f7983cd4-e487-4138-bde3-477ab31ba25d","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/nova-147299-vm","headers":{"host":"panel.safeconfigmasoud.com"}}}
+  - {"name":"分享日记_9","type":"vmess","server":"mh7r5ardl0z5jtgy.v.3dns.vip","port":443,"cipher":"auto","uuid":"f23bb427c1f94373876c2f43e9f790f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ws-vmess"}}
+  - {"name":"分享日记_10","type":"vmess","server":"8.210.189.158","port":443,"cipher":"auto","uuid":"f23bb427c1f94373876c2f43e9f790f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ws-vmess","headers":{"host":"2b9hwy8ocx7q74nm.v.3dns.vip"}}}
+  - {"name":"分享日记_11","type":"vmess","server":"qtkdr8jxe3wefxjm.v.3dns.vip","port":443,"cipher":"auto","uuid":"f23bb427c1f94373876c2f43e9f790f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ws-vmess"}}
+  - {"name":"分享日记_12","type":"vmess","server":"94.182.88.61","port":2078,"cipher":"auto","uuid":"8c207682-e007-4a0d-88a3-68b8638b3d10","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"分享日记_13","type":"vmess","server":"38.107.234.57","port":80,"cipher":"auto","uuid":"567f4be5-12ab-42e1-b8d9-db6fd1fdd31c","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/vmess/","headers":{"host":"3h-kazakhstan1.09vpn.com"}}}
+  - {"name":"分享日记_14","type":"vmess","server":"8.210.108.58","port":443,"cipher":"auto","uuid":"f23bb427c1f94373876c2f43e9f790f3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ws-vmess","headers":{"host":"U2FRxj0G13vDI0Wo.v.3dns.vip"}}}
+  - {"name":"分享日记_15","type":"vmess","server":"cindy52.ceoiii.com","port":36803,"cipher":"auto","uuid":"a6ab6513-6ec3-327f-a068-b89fe72954b8","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"ajax.microsoft.com"}}}
+  - {"name":"分享日记_16","type":"vmess","server":"cindy50.ceoiii.com","port":36801,"cipher":"auto","uuid":"a6ab6513-6ec3-327f-a068-b89fe72954b8","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"ajax.microsoft.com"}}}
+  - {"name":"分享日记_17","type":"vless","server":"170.114.45.6","port":443,"uuid":"4d10c997-4781-4cd9-82c3-15453523e12c","tls":true,"servername":"support.zoom.us.yxls.eu.cc","network":"ws","ws-opts":{"path":"/sg-melbi"}}
+  - {"name":"分享日记_18","type":"vless","server":"104.16.2.189","port":443,"uuid":"29ca503d-e6b8-4509-b666-48133f450857","tls":true,"servername":"learn00.evany.de5.net","network":"ws","ws-opts":{"path":"/"},"client-fingerprint":"random"}
+  - {"name":"分享日记_19","type":"vless","server":"49.13.64.206","port":443,"uuid":"4d10c997-4781-4cd9-82c3-15453523e12c","tls":true,"servername":"support.zoom.us.yxls.eu.cc","network":"ws","ws-opts":{"path":"/sg-melbi"},"client-fingerprint":"chrome"}
+  - {"name":"分享日记_20","type":"vless","server":"one-for-all.levikogjgfdd.ir","port":443,"uuid":"b2f6aa3a-2550-4a1c-b2c0-1c94b1207217","tls":true,"servername":"terazhediii.info","network":"ws","ws-opts":{"path":"/hdgrbws"},"client-fingerprint":"chrome"}
+  - {"name":"分享日记_21","type":"vless","server":"104.21.77.94","port":443,"uuid":"4d10c997-4781-4cd9-82c3-15453523e12c","tls":true,"servername":"support.zoom.us.yxls.eu.cc","network":"ws","ws-opts":{"path":"/sg-melbi"},"client-fingerprint":"chrome"}
+  - {"name":"分享日记_22","type":"vless","server":"172.64.52.196","port":8443,"uuid":"29ca503d-e6b8-4509-b666-48133f450857","tls":true,"servername":"learn00.evany.de5.net","network":"ws","ws-opts":{"path":"/fdip"},"client-fingerprint":"random"}
+  - {"name":"分享日记_23","type":"vless","server":"198.41.209.80","port":443,"uuid":"4d10c997-4781-4cd9-82c3-15453523e12c","tls":true,"servername":"support.zoom.us.yxls.eu.cc","network":"ws","ws-opts":{"path":"/sg-melbi"},"client-fingerprint":"chrome"}
+  - {"name":"分享日记_24","type":"vless","server":"51.91.251.198","port":443,"uuid":"4d10c997-4781-4cd9-82c3-15453523e12c","tls":true,"servername":"support.zoom.us.yxls.eu.cc","network":"ws","ws-opts":{"path":"/sg-melbi"},"client-fingerprint":"chrome"}
+  - {"name":"分享日记_25","type":"vless","server":"172.64.35.32","port":8443,"uuid":"29ca503d-e6b8-4509-b666-48133f450857","tls":true,"servername":"learn00.evany.de5.net","network":"ws","ws-opts":{"path":"/fdip"},"client-fingerprint":"chrome"}
+  - {"name":"分享日记_26","type":"vless","server":"104.26.2.173","port":443,"uuid":"4d10c997-4781-4cd9-82c3-15453523e12c","tls":true,"servername":"support.zoom.us.yxls.eu.cc","network":"ws","ws-opts":{"path":"/sg-melbi"},"client-fingerprint":"chrome"}
+  - {"name":"分享日记_27","type":"vless","server":"108.162.198.201","port":443,"uuid":"4d10c997-4781-4cd9-82c3-15453523e12c","tls":true,"servername":"support.zoom.us.yxls.eu.cc","network":"ws","ws-opts":{"path":"/sg-melbi"},"client-fingerprint":"chrome"}
+  - {"name":"分享日记_28","type":"vless","server":"104.16.239.120","port":443,"uuid":"4d10c997-4781-4cd9-82c3-15453523e12c","tls":true,"servername":"support.zoom.us.yxls.eu.cc","network":"ws","ws-opts":{"path":"/sg-melbi"},"client-fingerprint":"chrome"}
+  - {"name":"分享日记_29","type":"vless","server":"104.19.54.116","port":443,"uuid":"4d10c997-4781-4cd9-82c3-15453523e12c","tls":true,"servername":"support.zoom.us.yxls.eu.cc","network":"ws","ws-opts":{"path":"/sg-melbi"},"client-fingerprint":"chrome"}
+  - {"name":"分享日记_30","type":"vless","server":"91.193.59.208","port":80,"uuid":"29ca503d-e6b8-4509-b666-48133f450857","tls":false,"servername":"learn00.evany.de5.net","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2"}}
+  - {"name":"分享日记_31","type":"vless","server":"188.114.97.3","port":443,"uuid":"4d10c997-4781-4cd9-82c3-15453523e12c","tls":true,"servername":"support.zoom.us.yxls.eu.cc","network":"ws","ws-opts":{"path":"/sg-melbi"},"client-fingerprint":"chrome"}
+  - {"name":"分享日记_32","type":"vless","server":"108.162.198.165","port":8443,"uuid":"29ca503d-e6b8-4509-b666-48133f450857","tls":true,"servername":"learn00.evany.de5.net","network":"ws","ws-opts":{"path":"/fdip"}}
+  - {"name":"分享日记_33","type":"vless","server":"104.25.244.217","port":443,"uuid":"4d10c997-4781-4cd9-82c3-15453523e12c","tls":true,"servername":"support.zoom.us.yxls.eu.cc","network":"ws","ws-opts":{"path":"/sg-melbi"},"client-fingerprint":"chrome"}
+  - {"name":"分享日记_34","type":"vless","server":"108.162.195.244","port":8443,"uuid":"29ca503d-e6b8-4509-b666-48133f450857","tls":true,"servername":"learn00.evany.de5.net","network":"ws","ws-opts":{"path":"/fdip"}}
+  - {"name":"分享日记_35","type":"vless","server":"108.162.195.58","port":443,"uuid":"29ca503d-e6b8-4509-b666-48133f450857","tls":true,"servername":"learn00.evany.de5.net","network":"ws","ws-opts":{"path":"/fdip"}}
+  - {"name":"分享日记_36","type":"vless","server":"104.20.39.109","port":443,"uuid":"4d10c997-4781-4cd9-82c3-15453523e12c","tls":true,"servername":"support.zoom.us.yxls.eu.cc","network":"ws","ws-opts":{"path":"/sg-melbi"},"client-fingerprint":"chrome"}
+  - {"name":"分享日记_37","type":"vless","server":"37.59.96.25","port":443,"uuid":"4d10c997-4781-4cd9-82c3-15453523e12c","tls":true,"servername":"support.zoom.us.yxls.eu.cc","network":"ws","ws-opts":{"path":"/sg-melbi"},"client-fingerprint":"chrome"}
+  - {"name":"分享日记_38","type":"vless","server":"198.41.208.112","port":443,"uuid":"4d10c997-4781-4cd9-82c3-15453523e12c","tls":true,"servername":"support.zoom.us.yxls.eu.cc","network":"ws","ws-opts":{"path":"/sg-melbi"},"client-fingerprint":"chrome"}
+  - {"name":"分享日记_39","type":"vless","server":"170.114.46.6","port":443,"uuid":"4d10c997-4781-4cd9-82c3-15453523e12c","tls":true,"servername":"support.zoom.us.yxls.eu.cc","network":"ws","ws-opts":{"path":"/sg-melbi"},"client-fingerprint":"chrome"}
+  - {"name":"分享日记_40","type":"vless","server":"108.162.198.5","port":443,"uuid":"4d10c997-4781-4cd9-82c3-15453523e12c","tls":true,"servername":"support.zoom.us.yxls.eu.cc","network":"ws","ws-opts":{"path":"/sg-melbi"}}
+  - {"name":"分享日记_41","type":"vless","server":"104.17.147.118","port":443,"uuid":"4d10c997-4781-4cd9-82c3-15453523e12c","tls":true,"servername":"support.zoom.us.yxls.eu.cc","network":"ws","ws-opts":{"path":"/sg-melbi"}}
+  - {"name":"分享日记_42","type":"vless","server":"104.21.2.192","port":443,"uuid":"4d10c997-4781-4cd9-82c3-15453523e12c","tls":true,"servername":"support.zoom.us.yxls.eu.cc","network":"ws","ws-opts":{"path":"/sg-melbi"},"client-fingerprint":"chrome"}
+  - {"name":"分享日记_43","type":"vless","server":"172.64.146.86","port":443,"uuid":"4d10c997-4781-4cd9-82c3-15453523e12c","tls":true,"servername":"support.zoom.us.yxls.eu.cc","network":"ws","ws-opts":{"path":"/sg-melbi"},"client-fingerprint":"chrome"}
+  - {"name":"分享日记_44","type":"vless","server":"ldgb.pages.dev","port":443,"uuid":"ce069292-c8bf-40dd-a6b1-87818a1e64e9","tls":true,"servername":"ldgb.pages.dev","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"分享日记_45","type":"vless","server":"104.16.6.189","port":443,"uuid":"29ca503d-e6b8-4509-b666-48133f450857","tls":true,"servername":"learn00.evany.de5.net","network":"ws","ws-opts":{"path":"/"},"client-fingerprint":"random"}
+  - {"name":"分享日记_46","type":"vless","server":"104.16.5.189","port":443,"uuid":"29ca503d-e6b8-4509-b666-48133f450857","tls":true,"servername":"learn00.evany.de5.net","network":"ws","ws-opts":{"path":"/"},"client-fingerprint":"random"}
+  - {"name":"分享日记_47","type":"vless","server":"104.26.9.48","port":443,"uuid":"4d10c997-4781-4cd9-82c3-15453523e12c","tls":true,"servername":"support.zoom.us.yxls.eu.cc","network":"ws","ws-opts":{"path":"/sg-melbi"},"client-fingerprint":"chrome"}
+  - {"name":"分享日记_48","type":"vless","server":"162.159.137.54","port":443,"uuid":"4d10c997-4781-4cd9-82c3-15453523e12c","tls":true,"servername":"support.zoom.us.yxls.eu.cc","network":"ws","ws-opts":{"path":"/sg-melbi"},"client-fingerprint":"chrome"}
+  - {"name":"分享日记_49","type":"vless","server":"188.114.98.66","port":443,"uuid":"4d10c997-4781-4cd9-82c3-15453523e12c","tls":true,"servername":"support.zoom.us.yxls.eu.cc","network":"ws","ws-opts":{"path":"/sg-melbi"},"client-fingerprint":"chrome"}
+  - {"name":"分享日记_50","type":"vless","server":"162.159.44.113","port":8443,"uuid":"29ca503d-e6b8-4509-b666-48133f450857","tls":true,"servername":"learn00.evany.de5.net","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"分享日记_51","type":"vless","server":"108.162.192.161","port":443,"uuid":"29ca503d-e6b8-4509-b666-48133f450857","tls":true,"servername":"learn00.evany.de5.net","network":"ws","ws-opts":{"path":"/fdip"}}
+  - {"name":"分享日记_52","type":"vless","server":"190.93.246.202","port":443,"uuid":"4d10c997-4781-4cd9-82c3-15453523e12c","tls":true,"servername":"support.zoom.us.yxls.eu.cc","network":"ws","ws-opts":{"path":"/sg-melbi"},"client-fingerprint":"chrome"}
+  - {"name":"分享日记_53","type":"vless","server":"ip.sb","port":443,"uuid":"29ca503d-e6b8-4509-b666-48133f450857","tls":true,"servername":"learn00.evany.de5.net","network":"ws","ws-opts":{"path":"/fdip"},"client-fingerprint":"chrome"}
+  - {"name":"分享日记_54","type":"vless","server":"70.39.198.93","port":46197,"udp":true,"uuid":"5aab0d40-c509-4560-b048-ade921fdfb6a","tls":true,"servername":"updates.cdn-apple.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"npJEB6VpYJ9iYTZ-z0IL06Xs7PEz0N3fZU_IRwftQ00","short-id":"f24c17bb7fc284"},"client-fingerprint":"chrome"}
+  - {"name":"分享日记_55","type":"vless","server":"15.224.129.178","port":22223,"uuid":"e4514801-0d5a-42ba-869f-39bd605aef9e","tls":false,"network":"tcp"}
+  - {"name":"分享日记_56","type":"vless","server":"70.39.197.13","port":46197,"udp":true,"uuid":"5aab0d40-c509-4560-b048-ade921fdfb6a","tls":true,"servername":"updates.cdn-apple.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"npJEB6VpYJ9iYTZ-z0IL06Xs7PEz0N3fZU_IRwftQ00","short-id":"f24c17bb7fc284"},"client-fingerprint":"chrome"}
+  - {"name":"分享日记_57","type":"vless","server":"15.224.129.178","port":22222,"uuid":"e4514801-0d5a-42ba-869f-39bd605aef9e","tls":false,"network":"tcp"}
+  - {"name":"分享日记_58","type":"vless","server":"216.227.169.104","port":443,"udp":true,"uuid":"b8794f67-80d9-4124-8fc5-2d2ce5516573","tls":true,"servername":"deepl.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"AYL1z7PNyo6LqYLeZpXa50FnK9eEu7o18KHRhOlST1w","short-id":"bd72"},"client-fingerprint":"chrome"}
+  - {"name":"分享日记_59","type":"vless","server":"x4g-production-a78f.up.railway.app","port":443,"uuid":"eb988c86-d238-0b6b-139a-d76638fc4ba6","tls":true,"servername":"x4g-production-a78f.up.railway.app","network":"xhttp","client-fingerprint":"chrome"}
+  - {"name":"分享日记_60","type":"vless","server":"15.224.129.178","port":22224,"uuid":"e4514801-0d5a-42ba-869f-39bd605aef9e","tls":false,"network":"tcp"}
+  - {"name":"分享日记_61","type":"vless","server":"x4g-production-1904.up.railway.app","port":443,"uuid":"401dff96-48b1-e043-ce3f-759256a46b38","tls":true,"servername":"x4g-production-1904.up.railway.app","network":"ws","ws-opts":{"path":"/ws/401dff96-48b1-e043-ce3f-759256a46b38"},"client-fingerprint":"chrome"}
+  - {"name":"分享日记_62","type":"vless","server":"178.17.53.177","port":34151,"udp":true,"uuid":"e80398bb-aecb-4686-a75c-dfe4cd8ce242","tls":true,"flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"nlEvGwt7WTuobjUSOK9ITQ8LF5VIC-SrWPMTH9FqTk4","short-id":"5e039404"},"client-fingerprint":"chrome"}
+  - {"name":"分享日记_63","type":"vless","server":"212.237.217.37","port":16923,"udp":true,"uuid":"64043bc3-250c-4ade-bb6a-c7967a8e6afa","tls":true,"servername":"api-maps.yandex.ru","flow":"xtls-rprx-vision","network":"grpc","reality-opts":{"public-key":"_QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA","short-id":"10ffb85da1c2d986"},"client-fingerprint":"firefox"}
+  - {"name":"分享日记_64","type":"vless","server":"2.27.13.24","port":56861,"udp":true,"uuid":"daf31d2f-b40e-40da-a1a2-3322170dfece","tls":true,"servername":"vk.ru","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"YWRpCG-QBHvth-MAgBugRzHVBYwp6qDjmNSuNoOr620","short-id":"f898d611"},"client-fingerprint":"random"}
+  - {"name":"分享日记_65","type":"vless","server":"91.124.209.138","port":2095,"uuid":"28926c34-865c-447e-8d42-a17240af743b","tls":false,"servername":"cdn-cloudflare91.korvexe.ir","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"分享日记_66","type":"vless","server":"170.114.45.6","port":8080,"uuid":"564150f0-c0ad-46d1-8cf1-71e1900322e8","tls":false,"servername":"pphfree3.mvpnpvpn.de5.net","network":"ws","ws-opts":{"path":"/mvpnpph2026"}}
+  - {"name":"分享日记_67","type":"vless","server":"178.17.53.177","port":34150,"udp":true,"uuid":"e80398bb-aecb-4686-a75c-dfe4cd8ce242","tls":true,"flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"nlEvGwt7WTuobjUSOK9ITQ8LF5VIC-SrWPMTH9FqTk4","short-id":"84abf04b"},"client-fingerprint":"chrome"}
+  - {"name":"分享日记_68","type":"vless","server":"premium-us-az-01-hostinger.efgwf.online","port":8080,"uuid":"59eefc04-b831-45cf-8d68-63ca23381171","tls":false,"servername":"premium-us-az-01-hostinger.efgwf.online","network":"ws","ws-opts":{"path":"/ws-hTopcF3L"}}
+  - {"name":"分享日记_69","type":"vless","server":"194.242.129.183","port":2550,"uuid":"d8b42cd5-a149-4356-9e61-000000000000","tls":false,"network":"tcp"}
+  - {"name":"分享日记_70","type":"vless","server":"pllla.ihsg.ir","port":58029,"udp":true,"uuid":"bc3a3a97-82e6-4dc8-aae7-c52f543cf9d5","tls":true,"servername":"www.yahoo.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"hDBZ246EBCt6xbpkjNB5Z0TBTGZ24gTxLsStkxHlHzk","short-id":"abab035b7357b378"},"client-fingerprint":"chrome"}
+  - {"name":"分享日记_71","type":"vless","server":"188.43.105.233","port":7098,"udp":true,"uuid":"152003f4-7659-43eb-88b3-da1dfad2a223","tls":true,"servername":"static.vk.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"BjJOlYcS3QvqafeDIHyfG1xBUiK_Zs3eYKjMCs2DWQo","short-id":"1488"},"client-fingerprint":"chrome"}
+  - {"name":"分享日记_72","type":"vless","server":"poland1.banovano.space","port":2053,"udp":true,"uuid":"fd06c918-2a26-4bd1-90d2-0d86cdd09080","tls":true,"servername":"dl.google.com","flow":"xtls-rprx-vision","network":"grpc","reality-opts":{"public-key":"FwJaukzhbpYHc1T1-RXf38WvI3lJetmPd5FLWJ6KKQA","short-id":"7dc7482c71"},"client-fingerprint":"edge"}
+  - {"name":"分享日记_73","type":"vless","server":"taoccqyacf7e.dop66.com","port":5039,"udp":true,"uuid":"a5bea439-6176-4b5d-a891-bd31fc3530c9","tls":true,"servername":"www.yahoo.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"fv-InxuZSzLlHc83OANs4U2windIUSwPilOpJkMgtW0","short-id":"2e8424a2696cb606"},"client-fingerprint":"chrome"}
+  - {"name":"分享日记_74","type":"vless","server":"141.133.172.222","port":20342,"uuid":"5eecb34f-c905-4c77-b7fb-d830b451cd11","tls":false,"servername":"141.133.172.222","network":"tcp"}
+  - {"name":"分享日记_75","type":"vless","server":"206.71.158.124","port":443,"uuid":"3536e1fa-0850-44d1-b123-925ce12476cf","tls":true,"servername":"dey.lnmarketplace.net","network":"xhttp","client-fingerprint":"chrome"}
+  - {"name":"分享日记_76","type":"vless","server":"fr6.vpn.kim","port":443,"udp":true,"uuid":"538326a0-8b20-11f1-8709-1d77a18ac9ca","tls":true,"servername":"fr6.wizard.select","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"iQwfgiUGuLazBo4U7ShPGIdnrl55qMdGxcg39_V2BF8","short-id":"a92ca8b5ab9a2f3a"},"client-fingerprint":"chrome"}
+  - {"name":"分享日记_77","type":"vless","server":"arg-production-59f1.up.railway.app","port":443,"uuid":"c46ac93f-0124-6549-0eb4-7cf935894bb1","tls":true,"servername":"arg-production-59f1.up.railway.app","network":"ws","ws-opts":{"path":"/ws/c46ac93f-0124-6549-0eb4-7cf935894bb1"},"client-fingerprint":"chrome"}
+  - {"name":"分享日记_78","type":"vless","server":"f35-production-0a75.up.railway.app","port":443,"uuid":"e1a94250-8529-975b-22bc-180c44f1dc91","tls":true,"servername":"f35-production-0a75.up.railway.app","network":"ws","ws-opts":{"path":"/ws/e1a94250-8529-975b-22bc-180c44f1dc91"},"client-fingerprint":"chrome"}
+  - {"name":"分享日记_79","type":"vless","server":"203.23.179.151","port":443,"uuid":"3ad1d277-5715-4ca1-84db-5baea72f822d","tls":true,"servername":"ddc-akn.astralweb.tech","network":"tcp","client-fingerprint":"chrome"}
+  - {"name":"分享日记_80","type":"vless","server":"212.34.152.202","port":2053,"uuid":"c7e9c591-2764-423a-afca-efbd010fd396","tls":true,"servername":"forfreeuse.sub-flow.online","network":"ws","ws-opts":{"path":"/"},"client-fingerprint":"chrome"}
+  - {"name":"分享日记_81","type":"vless","server":"cf.levikogjgfdd.ir","port":443,"uuid":"b2f6aa3a-2550-4a1c-b2c0-1c94b1207217","tls":true,"servername":"terazhediii.info","network":"ws","ws-opts":{"path":"/hdgrbws"},"client-fingerprint":"chrome"}
+  - {"name":"分享日记_82","type":"vless","server":"poland.spectrum.vu","port":443,"udp":true,"uuid":"76713d07-5a6b-49c2-abd8-bc450a2fa7fc","tls":true,"servername":"poland.spectrum.vu","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"5Z6WxIOriNZSwKfzNvn38fbH0E2prqDla_l8l9YQnRo","short-id":"2a6f8c4d1e9b"},"client-fingerprint":"chrome"}
+  - {"name":"分享日记_83","type":"vless","server":"ru.rush-server.com","port":443,"udp":true,"uuid":"fe444095-ab4b-45b5-8f25-2c2576fb1968","tls":true,"servername":"findmypackets.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0","short-id":"93ae75024604f796"},"client-fingerprint":"firefox"}
+  - {"name":"分享日记_84","type":"vless","server":"ss.l90909l.vip","port":2096,"udp":true,"uuid":"b4bc10bf-80f9-40c9-b4e5-29817c2f0992","tls":true,"servername":"id.vk.com","flow":"xtls-rprx-vision","network":"grpc","reality-opts":{"public-key":"SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"},"client-fingerprint":"chrome"}
+  - {"name":"分享日记_85","type":"vless","server":"hu007.bearbeer.digital","port":443,"udp":true,"uuid":"52d0b2d5-a003-4509-ab70-d1d720a14cd7","tls":true,"servername":"hu007.bearbeer.digital","flow":"xtls-rprx-vision","network":"xhttp","reality-opts":{"public-key":"z-TKWOWgZLfzQ-wNdwXQqVwaUgCmbchM2Xtrk1NGynU"},"client-fingerprint":"chrome"}
+  - {"name":"分享日记_86","type":"vless","server":"149.202.58.99","port":443,"uuid":"b585dc5e-55bf-4a8b-913a-27c9ccac05c3","tls":true,"servername":"bab-6.site","network":"ws","ws-opts":{"path":"/vws/"},"client-fingerprint":"chrome"}
+  - {"name":"分享日记_87","type":"vless","server":"159.195.46.178","port":443,"udp":true,"uuid":"859a537b-09cf-4bce-8da4-ecbb72950e3a","tls":true,"servername":"4.oncloudnineservicestreang.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"P5ceHLOW8Gmz45z-ozbm9T6xsdSsIGLB71-jMfSjCBQ","short-id":"04bc695105689674"},"client-fingerprint":"chrome"}
+  - {"name":"分享日记_88","type":"vless","server":"159.195.27.99","port":443,"udp":true,"uuid":"859a537b-09cf-4bce-8da4-ecbb72950e3a","tls":true,"servername":"1.oncloudnineservicestreang.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"EuExqpNB141gtIjbCmU0yyurbBqiLtGjDg-n95JIuig","short-id":"28415a7918168947"},"client-fingerprint":"chrome"}
+  - {"name":"分享日记_89","type":"vless","server":"57.129.41.216","port":80,"uuid":"7d74eae4-8a06-4306-a923-ad686f30bf26","tls":false,"servername":"OV-Germany1.09vpn.com","network":"ws","ws-opts":{"path":"/vless/"}}
+  - {"name":"分享日记_90","type":"vless","server":"162.159.38.119","port":443,"uuid":"e911c552-3a98-41e0-b5fb-0dd3879887b7","tls":true,"servername":"vod.ensf.top","network":"ws","ws-opts":{"path":"/api/v1/irc"}}
+  - {"name":"分享日记_91","type":"vless","server":"103.161.237.54","port":443,"uuid":"e911c552-3a98-41e0-b5fb-0dd3879887b7","tls":true,"servername":"vod.ensf.top","network":"ws","ws-opts":{"path":"/api/v1/irc"},"client-fingerprint":"chrome"}
+  - {"name":"分享日记_92","type":"vless","server":"185.189.45.159","port":443,"udp":true,"uuid":"3ad1d277-5715-4ca1-84db-5baea72f822d","tls":true,"servername":"sw1-chr.astralweb.tech","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"Z2c9dK70_0OWBEZGgeaXJyt9dup9h2-hZlCCvIGLg1Q","short-id":"496ee75c2f91f51d"},"client-fingerprint":"chrome"}
+  - {"name":"分享日记_93","type":"vless","server":"85.155.226.82","port":443,"udp":true,"uuid":"39c42b0a-b823-4c93-bb99-74b4183e518d","tls":true,"servername":"getsavesafe.net","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"5Z6PwoPSNBLPIsX8lZtHM7-Y-psMMR1vz5Pit0EVISs","short-id":"82f5d3a1e9c0b661"},"client-fingerprint":"firefox"}
+  - {"name":"分享日记_94","type":"vless","server":"node13.mxvpn.dev","port":443,"udp":true,"uuid":"564082ff-cf3c-48db-9e10-8ad2312847b4","tls":true,"servername":"node13.mxvpn.dev","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"TlpXTLz1Y-v8B6q9MX55U6eypjfL0LCSNE5zQP4yRHw","short-id":"bbc68cec8bb8d2e3"},"client-fingerprint":"chrome"}
+  - {"name":"分享日记_95","type":"vless","server":"62.84.99.42","port":443,"udp":true,"uuid":"6b63bd24-09b7-4b7d-81e0-d994a67f17a9","tls":true,"servername":"nid3.pinkmoon.pro","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"DS9mX6cMb5wvwFzga8yN2NLbs7soXM7038_P23yPKwk","short-id":"8ffa160e608bf539"},"client-fingerprint":"chrome"}
+  - {"name":"分享日记_96","type":"vless","server":"212.34.134.163","port":8443,"uuid":"5bb7df8d-ad02-41fa-a8e6-8a8a4650d2c4","tls":false,"network":"tcp"}
+  - {"name":"分享日记_97","type":"vless","server":"getsavesafe.net","port":443,"udp":true,"uuid":"39c42b0a-b823-4c93-bb99-74b4183e518d","tls":true,"servername":"getsavesafe.net","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"5Z6PwoPSNBLPIsX8lZtHM7-Y-psMMR1vz5Pit0EVISs","short-id":"82f5d3a1e9c0b661"},"client-fingerprint":"chrome"}
+  - {"name":"分享日记_98","type":"vless","server":"sc-thenetherlands1.09vpn.com","port":80,"uuid":"40cc9b52-25b8-4cd5-8b45-715ae26e6baf","tls":false,"network":"ws","ws-opts":{"path":"/vless/"}}
+  - {"name":"分享日记_99","type":"vless","server":"104.26.12.41","port":443,"uuid":"245bb424-b186-4738-8f42-bdbde719d4c9","tls":true,"servername":"pinalo.zenvorix.ir","network":"ws","ws-opts":{"path":"/nova-geo-psiphon-de"},"client-fingerprint":"chrome"}
+  - {"name":"分享日记_100","type":"vless","server":"18.239.134.69","port":80,"uuid":"f55ce6cc-3f6b-40fc-9e3b-abe26db17009","tls":false,"servername":"d2e1v87ko56lyw.cloudfront.net:assets.opensignal.com","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"分享日记_101","type":"vless","server":"85.155.226.30","port":443,"udp":true,"uuid":"39c42b0a-b823-4c93-bb99-74b4183e518d","tls":true,"servername":"getsavesafe.net","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"5Z6PwoPSNBLPIsX8lZtHM7-Y-psMMR1vz5Pit0EVISs","short-id":"82f5d3a1e9c0b661"},"client-fingerprint":"qq"}
+  - {"name":"分享日记_102","type":"vless","server":"node14.mxvpn.dev","port":443,"udp":true,"uuid":"564082ff-cf3c-48db-9e10-8ad2312847b4","tls":true,"servername":"node14.mxvpn.dev","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"TlpXTLz1Y-v8B6q9MX55U6eypjfL0LCSNE5zQP4yRHw","short-id":"bbc68cec8bb8d2e3"},"client-fingerprint":"chrome"}
+  - {"name":"分享日记_103","type":"vless","server":"104.26.14.85","port":443,"uuid":"cf39fab0-bb85-42cb-9945-2ad69d78e575","tls":true,"servername":"rubifen.adaspoloandco.com","network":"ws","ws-opts":{"path":"/GOrbEh"},"client-fingerprint":"chrome"}
+  - {"name":"分享日记_104","type":"vless","server":"163.172.213.174","port":80,"uuid":"e73df646-1f62-41bf-8c50-653497d603d0","tls":false,"servername":"SC-TheNetherlands2.09vpn.com","network":"ws","ws-opts":{"path":"/vless/"}}
+  - {"name":"分享日记_105","type":"vless","server":"195.133.94.188","port":2053,"uuid":"c7e9c591-2764-423a-afca-efbd010fd396","tls":true,"servername":"forfreeuse.sub-flow.online","network":"ws","ws-opts":{"path":"/"},"client-fingerprint":"chrome"}
+  - {"name":"分享日记_106","type":"vless","server":"94.198.221.86","port":443,"uuid":"c7e9c591-2764-423a-afca-efbd010fd396","tls":true,"servername":"forfreeuse.sub-flow.online","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"分享日记_107","type":"vless","server":"ru1-cr.astralweb.tech","port":443,"udp":true,"uuid":"3ad1d277-5715-4ca1-84db-5baea72f822d","tls":true,"servername":"ru1-cr.astralweb.tech","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"Z2c9dK70_0OWBEZGgeaXJyt9dup9h2-hZlCCvIGLg1Q","short-id":"496ee75c2f91f51d"},"client-fingerprint":"chrome"}
+  - {"name":"分享日记_108","type":"vless","server":"188.226.187.215","port":443,"uuid":"c7e9c591-2764-423a-afca-efbd010fd396","tls":true,"servername":"forfreeuse.sub-flow.online","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"分享日记_109","type":"vless","server":"node7.mxvpn.dev","port":443,"udp":true,"uuid":"564082ff-cf3c-48db-9e10-8ad2312847b4","tls":true,"servername":"node7.mxvpn.dev","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"TlpXTLz1Y-v8B6q9MX55U6eypjfL0LCSNE5zQP4yRHw","short-id":"bbc68cec8bb8d2e3"},"client-fingerprint":"chrome"}
+  - {"name":"分享日记_110","type":"vless","server":"138.124.112.198","port":443,"udp":true,"uuid":"564082ff-cf3c-48db-9e10-8ad2312847b4","tls":true,"servername":"node7.mxvpn.dev","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"TlpXTLz1Y-v8B6q9MX55U6eypjfL0LCSNE5zQP4yRHw","short-id":"bbc68cec8bb8d2e3"},"client-fingerprint":"chrome"}
+  - {"name":"分享日记_111","type":"vless","server":"ip.kickfarsi.com","port":8443,"uuid":"412d7fbe-7474-4f1d-86c6-7eebdc628f72","tls":true,"servername":"ger3.kickfarsi.com","network":"xhttp","client-fingerprint":"chrome"}
+  - {"name":"分享日记_112","type":"vless","server":"ad-013.pixel9xdmq.info","port":8443,"uuid":"304a1e62-eb26-4b44-994e-b96a70fff9b4","tls":true,"servername":"ad-013.pixel9xdmq.info","network":"ws","ws-opts":{"path":"/"},"client-fingerprint":"chrome"}
+  - {"name":"分享日记_113","type":"vless","server":"159.195.44.159","port":443,"udp":true,"uuid":"859a537b-09cf-4bce-8da4-ecbb72950e3a","tls":true,"servername":"5.oncloudnineservicestreang.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"RurLbpOTStqCjS3lhwB0d3MEZ3629j3atv_r1dT5zjM","short-id":"273940fba6ad8250"},"client-fingerprint":"chrome"}
+  - {"name":"分享日记_114","type":"vless","server":"ad-020.vector2llqn.info","port":8443,"uuid":"1ad37675-b4cf-42fa-9dc5-83fd35cd63cb","tls":true,"servername":"ad-020.vector2llqn.info","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"分享日记_115","type":"vless","server":"172.64.80.1","port":8443,"uuid":"304a1e62-eb26-4b44-994e-b96a70fff9b4","tls":true,"servername":"ad-013.fluxmxd18.info","network":"ws","ws-opts":{"path":"/"},"client-fingerprint":"chrome"}
+  - {"name":"分享日记_116","type":"vless","server":"ad-020.vector9nmb3.info","port":8443,"uuid":"1ad37675-b4cf-42fa-9dc5-83fd35cd63cb","tls":true,"servername":"ad-020.vector9nmb3.info","network":"ws","ws-opts":{"path":"/"},"client-fingerprint":"chrome"}
+  - {"name":"分享日记_117","type":"vless","server":"ad-020.novayjr9g.info","port":8443,"uuid":"1ad37675-b4cf-42fa-9dc5-83fd35cd63cb","tls":true,"servername":"ad-020.novayjr9g.info","network":"ws","ws-opts":{"path":"/"},"client-fingerprint":"chrome"}
+  - {"name":"分享日记_118","type":"vless","server":"ad-020.orbitqgr7v.info","port":8443,"uuid":"1ad37675-b4cf-42fa-9dc5-83fd35cd63cb","tls":true,"servername":"ad-020.orbitqgr7v.info","network":"ws","ws-opts":{"path":"/"},"client-fingerprint":"chrome"}
+  - {"name":"分享日记_119","type":"vless","server":"104.21.64.45","port":8443,"uuid":"9047efd2-5aa4-4c9c-a58f-a5791b06c79e","tls":true,"servername":"ad-010.atlast9hdp.info","network":"ws","ws-opts":{"path":"/"},"client-fingerprint":"chrome"}
+  - {"name":"分享日记_120","type":"vless","server":"ad-020.limaklhc6.info","port":8443,"uuid":"1ad37675-b4cf-42fa-9dc5-83fd35cd63cb","tls":true,"servername":"ad-020.limaklhc6.info","network":"ws","ws-opts":{"path":"/"},"client-fingerprint":"chrome"}
+  - {"name":"分享日记_121","type":"vless","server":"ad-005.novayjr9g.info","port":8443,"uuid":"2e1eb27b-9b56-40e9-a2f8-b959bc71736e","tls":true,"servername":"ad-005.novayjr9g.info","network":"ws","ws-opts":{"path":"/"},"client-fingerprint":"chrome"}
+  - {"name":"分享日记_122","type":"vless","server":"panel.safeconfigmasoud.com","port":443,"uuid":"f7983cd4-e487-4138-bde3-477ab31ba25d","tls":true,"servername":"panel.safeconfigmasoud.com","network":"ws","ws-opts":{"path":"/nova-geo-psiphon-ca"},"client-fingerprint":"chrome"}
+  - {"name":"分享日记_123","type":"vless","server":"ad-005.limaklhc6.info","port":8443,"uuid":"2e1eb27b-9b56-40e9-a2f8-b959bc71736e","tls":true,"servername":"ad-005.limaklhc6.info","network":"ws","ws-opts":{"path":"/"},"client-fingerprint":"chrome"}
+  - {"name":"分享日记_124","type":"vless","server":"104.21.40.208","port":8443,"uuid":"9047efd2-5aa4-4c9c-a58f-a5791b06c79e","tls":true,"servername":"ad-010.vector2llqn.info","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"分享日记_125","type":"vless","server":"104.16.75.99","port":443,"uuid":"03707fb7-0990-440f-88f6-b0e0f7242a38","tls":true,"servername":"germany-2.ariyuz.org","network":"ws","ws-opts":{"path":"/"},"client-fingerprint":"chrome"}
+  - {"name":"分享日记_126","type":"trojan","server":"104.248.161.136","port":443,"udp":true,"password":"521314","sni":"tjplay.lxdxo.kdns.fr","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tjplay.lxdxo.kdns.fr"}}}
+  - {"name":"分享日记_127","type":"trojan","server":"oplosgru-c.catcat321.com","port":20004,"udp":true,"password":"ba07a8af-5544-48ac-ab62-3b6c00a44fa6","sni":"hk.catxstar.com","skip-cert-verify":false,"network":"tcp"}
+  - {"name":"分享日记_128","type":"trojan","server":"jumao91.shop","port":2096,"udp":true,"password":"51a0af77-a60c-4d9b-81a4-f50e1b38d90b","sni":"jumao91.shop","skip-cert-verify":false,"network":"ws","ws-opts":{"path":"/","headers":{"host":"jumao91.shop"}}}
+  - {"name":"分享日记_129","type":"trojan","server":"179.237.75.190","port":16350,"udp":true,"password":"l6R5znJSPJ","sni":"rd.autos.yahoo.com:40069","skip-cert-verify":true,"network":"tcp","ws-opts":{"headers":{"host":"rd.autos.yahoo.com:41636"}}}
+  - {"name":"分享日记_130","type":"trojan","server":"hkdcrtc-e.catcat321.com","port":20041,"udp":true,"password":"ba07a8af-5544-48ac-ab62-3b6c00a44fa6","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"分享日记_131","type":"trojan","server":"www.ignitelimit.com","port":443,"udp":true,"password":"humanity","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/assignment"}}
+  - {"name":"分享日记_132","type":"trojan","server":"hyperon.site","port":8443,"udp":true,"password":"5xjmr1dz66pgsew0","sni":"com.digitalposts.dpdns.org","skip-cert-verify":false,"network":"ws","ws-opts":{"path":"/bkdicj","headers":{"host":"com.digitalposts.dpdns.orghttp/1.1"}}}
+  - {"name":"分享日记_133","type":"trojan","server":"104.18.8.83","port":443,"udp":true,"password":"humanity","sni":"www.calmlunch.com","skip-cert-verify":false,"network":"ws","ws-opts":{"path":"/assignment"}}
+  - {"name":"分享日记_134","type":"hysteria2","server":"155.248.209.237","port":33333,"password":"bce6c821-200d-421f-bf3d-7159e5246ea0","sni":"hy2.123266.xyz","skip-cert-verify":true}
+  - {"name":"分享日记_135","type":"hysteria2","server":"205.237.109.213","port":8443,"password":"s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z","sni":"grape-turbo-fr.roxa.org","skip-cert-verify":true}
+  - {"name":"分享日记_136","type":"hysteria2","server":"77.74.123.133","port":8443,"password":"Oz_Kx9342gefwJ89x3_M9z32kzf9KJq003_s","sni":"grape-zet-turbo-nl.yyuyy.com","skip-cert-verify":true}
+  - {"name":"分享日记_137","type":"hysteria2","server":"194.247.182.201","port":8080,"password":"grape_288923","sni":"grape-coffee-fi.gleeze.com","skip-cert-verify":true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -397,37 +366,6 @@ proxy-groups:
       - 分享日记_135
       - 分享日记_136
       - 分享日记_137
-      - 分享日记_138
-      - 分享日记_139
-      - 分享日记_140
-      - 分享日记_141
-      - 分享日记_142
-      - 分享日记_143
-      - 分享日记_144
-      - 分享日记_145
-      - 分享日记_146
-      - 分享日记_147
-      - 分享日记_148
-      - 分享日记_149
-      - 分享日记_150
-      - 分享日记_151
-      - 分享日记_152
-      - 分享日记_153
-      - 分享日记_154
-      - 分享日记_155
-      - 分享日记_156
-      - 分享日记_157
-      - 分享日记_158
-      - 分享日记_159
-      - 分享日记_160
-      - 分享日记_161
-      - 分享日记_162
-      - 分享日记_163
-      - 分享日记_164
-      - 分享日记_165
-      - 分享日记_166
-      - 分享日记_167
-      - 分享日记_168
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -571,37 +509,6 @@ proxy-groups:
       - 分享日记_135
       - 分享日记_136
       - 分享日记_137
-      - 分享日记_138
-      - 分享日记_139
-      - 分享日记_140
-      - 分享日记_141
-      - 分享日记_142
-      - 分享日记_143
-      - 分享日记_144
-      - 分享日记_145
-      - 分享日记_146
-      - 分享日记_147
-      - 分享日记_148
-      - 分享日记_149
-      - 分享日记_150
-      - 分享日记_151
-      - 分享日记_152
-      - 分享日记_153
-      - 分享日记_154
-      - 分享日记_155
-      - 分享日记_156
-      - 分享日记_157
-      - 分享日记_158
-      - 分享日记_159
-      - 分享日记_160
-      - 分享日记_161
-      - 分享日记_162
-      - 分享日记_163
-      - 分享日记_164
-      - 分享日记_165
-      - 分享日记_166
-      - 分享日记_167
-      - 分享日记_168
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -745,37 +652,6 @@ proxy-groups:
       - 分享日记_135
       - 分享日记_136
       - 分享日记_137
-      - 分享日记_138
-      - 分享日记_139
-      - 分享日记_140
-      - 分享日记_141
-      - 分享日记_142
-      - 分享日记_143
-      - 分享日记_144
-      - 分享日记_145
-      - 分享日记_146
-      - 分享日记_147
-      - 分享日记_148
-      - 分享日记_149
-      - 分享日记_150
-      - 分享日记_151
-      - 分享日记_152
-      - 分享日记_153
-      - 分享日记_154
-      - 分享日记_155
-      - 分享日记_156
-      - 分享日记_157
-      - 分享日记_158
-      - 分享日记_159
-      - 分享日记_160
-      - 分享日记_161
-      - 分享日记_162
-      - 分享日记_163
-      - 分享日记_164
-      - 分享日记_165
-      - 分享日记_166
-      - 分享日记_167
-      - 分享日记_168
   - name: 📲 电报信息
     type: select
     proxies:
@@ -918,37 +794,6 @@ proxy-groups:
       - 分享日记_135
       - 分享日记_136
       - 分享日记_137
-      - 分享日记_138
-      - 分享日记_139
-      - 分享日记_140
-      - 分享日记_141
-      - 分享日记_142
-      - 分享日记_143
-      - 分享日记_144
-      - 分享日记_145
-      - 分享日记_146
-      - 分享日记_147
-      - 分享日记_148
-      - 分享日记_149
-      - 分享日记_150
-      - 分享日记_151
-      - 分享日记_152
-      - 分享日记_153
-      - 分享日记_154
-      - 分享日记_155
-      - 分享日记_156
-      - 分享日记_157
-      - 分享日记_158
-      - 分享日记_159
-      - 分享日记_160
-      - 分享日记_161
-      - 分享日记_162
-      - 分享日记_163
-      - 分享日记_164
-      - 分享日记_165
-      - 分享日记_166
-      - 分享日记_167
-      - 分享日记_168
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -1091,37 +936,6 @@ proxy-groups:
       - 分享日记_135
       - 分享日记_136
       - 分享日记_137
-      - 分享日记_138
-      - 分享日记_139
-      - 分享日记_140
-      - 分享日记_141
-      - 分享日记_142
-      - 分享日记_143
-      - 分享日记_144
-      - 分享日记_145
-      - 分享日记_146
-      - 分享日记_147
-      - 分享日记_148
-      - 分享日记_149
-      - 分享日记_150
-      - 分享日记_151
-      - 分享日记_152
-      - 分享日记_153
-      - 分享日记_154
-      - 分享日记_155
-      - 分享日记_156
-      - 分享日记_157
-      - 分享日记_158
-      - 分享日记_159
-      - 分享日记_160
-      - 分享日记_161
-      - 分享日记_162
-      - 分享日记_163
-      - 分享日记_164
-      - 分享日记_165
-      - 分享日记_166
-      - 分享日记_167
-      - 分享日记_168
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -1264,37 +1078,6 @@ proxy-groups:
       - 分享日记_135
       - 分享日记_136
       - 分享日记_137
-      - 分享日记_138
-      - 分享日记_139
-      - 分享日记_140
-      - 分享日记_141
-      - 分享日记_142
-      - 分享日记_143
-      - 分享日记_144
-      - 分享日记_145
-      - 分享日记_146
-      - 分享日记_147
-      - 分享日记_148
-      - 分享日记_149
-      - 分享日记_150
-      - 分享日记_151
-      - 分享日记_152
-      - 分享日记_153
-      - 分享日记_154
-      - 分享日记_155
-      - 分享日记_156
-      - 分享日记_157
-      - 分享日记_158
-      - 分享日记_159
-      - 分享日记_160
-      - 分享日记_161
-      - 分享日记_162
-      - 分享日记_163
-      - 分享日记_164
-      - 分享日记_165
-      - 分享日记_166
-      - 分享日记_167
-      - 分享日记_168
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1454,37 +1237,6 @@ proxy-groups:
       - 分享日记_135
       - 分享日记_136
       - 分享日记_137
-      - 分享日记_138
-      - 分享日记_139
-      - 分享日记_140
-      - 分享日记_141
-      - 分享日记_142
-      - 分享日记_143
-      - 分享日记_144
-      - 分享日记_145
-      - 分享日记_146
-      - 分享日记_147
-      - 分享日记_148
-      - 分享日记_149
-      - 分享日记_150
-      - 分享日记_151
-      - 分享日记_152
-      - 分享日记_153
-      - 分享日记_154
-      - 分享日记_155
-      - 分享日记_156
-      - 分享日记_157
-      - 分享日记_158
-      - 分享日记_159
-      - 分享日记_160
-      - 分享日记_161
-      - 分享日记_162
-      - 分享日记_163
-      - 分享日记_164
-      - 分享日记_165
-      - 分享日记_166
-      - 分享日记_167
-      - 分享日记_168
 
 rules:
 # 本地/局域网地址
